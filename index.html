@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </head>
+  <style>
+    h1{
+      font-size: 2em;
+    }
+  </style>
+  <body>
+
+  <nav>
+    <div class="blue nav-wrapper blue">
+      <a href="#!" class="brand-logo" style="margin-left: 10px">Course Mapper Login</a>
+    </div>
+  </nav>
+
+    <main class="container">
+        <h1>
+          Enter staff email to login
+        </h1>
+        <div class="row">
+          <form class="col s12">
+  
+            <div class="row">
+              <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">Staff Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <button class="btn waves-effect waves-light blue right" type="submit" name="action">
+                Submit
+              </button>
+            </div>
+        </form>
+      </div>
+    </main>
+
+    <script src="config.js"></script>
+    <script>
+
+      console.log(firebaseConfig);
+
+      var actionCodeSettings = {
+        // URL you want to redirect back to. The domain (www.example.com) for this
+        // URL must be in the authorized domains list in the Firebase Console.
+        url: 'https://www.example.com/finishSignUp?cartId=1234',
+        // This must be true.
+        handleCodeInApp: true,
+        iOS: {
+          bundleId: 'com.example.ios'
+        },
+        android: {
+          packageName: 'com.example.android',
+          installApp: true,
+          minimumVersion: '12'
+        },
+        dynamicLinkDomain: 'example.page.link'
+      };
+
+      async function login(event){
+        const email = event.target.elemens['email'].value();
+
+        try{
+
+        }catch(error){
+            var errorCode = error.code;
+            var errorMessage = error.message;
+            console.log(error.code, error.message);
+        }
+        
+        firebase.auth().sendSignInLinkToEmail(email, actionCodeSettings)
+          .then(() => {
+            // The link was successfully sent. Inform the user.
+            // Save the email locally so you don't need to ask the user for it again
+            // if they open the link on the same device.
+            window.localStorage.setItem('emailForSignIn', email);
+            // ...
+          })
+          .catch((error) => {
+          
+            // ...
+          });
+      }
+
+      //Initialize Materialize components here
+      document.addEventListener('DOMContentLoaded', function() {
+        const navs = M.Sidenav.init(document.querySelectorAll('.sidenav'));
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
