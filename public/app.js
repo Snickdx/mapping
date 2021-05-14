@@ -5,7 +5,7 @@ import { getUser, getCourseTopics, saveCourseTopics, validateEmail } from './use
 
 firebase.initializeApp(firebaseConfig);
 let db = firebase.firestore();
-let auth;
+
 let changes= false;
 let selectedCourse=null;
 
@@ -47,13 +47,16 @@ window.selectTopics = async function(event){
   const formData = new FormData(event.target);
   const selected = formData.getAll('topics');
   const course = formData.get('course');
+  let auth = firebase.auth().currentUser;
   await saveCourseTopics(auth.email, course, selected, db);
   showPending(false);
   M.toast({html: `${selected.length} Topics saved to ${course} !`, classes: 'rounded'});
 }
 
 window.logout = async function(){
+  console.log('Logging Out');
   await firebase.auth().signOut();
+  window.location.href="./index.html";
 }
 
 // ########################## Module Functions #########################
@@ -115,6 +118,8 @@ async function loadForm(course){
 
   selectedCourse = course;
 
+  let auth = firebase.auth().currentUser;
+
   const selectedTopics = await getCourseTopics(auth.email, course, db);
 
   for(let domain in cstopics){
@@ -140,11 +145,13 @@ async function loadForm(course){
   M.Collapsible.init(document.querySelectorAll('.collapsible'));
 }
 
-function displayUser({email}){
-  if(!validateEmail(email)){
-    alert(`No user found for ${email}`);
+function displayUser(auth){
+
+  if(!validateEmail(auth.email)){
+    alert(`No user found for ${auth.email}`);
   }else{
-    let {courses, name} = getUser(email);
+
+    let {courses, name} = getUser(auth.email);
     let html=' <option disabled value="default" selected>Select Course</option>';
     for(let course in courses){
       html+=`<option>${course}</option>`;
@@ -157,6 +164,15 @@ function displayUser({email}){
  
 }
 
+firebase.auth().onAuthStateChanged((user) => {
+  if (user){
+    displayUser(user);
+  }else{
+    console.log('no auth found')
+    // window.location.href="./index.html";
+  }
+}); 
+
 async function validateAuth(){
 
   if (firebase.auth().isSignInWithEmailLink(window.location.href)) {
@@ -168,31 +184,19 @@ async function validateAuth(){
     }
 
     try{
-      auth  = await firebase.auth().signInWithEmailLink(email, window.location.href);
+      let auth  = await firebase.auth().signInWithEmailLink(email, window.location.href);
 
       window.localStorage.removeItem('emailForSignIn');
       
       if(auth.additionalUserInfo.isNewUser)
         showHelpModal()
       
-      displayUser(auth);
     }catch(e){
       console.error(e);
-        window.location.href="./index.html";
+      // window.location.href="./index.html";
     }
 
-  } else {
-
-    firebase.auth().onAuthStateChanged((user) => {
-      if (user){
-        auth = user;
-        displayUser(user);
-      }else{
-        window.location.href="./index.html";
-      }
-    }); 
   }
-  
 }
 
 
