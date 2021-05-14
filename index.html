@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
   </head>
   <style>
     h1{
@@ -27,69 +30,72 @@
           Enter staff email to login
         </h1>
         <div class="row">
-          <form class="col s12">
+          <form class="col s12" onsubmit="login(event)">
   
             <div class="row">
               <div class="input-field col s12">
-                <input id="email" type="email" class="validate">
+                <input id="email" name="email" type="email" class="validate">
                 <label for="email">Staff Email</label>
               </div>
             </div>
             <div class="row">
-              <button class="btn waves-effect waves-light blue right" type="submit" name="action">
+              <button class="btn waves-effect waves-light blue right" type="submit">
                 Submit
               </button>
             </div>
         </form>
       </div>
+      <div class="row" id="message">
+
+      </div>
+
     </main>
 
     <script src="config.js"></script>
     <script>
 
-      console.log(firebaseConfig);
+      firebase.initializeApp(firebaseConfig);
 
-      var actionCodeSettings = {
-        // URL you want to redirect back to. The domain (www.example.com) for this
-        // URL must be in the authorized domains list in the Firebase Console.
-        url: 'https://www.example.com/finishSignUp?cartId=1234',
-        // This must be true.
-        handleCodeInApp: true,
-        iOS: {
-          bundleId: 'com.example.ios'
-        },
-        android: {
-          packageName: 'com.example.android',
-          installApp: true,
-          minimumVersion: '12'
-        },
-        dynamicLinkDomain: 'example.page.link'
-      };
+      function showMessage(text){
+        document.querySelector('#message').innerHTML = `
+        <div class="card-panel">
+          <p>${text}</p>
+        </div>
+        `;
+      }
 
       async function login(event){
-        const email = event.target.elemens['email'].value();
+        event.preventDefault();
+
+        var actionCodeSettings = {
+          url: 'https://mapping.snickdx.repl.co/app.html',
+          handleCodeInApp: true
+        };
+
+        const email = event.target.elements['email'].value;
+
+        await firebase.auth().setPersistence(firebase.auth.Auth.Persistence.LOCAL);
 
         try{
-
+            await firebase.auth().sendSignInLinkToEmail(email, actionCodeSettings);
+            window.localStorage.setItem('emailForSignIn', email);
+            showMessage(`An email has been sent to ${email}, please check your email for a login link.`);
         }catch(error){
             var errorCode = error.code;
             var errorMessage = error.message;
             console.log(error.code, error.message);
         }
-        
-        firebase.auth().sendSignInLinkToEmail(email, actionCodeSettings)
-          .then(() => {
-            // The link was successfully sent. Inform the user.
-            // Save the email locally so you don't need to ask the user for it again
-            // if they open the link on the same device.
-            window.localStorage.setItem('emailForSignIn', email);
-            // ...
-          })
-          .catch((error) => {
-          
-            // ...
-          });
       }
+
+      function getAuth(){
+        firebase.auth().onAuthStateChanged((user) => {
+          if (user)
+            window.location.href="./app.html";
+        });
+      }
+
+      getAuth()
+        
 
       //Initialize Materialize components here
       document.addEventListener('DOMContentLoaded', function() {

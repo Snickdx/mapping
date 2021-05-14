@@ -8,38 +8,264 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+    <style>
+      h1{
+        font-size: 2em;
+      }
+
+      .autocomplete-content.dropdown-content{
+        width:100% !important;
+      }
+    </style>
   </head>
   <body>
 
   <nav>
-    <div class="blue nav-wrapper">
-      <a href="#!" class="brand-logo">Materialze App</a>
-      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="active" href="index.html">Home</a></li>
+    <div class="blue nav-wrapper blue">
+      <a href="#!" class="brand-logo" style="margin-left: 10px" id="name">Course Mapper</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="#logout" onclick="logout()">Logout</a></li>
       </ul>
     </div>
   </nav>
 
-  <ul class="sidenav" id="mobile-demo">
-    <li><a class="active" href="index.html">Home</a></li>
-  </ul>
+    <main class="container">
+      
+    
+      <form id="myform" onsubmit="selectTopics(event)">
 
-    <main>
-      <h1>My App</h1>
+        <div class="input-field col s12" style="margin-top:30px">
+          <select name="course" id="course" required>
+          </select>
+          <label class="black-text" style="font-size:1em">Select Course</label>
+        </div>
+
+        <div class="row">
+           <span id="count">0</span> Topics Selected
+        </div>
+
+
+        <div class="row">
+          <ul class="collapsible" id="input" >
+        
+          </ul>
+        </div>
+
+        <div  data-position="left" data-tooltip="Save selected topics to course" class="fixed-action-btn tooltipped">
+          <button type="submit" class="btn-floating btn-large red">
+            <i class="large material-icons">save</i>
+          </button>
+        </div>
+
+      </form>
+
+     
     </main>
 
     <script src="config.js"></script>
+    <script src="cstopics.js"></script>
+    <script src="cssubdomains.js"></script>
     <script>
-
-
+      firebase.initializeApp(firebaseConfig);
       
+      let auth;
+      let chips;
+
+      const users = {
+        "snickdx@gmail.com":{
+          courses:["INFO 1601"],
+          name:"Nicholas Mendez"
+        }
+      };
+
+      const domains = {
+        'AL':'Algorithms and Complexity',
+        'AR':'Architecture and Organization',
+        'CN':'Computational Science',
+        'DS':'Discrete Structures',
+        'GV':'Graphics and Visualization',
+        'HCI':'Human-Computer Interaction',
+        'IAS':'Information Assurance and Security',
+        'IM':'Information Management',
+        'IS':'Intelligent Systems',
+        'NC':'Net Centric Computing',
+        'OS':'Operating System',
+        'PBD':'Parallel and Distributed Computing',
+        'PD':'Platform-based Development',
+        'PL':'Programming Languages',
+        'SP':'Social Issues and Professional Practice',
+        'SDF':'Software Development Fundamentals',
+        'SE':'Software Engineering',
+        'SF':'System Fundamentals'
+    };
+
+    const topics = [];
+
+
+      async function logout(){
+        await firebase.auth().signOut();
+      }
+
+      function showHelpModal(){
+
+      }
+
+      function topicsTemplate(subdomain){
+        let html='';
+
+        for(let topic of subdomain){
+          topics.push(`${topic.topicId} - ${topic.topic}`);
+          html+=`
+            <p>
+              <label>
+                <input type="checkbox" onclick="updateCount()" name="topics" value="${topic.topicId} - ${topic.topic}" />
+                <span class="black-text">${topic.topicId} - ${topic.topic}</span>
+              </label>
+            </p>
+          `;
+        }
+
+        return html;
+
+      }
+
+      function updateCount(){
+        const form = document.querySelector('#myform');
+        const topics = new FormData(form).getAll('topics');
+        document.querySelector('#count').innerHTML = `${topics.length} Topics Selected`;
+      }
+
+      function subDomainTemplate(domain){
+        let html='';
+  
+        for(let subdomain in domain){
+          html+=`
+              <li>
+                <div class="collapsible-header">${subdomain} -  ${subdomains[subdomain]}</div>
+                  <div class="collapsible-body">
+                    ${topicsTemplate(domain[subdomain])}                    
+                  </div>
+              </li>
+          `;
+        }
+        return html;
+      }
+
+      function loadForm(){
+        let html="";
+        
+        for(let domain in cstopics){
+
+            html+=`
+            <li>
+              <div class="collapsible-header">${domain} - ${domains[domain]}</div>
+                <div class="collapsible-body">
+                  <ul class="collapsible">
+                    ${subDomainTemplate(cstopics[domain])}
+                  </ul>
+                </div>
+            </li>
+            `;
+    
+        }
+
+        document.querySelector('#input').innerHTML = html;
+      }
+
+      function displayUser({email}){
+        if(!users[email]){
+          alert(`No user found for ${email}`);
+        }else{
+          let {courses, name} = users[email];
+          let html=' <option disabled selected>Select Course</option>';
+          for(let course of courses){
+            html+=`<option>${course}</option>`;
+          }
+          const courseSelect = document.querySelector('#course');
+          courseSelect.innerHTML = html;
+          M.FormSelect.init(courseSelect);
+        }
+        document.querySelector('#name').innerHTML = 'Welcome '+users[email].name;
+      }
+
+      async function validateAuth(){
+     
+        if (firebase.auth().isSignInWithEmailLink(window.location.href)) {
+         
+          var email = window.localStorage.getItem('emailForSignIn');
+          
+          if(!email){
+             email = window.prompt('Please provide your email for confirmation');
+          }
+
+          try{
+            auth  = await firebase.auth().signInWithEmailLink(email, window.location.href);
+
+            window.localStorage.removeItem('emailForSignIn');
+            
+            if(auth.additionalUserInfo.isNewUser)
+              showHelpModal()
+            
+            displayUser(auth);
+          }catch(e){
+            console.error(e);
+             window.location.href="./index.html";
+          }
+
+        } else {
+
+          firebase.auth().onAuthStateChanged((user) => {
+            if (user){
+              auth = user;
+              displayUser(user);
+            }else{
+              window.location.href="./index.html";
+            }
+          }); 
+        }
+        
+      }
+
+
+      function selectTopics(event){
+        event.preventDefault();
+        const formData = new FormData(event.target);
+        const selected = formData.getAll('topics');
+        
+        let course = document.querySelector('#course').value;
+        M.toast({html: `${selected.length} Topics saved to ${course} !`, classes: 'rounded'});
+
+
+      }
+
+      validateAuth();
+      loadForm();
+
       //Initialize Materialize components here
       document.addEventListener('DOMContentLoaded', function() {
-
-        const navs = M.Sidenav.init(document.querySelectorAll('.sidenav'));
-
+         M.AutoInit();
+        var instances = M.Tooltip.init(document.querySelectorAll('.tooltipped'));
       });
+
+      //       function setChips(selected){
+
+      //   const data = topics.reduce((acc, cur)=>{
+      //     if(!selected.includes(cur))acc[cur]=null;
+      //     return acc;
+      //   }, {});
+
+      //   chips = M.Chips.init(document.querySelectorAll('.chips'), {
+      //       autocompleteOptions: {
+      //         data,
+      //         limit: Infinity,
+      //         minLength: 1
+      //       }
+      //   });
+      // }
+
     </script>
     <script src="script.js"></script>
   </body>
