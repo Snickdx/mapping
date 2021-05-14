@@ -4,9 +4,11 @@ import { getUser, getCourseTopics, saveCourseTopics, validateEmail } from './use
 
 
 firebase.initializeApp(firebaseConfig);
-      
+let db = firebase.firestore();
 let auth;
 let chips;
+let changes= false;
+let selectedCourse=null;
 
 const topics = [];
 
@@ -14,30 +16,57 @@ const topics = [];
 
 window.courseSelected = function(event){
   const value = event.target.value;
-  if(value !== 'default')
-    loadForm(value)
+  
+  if(value !== 'default'){
+    if(changes){
+      let ans = confirm('You will lose unsaved changes if you switch courses now. Click cancel then click the red button to save or click ok to proceed.');
+      if(ans){
+        loadForm(value);
+        showPending(false);
+      }else{
+        event.target.value = selectedCourse
+      }
+    }else{
+      showPending(false);
+      loadForm(value);
+    }
+  }
+
 }
 
 window.updateCount = function(){
   const form = document.querySelector('#myform');
-  const topics = new FormData(form).getAll('topics');
-  const course = form.elements['course'].value;
-  document.querySelector('#count').innerHTML = topics.length;
+  const selectedTopics = new FormData(form).getAll('topics');
+  const numTopics = selectedTopics.length;
+  showPending(true)
+  document.querySelector('#count').innerHTML = numTopics;
 }
 
-window.selectTopics = function(event){
+
+window.selectTopics = async function(event){
   event.preventDefault();
   const formData = new FormData(event.target);
   const selected = formData.getAll('topics');
   const course = formData.get('course');
-  saveCourseTopics(auth.email, course, selected);
+  await saveCourseTopics(auth.email, course, selected, db);
+  showPending(false);
   M.toast({html: `${selected.length} Topics saved to ${course} !`, classes: 'rounded'});
 }
 
 // ########################## Module Functions #########################
 
+function showCount(num){
+  document.querySelector('#count').innerHTML = num;
+}
+
 async function logout(){
   await firebase.auth().signOut();
+}
+
+function showPending(pending){
+  changes = pending;
+  const html = pending ? `<div class="chip red white-text">Pending Changes<i class="close material-icons">warning</i></div>` : '<div class="chip green white-text">All Changes Saved<i class="close material-icons">check</i></div>';
+  document.querySelector('#pending').innerHTML = html;          
 }
 
 function showHelpModal(){
@@ -79,13 +108,13 @@ function subDomainTemplate(domain, selectedTopics){
   return html;
 }
 
-function loadForm(course){
+async function loadForm(course){
   let html="";
 
-  const selectedTopics = getCourseTopics(auth.email, course);
+  selectedCourse = course;
 
-  document.querySelector('#count').innerHTML = selectedTopics.length;
-  
+  const selectedTopics = await getCourseTopics(auth.email, course, db);
+
   for(let domain in cstopics){
 
       html+=`
@@ -98,10 +127,12 @@ function loadForm(course){
           </div>
       </li>
       `;
-
   }
 
+  showCount(selectedTopics.length)
+
   document.querySelector('#input').innerHTML = html;
+  
   M.Collapsible.init(document.querySelectorAll('.collapsible'));
 }
 
