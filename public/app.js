@@ -6,7 +6,6 @@ import { getUser, getCourseTopics, saveCourseTopics, validateEmail } from './use
 firebase.initializeApp(firebaseConfig);
 let db = firebase.firestore();
 let auth;
-let chips;
 let changes= false;
 let selectedCourse=null;
 
@@ -53,14 +52,14 @@ window.selectTopics = async function(event){
   M.toast({html: `${selected.length} Topics saved to ${course} !`, classes: 'rounded'});
 }
 
+window.logout = async function(){
+  await firebase.auth().signOut();
+}
+
 // ########################## Module Functions #########################
 
 function showCount(num){
   document.querySelector('#count').innerHTML = num;
-}
-
-async function logout(){
-  await firebase.auth().signOut();
 }
 
 function showPending(pending){
@@ -111,6 +110,9 @@ function subDomainTemplate(domain, selectedTopics){
 async function loadForm(course){
   let html="";
 
+  const loader = document.querySelector('#loader');
+  loader.innerHTML = '<div class="progress"><div class="indeterminate"></div></div>';
+
   selectedCourse = course;
 
   const selectedTopics = await getCourseTopics(auth.email, course, db);
@@ -128,6 +130,8 @@ async function loadForm(course){
       </li>
       `;
   }
+
+  loader.innerHTML = '';
 
   showCount(selectedTopics.length)
 
