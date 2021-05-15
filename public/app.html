@@ -43,24 +43,24 @@
         </div>
 
         <div class="div" id="loader">
-
+          <div class="progress"><div class="indeterminate"></div></div>
         </div>
 
         <div class="row">
-           <span id="count">0</span> Topics Selected
+          <div id="count" class="chip">0 Topics in Total</div>
 
            <span class="right" id="pending"></span>
         
         </div>
 
 
-        <div class="row">
+        <div class="row">  
           <ul class="collapsible" id="input" >
-        
+            <li style="padding: 5px;">No Course Selected!</li>
           </ul>
         </div>
 
-        <div  data-position="left" data-tooltip="Save selected topics to course" class="fixed-action-btn tooltipped">
+        <div style="display:none" id="fab" data-position="left" data-tooltip="Save selected topics to course" class="fixed-action-btn tooltipped">
           <button type="submit" class="btn-floating btn-large red">
             <i class="large material-icons">save</i>
           </button>
