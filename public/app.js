@@ -8,6 +8,7 @@ let db = firebase.firestore();
 
 let changes= false;
 let selectedCourse=null;
+let courses=nulll;
 
 const topics = [];
 
@@ -159,7 +160,7 @@ function displayUser(auth){
     const courseSelect = document.querySelector('#course');
     courseSelect.innerHTML = html;
     M.FormSelect.init(courseSelect);
-    document.querySelector('#name').innerHTML = 'Welcome '+name;
+    document.querySelector('#name').innerHTML = 'Welcome '+name+' V0.4';
   }
  
 }

@@ -69,8 +69,12 @@ async function saveCourseTopics(email, course, topics, db){
     throw `Unkown course ${course} for ${email}`;
   users[email].courses[course] = [...topics];
 
+  
+  for(let topic of topics){
+    db.collection('users').doc(email).set(doc);
+  }
 
-  await db.collection('users').doc(email).set(doc);
+  await (data);
 
 }
 

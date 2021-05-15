@@ -1,0 +1,21 @@
+{
+  "name": "mapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase serve",
+    "deploy": "firebase deploy --token $MAPFBTOKEN"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snickdx/mapping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snickdx/mapping/issues"
+  },
+  "homepage": "https://github.com/Snickdx/mapping#readme"
+}
