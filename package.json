@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "firebase serve",
+    "serve": "firebase serve --token $MAPFBTOKEN",
     "deploy": "firebase deploy --token $MAPFBTOKEN"
   },
   "repository": {

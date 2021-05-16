@@ -9,6 +9,7 @@ let db = firebase.firestore();
 let changes= false;
 let selectedCourse=null;
 const topics = [];
+let version = "Version 0.6";
 
 //########################### Window Functions #########################
 
@@ -20,12 +21,12 @@ window.courseSelected = function(event){
       let ans = confirm('You will lose unsaved changes if you switch courses now. Click cancel then click the red button to save or click ok to proceed.');
       if(ans){
         loadForm(value);
-        showPending(false);
+        showPending([]);
       }else{
         event.target.value = selectedCourse;
       }
     }else{
-      showPending(false);
+      showPending([]);
       loadForm(value);
     }
   }
@@ -45,7 +46,7 @@ window.updateCount = function(event){
   updateStatsUI(subdomain, event.target.checked);
 
   
-  showPending(true)
+  showPending(selectedTopics);
   showCount(numTopics);
 }
 
@@ -58,7 +59,7 @@ window.selectTopics = async function(event){
   let auth = firebase.auth().currentUser;
   showLoader();
   await saveCourseTopics(auth.email, course, selected, db);
-  showPending(false);
+  showPending([]);
   hideLoader();
   M.toast({html: `${selected.length} Topics saved to ${course} !`, classes: 'rounded'});
 }
@@ -102,13 +103,31 @@ function updateStatsUI(target, increment){
     num++;
   else
     num--;
+
+  if(num == 0){
+    elem.classList.remove("green");
+    elem.classList.remove("white-text");
+  }else if(num == 1){
+    elem.classList.add("green");
+    elem.classList.add("white-text");
+  }
   
   elem.innerHTML = num;
   
 }
 
 function getColor(num){
-  let color = [ 'red lighten-5', 'pink lighten-5', 'purple lighten-5', 'deep-purple lighten-5', 'indigo lighten-5', 'cyan lighten-5', 'teal lighten-5', 'green lighten-5', 'lime lighten-5', 'yellow lighten-5', 'orange lighten-5', 'deep-orange lighten-5' ];
+  let color = [ 
+    'red lighten', 
+    'pink lighten', 
+    'purple lighten', 
+    'deep-purple lighten', 
+    'indigo lighten', 
+    'cyan lighten', 
+    'teal lighten', 
+    'green lighten', 
+    'lime lighten'
+  ];
   return color[num%color.length];
 }
 
@@ -118,7 +137,7 @@ function showCount(num){
 
 function showPending(pending){
   changes = pending;
-  const html = pending ? `<div class="chip red white-text">Pending Changes<i class="close material-icons">warning</i></div>` : '<div class="chip green white-text">All Changes Saved<i class="close material-icons">check</i></div>';
+  const html = pending.length > 0 ? `<div class="chip yellow black-text">Pending Changes<i class="close material-icons">warning</i></div>` : '<div class="chip green white-text">All Changes Saved<i class="close material-icons">check</i></div>';
   document.querySelector('#pending').innerHTML = html;          
 }
 
@@ -147,17 +166,17 @@ function topicsTemplate(subdomain, selected){
 
 }
 
-function subDomainTemplate(domain, selectedTopics, stats){
+function subDomainTemplate(domain, selectedTopics, stats, domainCount){
   let html='';
 
   for(let subdomain in domain){
     html+=`
         <li>
-          <div class="collapsible-header">
-            <div class="col s11">${subdomain} -  ${cssubdomains[subdomain]}</div>
-            <div class="col s1"><div class="chip" id="${subdomain}"> ${stats[subdomain] ?  stats[subdomain]:'0' }</div></div>
+          <div class="collapsible-header ${getColor(domainCount)}-4">
+            <div class="col s10">${subdomain} -  ${cssubdomains[subdomain]}</div>
+            <div class="col s2"><div class="chip ${stats[subdomain] ? "green white-text" : "" }" id="${subdomain}"> ${stats[subdomain] ?  stats[subdomain]:'0' }</div></div>
           </div>
-            <div class="collapsible-body white">
+            <div class="collapsible-body ${getColor(domainCount)}-4">
               ${topicsTemplate(domain[subdomain], selectedTopics, stats)}                    
             </div>
         </li>
@@ -193,14 +212,14 @@ async function loadForm(course){
 
       html+=`
       <li>
-        <div class="collapsible-header ${getColor(domainCount)}">
-        <div class="col s11">${domain} - ${csdomains[domain]}</div>
-        <div class="col s1"><div class="chip" id="${domain}"> ${stats[domain] ?  stats[domain]:'0' }</div></div>
+        <div class="collapsible-header ${getColor(domainCount)}-5">
+        <div class="col s10">${domain} - ${csdomains[domain]}</div>
+        <div class="col s2"><div class="chip ${stats[domain] ? "green white-text" : "" }"" id="${domain}"> ${stats[domain] ?  stats[domain]:'0' }</div></div>
       
         </div>
-          <div class="collapsible-body ${getColor(domainCount)}">
+          <div class="collapsible-body ${getColor(domainCount)}-5">
             <ul class="collapsible">
-              ${subDomainTemplate(cstopics[domain], selectedTopics, stats)}
+              ${subDomainTemplate(cstopics[domain], selectedTopics, stats, domainCount)}
             </ul>
           </div>
       </li>
@@ -233,7 +252,7 @@ async function displayUser(auth){
   const courseSelect = document.querySelector('#course');
   courseSelect.innerHTML = html;
   M.FormSelect.init(courseSelect);
-  document.querySelector('#name').innerHTML = 'Welcome '+name+' V0.5';
+  document.querySelector('#name').innerHTML = 'Welcome '+name+' '+version;
 
   hideLoader();
  
