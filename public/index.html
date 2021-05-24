@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#2196f3">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link href="/manifest.json" rel="manifest">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+
     <title>Course Mapper</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -10,6 +16,9 @@
     <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+    <link rel="icon" type="image/png" href="img/icon-192x192.png" sizes="192x192" />
+
+
   </head>
   <style>
     h1{
@@ -80,7 +89,7 @@
         };
         
         // var actionCodeSettings = {
-        //   url: 'https://5000-red-frog-gku7q3fl.ws-us04.gitpod.io//app.html',
+        //   url: 'https://5000-red-frog-gku7q3fl.ws-us07.gitpod.io/app.html',
         //   handleCodeInApp: true
         // };
 
@@ -113,6 +122,12 @@
       document.addEventListener('DOMContentLoaded', function() {
         const navs = M.Sidenav.init(document.querySelectorAll('.sidenav'));
       });
+    </script>
+
+    <script type="module">
+      import {registerSW} from './register.js';
+
+      registerSW()
     </script>
 
   </body>

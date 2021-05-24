@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "serve": "firebase serve --token $MAPFBTOKEN",
-    "deploy": "firebase deploy --token $MAPFBTOKEN"
+    "deploy": "firebase deploy --token $MAPFBTOKEN",
+    "build": "workbox generateSW"
   },
   "repository": {
     "type": "git",

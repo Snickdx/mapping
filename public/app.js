@@ -1,15 +1,30 @@
 import {cstopics, csdomains, cssubdomains} from './csmodule.js';
 import { firebaseConfig } from './config.js';
 import { getUser, getCourseTopics, saveCourseTopics } from './users.js';
+import {registerSW} from './register.js';
 
 
+
+registerSW();
 firebase.initializeApp(firebaseConfig);
 let db = firebase.firestore();
+
+firebase.firestore().enablePersistence()
+  .catch((err) => {
+    console.error(err);
+      if (err.code == 'failed-precondition') {
+          // Multiple tabs open, persistence can only be enabled
+          // in one tab at a a time.
+      } else if (err.code == 'unimplemented') {
+          // The current browser does not support all of the
+          // features required to enable persistence
+      }
+  });
 
 let changes= false;
 let selectedCourse=null;
 const topics = [];
-let version = "Version 0.6";
+let version = "Version 1.0";
 
 //########################### Window Functions #########################
 
@@ -172,11 +187,11 @@ function subDomainTemplate(domain, selectedTopics, stats, domainCount){
   for(let subdomain in domain){
     html+=`
         <li>
-          <div class="collapsible-header ${getColor(domainCount)}-4">
-            <div class="col s10">${subdomain} -  ${cssubdomains[subdomain]}</div>
-            <div class="col s2"><div class="chip ${stats[subdomain] ? "green white-text" : "" }" id="${subdomain}"> ${stats[subdomain] ?  stats[subdomain]:'0' }</div></div>
+          <div class="collapsible-header ${getColor(domainCount)}-5">
+            <div class="col s9 offset-s1">${subdomain} -  ${cssubdomains[subdomain]}</div>
+            <div class="col s2"><div class="right chip ${stats[subdomain] ? "green white-text" : "" }" id="${subdomain}"> ${stats[subdomain] ?  stats[subdomain]:'0' }</div></div>
           </div>
-            <div class="collapsible-body ${getColor(domainCount)}-4">
+            <div class="collapsible-body ${getColor(domainCount)}-5">
               ${topicsTemplate(domain[subdomain], selectedTopics, stats)}                    
             </div>
         </li>
@@ -212,12 +227,12 @@ async function loadForm(course){
 
       html+=`
       <li>
-        <div class="collapsible-header ${getColor(domainCount)}-5">
+        <div class="collapsible-header ${getColor(domainCount)}-4">
         <div class="col s10">${domain} - ${csdomains[domain]}</div>
-        <div class="col s2"><div class="chip ${stats[domain] ? "green white-text" : "" }"" id="${domain}"> ${stats[domain] ?  stats[domain]:'0' }</div></div>
+        <div class="col s2"><div class="right chip ${stats[domain] ? "green white-text" : "" }"" id="${domain}"> ${stats[domain] ?  stats[domain]:'0' }</div></div>
       
         </div>
-          <div class="collapsible-body ${getColor(domainCount)}-5">
+          <div class="collapsible-body ${getColor(domainCount)}-4">
             <ul class="collapsible">
               ${subDomainTemplate(cstopics[domain], selectedTopics, stats, domainCount)}
             </ul>
