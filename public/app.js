@@ -24,7 +24,7 @@ firebase.firestore().enablePersistence()
 let changes= false;
 let selectedCourse=null;
 const topics = [];
-let version = "Version 1.2";
+let version = "Version 1.2.1";
 
 //########################### Window Functions #########################
 
