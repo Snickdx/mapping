@@ -7,8 +7,6 @@
     <meta name="mobile-web-app-capable" content="yes">
     <link href="/manifest.json" rel="manifest">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-
-
     <title>Course Mapper</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -17,6 +15,8 @@
     <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
     <style>
+
+
       h1{
         font-size: 2em;
       }
@@ -40,45 +40,105 @@
       #input  p > label > span{
         margin-left: 40px;
       }
+
+      .select-wrapper .caret{
+        fill: white;
+      }
+
+      .select-wrapper input.select-dropdown{
+        color: white;
+        border-bottom: 1px solid white;
+      }
+
+      .nav-extended .row{
+        margin-bottom: 0;
+      }
+
+      body  div.nav-extended > nav:nth-child(1) {
+        box-shadow: none;
+      }
+
+      #nav{
+        position: fixed;
+        z-index: 996;
+        width: 100vw;
+        top: 0px;
+      }
+
+      #nav .row{
+        height: 40px;
+      }
+
+      main{
+        margin-top: 170px;
+      }
+
+      nav.nav-content.nav-wrapper{
+        height: 110px;
+      }
+
+      .progress{
+        background-color: #2196f3;
+      }
+
+      #nav input {
+        margin-bottom: 0;
+      }
+
+      .progress .indeterminate{
+        background-color: white;
+   
+      }
+
     </style>
   </head>
   <body>
 
-  <nav>
-    <div class="blue nav-wrapper blue">
-      <a href="#!" style="margin-left: 10px" id="name">Course Mapper</a>
-      <ul id="nav-mobile" class="right">
-        <li><a href="#logout" onclick="logout()">Logout</a></li>
-      </ul>
-    </div>
-  </nav>
+   
+    <div id="nav" class="nav-extended">
+      <nav class="nav-wrapper blue navbar-fixed">
+          <a href="#!" style="margin-left: 10px" id="name">Loading...</a>
+          <ul id="nav-mobile" class="right">
+            <li><a href="#logout" onclick="logout()">Logout</a></li>
+          </ul>
+      </nav>
 
-    <main class="container">
-      
-    
-      <form id="myform" onsubmit="selectTopics(event)">
-
-        <div class="input-field col s12" style="margin-top:30px">
-          <select name="course" id="course" required onchange="courseSelected(event)">
-          </select>
-          <label class="black-text" style="font-size:1em">Select Course</label>
+      <nav class="nav-content nav-wrapper blue">
+        
+        <div class="row">
+          <div class="input-field col s10 offset-s1">
+            <select class="white-text" name="course" id="course" required onchange="courseSelected(event)">
+            </select>
+          </div>
         </div>
 
-        <div class="div" id="loader">
-          <div class="progress"><div class="indeterminate"></div></div>
-        </div>
 
         <div class="row">
-          <div id="count" class="chip">0 Topics in Total</div>
-
-           <span class="right" id="pending"></span>
-        
+          <div class="col s10 offset-s1">
+            <div id="count" class="chip">0 Topics in Total</div>
+            <span class="right" id="pending"></span>
+          </div>
+          
+          <div id="loader" style="margin-top: -6px;" class="progress col s10 offset-s1"><div class="indeterminate"></div></div>
         </div>
 
+ 
+     
+      </nav>
+
+
+
+
+    </div>
+  
+
+    <main class="row">
+    
+      <form id="myform" class="col s12 offset-m1 m10 offset-l2 l8" onsubmit="selectTopics(event)">
 
         <div class="row">  
           <ul class="collapsible" id="input" >
-            <li style="padding: 5px;">No Course Selected!</li>
+            <li class="center" style="padding: 5px;">Please select a course from the dropdown above.</li>
           </ul>
         </div>
 
@@ -90,7 +150,6 @@
 
       </form>
 
-     
     </main>
 
     <script>

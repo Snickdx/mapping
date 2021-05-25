@@ -24,7 +24,7 @@ firebase.firestore().enablePersistence()
 let changes= false;
 let selectedCourse=null;
 const topics = [];
-let version = "Version 1.0";
+let version = "Version 1.1";
 
 //########################### Window Functions #########################
 
@@ -59,8 +59,6 @@ window.updateCount = function(event){
   
   updateStatsUI(domain, event.target.checked);
   updateStatsUI(subdomain, event.target.checked);
-
-  
   showPending(selectedTopics);
   showCount(numTopics);
 }
@@ -70,13 +68,22 @@ window.selectTopics = async function(event){
   event.preventDefault();
   const formData = new FormData(event.target);
   const selected = formData.getAll('topics');
-  const course = formData.get('course');
+  const course = document.querySelector("#course").value;
+  console.log(course);
   let auth = firebase.auth().currentUser;
+  const fab =  document.querySelector('#fab');
+  
+  fab.style.display = 'none';
   showLoader();
   await saveCourseTopics(auth.email, course, selected, db);
   showPending([]);
   hideLoader();
-  M.toast({html: `${selected.length} Topics saved to ${course} !`, classes: 'rounded'});
+  M.toast({
+    html: `<span>${selected.length} Topics saved to ${course} !</span><button class="btn-flat toast-action">Dismiss</button>`, 
+    completeCallback: function(){
+      fab.style.display = 'block';
+    }
+  });
 }
 
 window.logout = async function(){
