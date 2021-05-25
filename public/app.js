@@ -24,7 +24,7 @@ firebase.firestore().enablePersistence()
 let changes= false;
 let selectedCourse=null;
 const topics = [];
-let version = "Version 1.1";
+let version = "Version 1.2";
 
 //########################### Window Functions #########################
 
@@ -154,12 +154,12 @@ function getColor(num){
 }
 
 function showCount(num){
-  document.querySelector('#count').innerHTML = `<div class="chip">${num} Topics in Total</div>`;
+  document.querySelector('#count').innerHTML = `<div class="chip">${num} Selected</div>`;
 }
 
 function showPending(pending){
   changes = pending;
-  const html = pending.length > 0 ? `<div class="chip yellow black-text">Pending Changes<i class="close material-icons">warning</i></div>` : '<div class="chip green white-text">All Changes Saved<i class="close material-icons">check</i></div>';
+  const html = pending.length > 0 ? `<div class="chip right yellow black-text">Pending Changes<i class="close material-icons">warning</i></div>` : '<div class="chip right green white-text">All Changes Saved<i class="close material-icons">check</i></div>';
   document.querySelector('#pending').innerHTML = html;          
 }
 
