@@ -1,15 +1,19 @@
-import {cstopics, csdomains, cssubdomains} from './csmodule.js';
+import { cstopics, csdomains, cssubdomains } from './csmodule.js';
 import { firebaseConfig } from './config.js';
 import { getUser, getCourseTopics, saveCourseTopics } from './users.js';
-import {registerSW} from './register.js';
+import { registerSW } from './register.js';
+import { version } from './global.js';
 
-
+import { initializeApp } from 'firebase/app';
+import { getFirestore, enableIndexedDbPersistence, doc, collection, addDoc, getDoc, getDocs } from 'firebase/firestore/lite';
+import { getAuth, signOut, isSignInWithEmailLink, sendSignInLinkToEmail, signInWithEmailLink, onAuthStateChanged, setPersistence } from "firebase/auth";
 
 registerSW();
-firebase.initializeApp(firebaseConfig);
-let db = firebase.firestore();
+const app = initializeApp(firebaseConfig);
+let db = getFirestore();
+const auth = getAuth()
 
-firebase.firestore().enablePersistence()
+enableIndexedDbPersistence(db)
   .catch((err) => {
     console.error(err);
       if (err.code == 'failed-precondition') {
@@ -24,7 +28,6 @@ firebase.firestore().enablePersistence()
 let changes= false;
 let selectedCourse=null;
 const topics = [];
-let version = "Version 1.2.1";
 
 //########################### Window Functions #########################
 
@@ -69,13 +72,12 @@ window.selectTopics = async function(event){
   const formData = new FormData(event.target);
   const selected = formData.getAll('topics');
   const course = document.querySelector("#course").value;
-  console.log(course);
-  let auth = firebase.auth().currentUser;
+  let user = auth.currentUser;
   const fab =  document.querySelector('#fab');
   
   fab.style.display = 'none';
   showLoader();
-  await saveCourseTopics(auth.email, course, selected, db);
+  await saveCourseTopics(user.email, course, selected, db);
   showPending([]);
   hideLoader();
   M.toast({
@@ -88,7 +90,7 @@ window.selectTopics = async function(event){
 
 window.logout = async function(){
   console.log('Logging Out');
-  await firebase.auth().signOut();
+  await signOut();
   window.location.href="./index.html";
 }
 
@@ -166,6 +168,7 @@ function showPending(pending){
 
 
 function showHelpModal(){
+
 }
 
 function topicsTemplate(subdomain, selected){
@@ -224,9 +227,9 @@ async function loadForm(course){
 
   selectedCourse = course;
 
-  let auth = firebase.auth().currentUser;
+  let user = auth.currentUser;
 
-  const selectedTopics = await getCourseTopics(auth.email, course, db);
+  const selectedTopics = await getCourseTopics(user.email, course, db);
   let domainCount = 0;
   let stats = getStats(selectedTopics);
 
@@ -280,27 +283,28 @@ async function displayUser(auth){
  
 }
 
-firebase.auth().onAuthStateChanged((user) => {
+onAuthStateChanged((user) => {
   if (user){
     displayUser(user);
   }else{
     console.log('no auth found')
+    alert('Auth error try logging in again, ensure the same email is entered if prompted.')
     // window.location.href="./index.html";
   }
 }); 
 
 async function validateAuth(){
 
-  if (firebase.auth().isSignInWithEmailLink(window.location.href)) {
+  if (isSignInWithEmailLink(window.location.href)) {
     
     var email = window.localStorage.getItem('emailForSignIn');
     
     if(!email){
-        email = window.prompt('Please provide your email for confirmation');
+        email = window.prompt('Please provide your email used to sign in for confirmation');
     }
 
     try{
-      let auth  = await firebase.auth().signInWithEmailLink(email, window.location.href);
+      let auth  = await signInWithEmailLink(email, window.location.href);
 
       window.localStorage.removeItem('emailForSignIn');
       

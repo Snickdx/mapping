@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/Snickdx/mapping/issues"
   },
-  "homepage": "https://github.com/Snickdx/mapping#readme"
+  "homepage": "https://github.com/Snickdx/mapping#readme",
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "firebase": "^9.0.2",
+    "rollup": "^2.56.3"
+  }
 }

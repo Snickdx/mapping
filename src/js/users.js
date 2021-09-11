@@ -1,3 +1,5 @@
+import { getFirestore, enableIndexedDbPersistence, doc, collection, addDoc, getDoc, getDocs } from 'firebase/firestore/lite';
+
 async function getUser(email, db){
 
   const doc = await db.collection("users").doc(email).get();
@@ -7,7 +9,7 @@ async function getUser(email, db){
   }
 
   return {
-    name:"Unkown",
+    name:"Unknown",
     courses: {}
   };
 }
