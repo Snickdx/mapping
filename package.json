@@ -23,5 +23,9 @@
     "@rollup/plugin-node-resolve": "^13.0.4",
     "firebase": "^9.0.2",
     "rollup": "^2.56.3"
+  },
+  "devDependencies": {
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^1.1.0"
   }
 }

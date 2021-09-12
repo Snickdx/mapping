@@ -5,10 +5,12 @@ import { registerSW } from './register.js';
 import { version } from './global.js';
 
 import { initializeApp } from 'firebase/app';
-import { getFirestore, enableIndexedDbPersistence, doc, collection, addDoc, getDoc, getDocs } from 'firebase/firestore/lite';
-import { getAuth, signOut, isSignInWithEmailLink, sendSignInLinkToEmail, signInWithEmailLink, onAuthStateChanged, setPersistence } from "firebase/auth";
+import { getFirestore,  enableIndexedDbPersistence } from 'firebase/firestore';
+import { getAuth, signOut, isSignInWithEmailLink, sendSignInLinkToEmail, signInWithEmailLink, onAuthStateChanged } from "firebase/auth";
 
-registerSW();
+if(!debug)
+  registerSW();
+
 const app = initializeApp(firebaseConfig);
 let db = getFirestore();
 const auth = getAuth()

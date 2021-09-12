@@ -1,10 +1,10 @@
-import { getFirestore, enableIndexedDbPersistence, doc, collection, addDoc, getDoc, getDocs } from 'firebase/firestore/lite';
+import { doc, setDoc, getDoc } from 'firebase/firestore';
 
 async function getUser(email, db){
 
-  const doc = await db.collection("users").doc(email).get();
+  const userdoc = await getDoc(doc(db, "users", email)); 
 
-  if(doc.exists){
+  if(userdoc.exists()){
     return doc.data();
   }
 
@@ -16,9 +16,9 @@ async function getUser(email, db){
 
 async function getCourseTopics(email, course, db){
 
-  const doc = await db.collection("users").doc(email).get();
+  const userdoc = await getDoc(doc(db, "users", email)); 
 
-  if(doc.exists){
+  if(userdoc.exists()){
     return doc.data().courses[course];
   }
   
@@ -27,16 +27,16 @@ async function getCourseTopics(email, course, db){
 
 async function saveCourseTopics(email, course, topics, db){
 
-  const doc = await db.collection("users").doc(email).get();
+  const userdoc = await getDoc(doc(db, "users", email)); 
 
-  if(!doc.exists)
+  if(!userdoc.exists())
     throw 'unkown email '+email;
 
   const newDoc = doc.data();
   
   newDoc['courses'][course] = topics;
 
-  await db.collection('users').doc(email).set(newDoc);
+  setDoc(doc(db, 'users', email), newDoc);
 
 }
 
