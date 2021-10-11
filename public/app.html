@@ -106,13 +106,13 @@
       <nav class="nav-content nav-wrapper blue">
         
         <div class="row">
-          <div class="input-field col s10 offset-s1">
-            <select class="white-text" name="course" id="course" required onchange="courseSelected(event)">
-            </select>
+          <div class="input-field col s10 offset-s1" style="margin-bottom: 4px">
+            <input type="text" id="course" required class="autocomplete" style="padding-bottom: 6px; border-bottom: 2px solid white">
+            <label style="font-size:15px; color:white;" for="course">Enter Course Code</label>
           </div>
         </div>
 
-        <div class="row" style="margin-top: 20px;">
+        <div class="row" style="margin-top: 27px;">
             <div class="col s5 l5 offset-l1">
               <div id="count" class="left chip">0 Selected</div>
             </div>
@@ -132,18 +132,12 @@
 
     <main class="row">
     
-      <form id="myform" class="col s12 offset-m1 m10 offset-l2 l8" onsubmit="selectTopics(event)">
+      <form id="myform" class="col s12 offset-m1 m10 offset-l2 l8">
 
         <div class="row">  
           <ul class="collapsible" id="input" >
             <li class="center" style="padding: 5px;">Please select a course from the dropdown above.</li>
           </ul>
-        </div>
-
-        <div style="display:none" id="fab" data-position="left" data-tooltip="Save selected topics to course" class="fixed-action-btn tooltipped">
-          <button type="submit" class="btn-floating btn-large red">
-            <i class="large material-icons">save</i>
-          </button>
         </div>
 
       </form>

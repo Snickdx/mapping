@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "firebase serve --token $MAPFBTOKEN",
-    "deploy": "firebase deploy --token $MAPFBTOKEN",
+    "start": "firebase serve",
+    "deploy": "firebase deploy",
     "build": "workbox generateSW"
   },
   "repository": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Snickdx/mapping/issues"
   },
-  "homepage": "https://github.com/Snickdx/mapping#readme"
+  "homepage": "https://github.com/Snickdx/mapping#readme",
+  "dependencies": {
+    "json-to-csv-in-browser": "^1.0.3"
+  }
 }

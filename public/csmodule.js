@@ -2,4999 +2,11668 @@ const cstopics = {
   "AL": {
     "AL-01": [
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Differences among best, expected, and worst case behaviors of an algorithm",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-01",
-        "topic": "Differences among best, expected, and worst case behaviors of an algorithm "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Asymptotic analysis of upper and expected complexity bounds",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-02",
-        "topic": "Asymptotic analysis of upper and expected complexity bounds"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Big O  notation: formal definition",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-03",
-        "topic": "Big O  notation: formal definition"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-04",
-        "topic": "Complexity classes, such as constant, logarithmic, linear, quadratic, and exponential"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Empirical measurements of performance",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-05",
-        "topic": "Empirical measurements of performance"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Time and space trade-offs in algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-06",
-        "topic": "Time and space trade-offs in algorithms"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Big O notation: use",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-07",
-        "topic": "Big O notation: use"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Little o, big omega and big theta notation",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-08",
-        "topic": "Little o, big omega and big theta notation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Recurrence relations",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-09",
-        "topic": "Recurrence relations"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Analysis of iterative and recursive algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-10",
-        "topic": "Analysis of iterative and recursive algorithms"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Some version of a Master Theorem",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Analysis",
+        "subdomainId": "AL-01",
         "topicId": "AL-01-11",
-        "topic": "Some version of a Master Theorem"
+        "tier": "Tier 2"
       }
     ],
     "AL-02": [
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Brute-force algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-01",
-        "topic": "Brute-force algorithms"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Greedy algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-02",
-        "topic": "Greedy algorithms"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-03",
-        "topic": "Divide-and-conquer (cross-reference SDF/Algorithms and Design/Problem-solving strategies)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Recursive backtracking",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-04",
-        "topic": "Recursive backtracking"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Dynamic Programming",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-05",
-        "topic": "Dynamic Programming"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Branch-and-bound",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-06",
-        "topic": "Branch-and-bound"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Heuristics",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-07",
-        "topic": "Heuristics"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours, 1 Core-Tier2 hours]",
+        "topic": "Reduction: transform-and-conquer",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Algorithmic Strategies",
+        "subdomainId": "AL-02",
         "topicId": "AL-02-08",
-        "topic": "Reduction: transform-and-conquer"
+        "tier": "Tier 2"
       }
     ],
     "AL-03": [
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max,",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-01",
-        "topic": "Simple numerical algorithms, such as computing the average of a list of numbers, finding the min, max, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Sequential and binary search algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-02",
-        "topic": "Sequential and binary search algorithms"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Worst case quadratic sorting algorithms (selection, insertion)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-03",
-        "topic": "Worst case quadratic sorting algorithms (selection, insertion)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-04",
-        "topic": "Worst or average case O(N log N) sorting algorithms (quicksort, heapsort, mergesort)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Hash tables, including strategies for avoiding and resolving collisions",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-05",
-        "topic": "Hash tables, including strategies for avoiding and resolving collisions"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Binary search trees",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-06",
-        "topic": "Binary search trees"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Graphs and graph algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-07",
-        "topic": "Graphs and graph algorithms"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Heaps",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-08",
-        "topic": "Heaps"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Graphs and graph algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-09",
-        "topic": "Graphs and graph algorithms"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Fundamental Data Structures and Algorithms",
+        "subdomainId": "AL-03",
         "topicId": "AL-03-10",
-        "topic": "Pattern matching and string/text algorithms (e.g., substring matching, regular expression matching, longest "
+        "tier": "Tier 2"
       }
     ],
     "AL-04": [
       {
+        "breakdown": "[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Finite-state machines",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Automata Computability and Complexity",
+        "subdomainId": "AL-04",
         "topicId": "AL-04-01",
-        "topic": "Finite-state machines"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Regular expressions",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Automata Computability and Complexity",
+        "subdomainId": "AL-04",
         "topicId": "AL-04-02",
-        "topic": "Regular expressions"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "The halting problem",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Automata Computability and Complexity",
+        "subdomainId": "AL-04",
         "topicId": "AL-04-03",
-        "topic": "The halting problem"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Context-free grammars (cross-reference PL/Syntax Analysis)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Automata Computability and Complexity",
+        "subdomainId": "AL-04",
         "topicId": "AL-04-04",
-        "topic": "Context-free grammars (cross-reference PL/Syntax Analysis)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Introduction to the P and NP classes and the P vs.NP problem",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Automata Computability and Complexity",
+        "subdomainId": "AL-04",
         "topicId": "AL-04-05",
-        "topic": "Introduction to the P and NP classes and the P vs. NP problem"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 3 Core-Tier2 hours]",
+        "topic": "Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Basic Automata Computability and Complexity",
+        "subdomainId": "AL-04",
         "topicId": "AL-04-06",
-        "topic": "Introduction to the NP-complete class and exemplary NP-complete problems (e.g., SAT, Knapsack)"
+        "tier": "Tier 2"
       }
     ],
     "AL-05": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Review of the classes P and NP; introduce P-space and EXP",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Computational Complexity",
+        "subdomainId": "AL-05",
         "topicId": "AL-05-01",
-        "topic": "Review of the classes P and NP; introduce P-space and EXP"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Polynomial hierarchy",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Computational Complexity",
+        "subdomainId": "AL-05",
         "topicId": "AL-05-02",
-        "topic": "Polynomial hierarchy"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "NP-completeness (Cook’s theorem)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Computational Complexity",
+        "subdomainId": "AL-05",
         "topicId": "AL-05-03",
-        "topic": "NP-completeness (Cook’s theorem)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Classic NP-complete problems",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Computational Complexity",
+        "subdomainId": "AL-05",
         "topicId": "AL-05-04",
-        "topic": "Classic NP-complete problems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Reduction Techniques",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Computational Complexity",
+        "subdomainId": "AL-05",
         "topicId": "AL-05-05",
-        "topic": "Reduction Techniques"
+        "tier": "Elective"
       }
     ],
     "AL-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Sets and languages",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-01",
-        "topic": "Sets and languages"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Context-free languages",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-02",
-        "topic": "Context-free languages"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Turing machines, or an equivalent formal model of universal computation",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-03",
-        "topic": "Turing machines, or an equivalent formal model of universal computation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Nondeterministic Turing machines",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-04",
-        "topic": "Nondeterministic Turing machines"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Chomsky hierarchy",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-05",
-        "topic": "Chomsky hierarchy"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "The Church-Turing thesis",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-06",
-        "topic": "The Church-Turing thesis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Computability",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-07",
-        "topic": "Computability"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Rice’s Theorem",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-08",
-        "topic": "Rice’s Theorem"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Examples of uncomputable functions",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-09",
-        "topic": "Examples of uncomputable functions"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Implications of uncomputability",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Automata Theory and Computability",
+        "subdomainId": "AL-06",
         "topicId": "AL-06-10",
-        "topic": "Implications of uncomputability"
+        "tier": "Elective"
       }
     ],
     "AL-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-01",
-        "topic": "Balanced trees (e.g., AVL trees, red-black trees, splay trees, treaps)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Graphs (e.g., topological sort, finding strongly connected components, matching)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-02",
-        "topic": "Graphs (e.g., topological sort, finding strongly connected components, matching)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Advanced data structures (e.g., B-trees, Fibonacci heaps)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-03",
-        "topic": "Advanced data structures (e.g., B-trees, Fibonacci heaps)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-04",
-        "topic": "String-based data structures and algorithms (e.g., suffix arrays, suffix trees, tries)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Network flows (e.g., max flow[Ford-Fulkerson algorithm], max flow–min cut, maximum bipartite",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-05",
-        "topic": "Network flows (e.g., max flow [Ford-Fulkerson algorithm], max flow – min cut, maximum bipartite "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Linear Programming (e.g.,duality, simplex method, interior point algorithms)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-06",
-        "topic": "Linear Programming (e.g.,duality, simplex method, interior point algorithms)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-07",
-        "topic": "Number-theoretic algorithms (e.g., modular arithmetic, primality testing, integer factorization)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull,",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-08",
-        "topic": "Geometric algorithms (e.g., points, line segments, polygons. [properties, intersections], finding convex hull, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Randomized algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-09",
-        "topic": "Randomized algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Stochastic algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-10",
-        "topic": "Stochastic algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Approximation algorithms",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-11",
-        "topic": "Approximation algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Amortized analysis",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-12",
-        "topic": "Amortized analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Probabilistic analysis",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-13",
-        "topic": "Probabilistic analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Online algorithms and competitive analysis",
+        "domainId": "AL",
+        "domain": "Algorithms and Complexity",
+        "subdomain": "Advanced Data Structures Algorithms and Analysis",
+        "subdomainId": "AL-07",
         "topicId": "AL-07-14",
-        "topic": "Online algorithms and competitive analysis"
+        "tier": "Elective"
       }
     ]
   },
   "AR": {
     "AR-01": [
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Overview and history of computer architecture",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "DigitalLogic andDigitalSystems",
+        "subdomainId": "AR-01",
         "topicId": "AR-01-01",
-        "topic": "Overview and history of computer architecture"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational +",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "DigitalLogic andDigitalSystems",
+        "subdomainId": "AR-01",
         "topicId": "AR-01-02",
-        "topic": "Combinational vs. sequential logic/Field programmable gate arrays as a fundamental combinational + "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Multiple representations/layers of interpretation (hardware is just another layer)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "DigitalLogic andDigitalSystems",
+        "subdomainId": "AR-01",
         "topicId": "AR-01-03",
-        "topic": "Multiple representations/layers of interpretation (hardware is just another layer)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Computer-aided design tools that process hardware and architectural representations",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "DigitalLogic andDigitalSystems",
+        "subdomainId": "AR-01",
         "topicId": "AR-01-04",
-        "topic": "Computer-aided design tools that process hardware and architectural representations"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Register transfer notation/Hardware Description Language (Verilog/VHDL)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "DigitalLogic andDigitalSystems",
+        "subdomainId": "AR-01",
         "topicId": "AR-01-05",
-        "topic": "Register transfer notation/Hardware Description Language (Verilog/VHDL)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Physical constraints (gate delays, fan-in, fan-out, energy/power)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "DigitalLogic andDigitalSystems",
+        "subdomainId": "AR-01",
         "topicId": "AR-01-06",
-        "topic": "Physical constraints (gate delays, fan-in, fan-out, energy/power)"
+        "tier": "Tier 2"
       }
     ],
     "AR-02": [
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Bits, bytes, and words",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Machine Level Representation of Data",
+        "subdomainId": "AR-02",
         "topicId": "AR-02-01",
-        "topic": "Bits, bytes, and words"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Numeric data representation and number bases",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Machine Level Representation of Data",
+        "subdomainId": "AR-02",
         "topicId": "AR-02-02",
-        "topic": "Numeric data representation and number bases"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Fixed-and floating-point systems",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Machine Level Representation of Data",
+        "subdomainId": "AR-02",
         "topicId": "AR-02-03",
-        "topic": "Fixed- and floating-point systems"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Signed and twos-complement representations",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Machine Level Representation of Data",
+        "subdomainId": "AR-02",
         "topicId": "AR-02-04",
-        "topic": "Signed and twos-complement representations"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Representation of non-numeric data (character codes, graphical data)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Machine Level Representation of Data",
+        "subdomainId": "AR-02",
         "topicId": "AR-02-05",
-        "topic": "Representation of non-numeric data (character codes, graphical data)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Representation of records and arrays",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Machine Level Representation of Data",
+        "subdomainId": "AR-02",
         "topicId": "AR-02-06",
-        "topic": "Representation of records and arrays"
+        "tier": "Tier 2"
       }
     ],
     "AR-03": [
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Basic organization of the von Neumann machine",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-01",
-        "topic": "Basic organization of the von Neumann machine"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Control unit; instruction fetch, decode, and execution",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-02",
-        "topic": "Control unit; instruction fetch, decode, and execution"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Instruction sets and types (data manipulation, control, I/O)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-03",
-        "topic": "Instruction sets and types (data manipulation, control, I/O)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Assembly/machine language programming",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-04",
-        "topic": "Assembly/machine language programming"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Instruction formats",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-05",
-        "topic": "Instruction formats"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Addressing modes",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-06",
-        "topic": "Addressing modes"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Subroutine call and return mechanisms (cross-referencePL/Language Translation and Execution)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-07",
-        "topic": "Subroutine call and return mechanisms (cross-referencePL/Language Translation and Execution)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "I/O and interrupts",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-08",
-        "topic": "I/O and interrupts"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Heap vs. Static vs. Stack vs. Code segments",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-09",
-        "topic": "Heap vs. Static vs. Stack vs. Code segments"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Shared memory multiprocessors/multicore organization",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-10",
-        "topic": "Shared memory multiprocessors/multicore organization"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier2hours]",
+        "topic": "Introduction to SIMD vs. MIMD and the Flynn Taxonomy",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Assembly Level Machine Organization",
+        "subdomainId": "AR-03",
         "topicId": "AR-03-11",
-        "topic": "Introduction to SIMD vs. MIMD and the Flynn Taxonomy"
+        "tier": "Tier 2"
       }
     ],
     "AR-04": [
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Storage systems and their technology",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-01",
-        "topic": "Storage systems and their technology"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Memory hierarchy: importance of temporal and spatial locality",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-02",
-        "topic": "Memory hierarchy: importance of temporal and spatial locality"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Main memory organization and operations",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-03",
-        "topic": "Main memory organization and operations"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Latency, cycle time, bandwidth, and interleaving",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-04",
-        "topic": "Latency, cycle time, bandwidth, and interleaving"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Cache memories (address mapping, block size, replacement and store policy)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-05",
-        "topic": "Cache memories (address mapping, block size, replacement and store policy)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Multiprocessor cache consistency/Using the memory system for inter-core synchronization/atomic memory",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-06",
-        "topic": "Multiprocessor cache consistency/Using the memory system for inter-core synchronization/atomic memory "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Virtual memory (page table, TLB)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-07",
-        "topic": "Virtual memory (page table, TLB)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Fault handling and reliability",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-08",
-        "topic": "Fault handling and reliability"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Error coding, data compression, and data integrity (cross-referenceSF/Reliability through Redundancy)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Memory System Organization and Architecture",
+        "subdomainId": "AR-04",
         "topicId": "AR-04-09",
-        "topic": "Error coding, data compression, and data integrity (cross-referenceSF/Reliability through Redundancy)"
+        "tier": "Tier 2"
       }
     ],
     "AR-05": [
       {
+        "breakdown": "[1 Core-Tier2hour]",
+        "topic": "I/O fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Interfacing andCommunication",
+        "subdomainId": "AR-05",
         "topicId": "AR-05-01",
-        "topic": "I/O fundamentals: handshaking, buffering, programmed I/O, interrupt-driven I/O"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hour]",
+        "topic": "Interrupt structures: vectoredand prioritized, interrupt acknowledgment",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Interfacing andCommunication",
+        "subdomainId": "AR-05",
         "topicId": "AR-05-02",
-        "topic": "Interrupt structures: vectoredand prioritized, interrupt acknowledgment"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hour]",
+        "topic": "External storage, physical organization, and drives",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Interfacing andCommunication",
+        "subdomainId": "AR-05",
         "topicId": "AR-05-03",
-        "topic": "External storage, physical organization, and drives"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hour]",
+        "topic": "Buses: bus protocols, arbitration, direct-memory access (DMA)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Interfacing andCommunication",
+        "subdomainId": "AR-05",
         "topicId": "AR-05-04",
-        "topic": "Buses: bus protocols, arbitration, direct-memory access (DMA)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hour]",
+        "topic": "Introduction to networks:communicationsnetworks as another layer of remote access",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Interfacing andCommunication",
+        "subdomainId": "AR-05",
         "topicId": "AR-05-05",
-        "topic": "Introduction to networks: communications networks as another layer of remote access"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hour]",
+        "topic": "Multimedia support",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Interfacing andCommunication",
+        "subdomainId": "AR-05",
         "topicId": "AR-05-06",
-        "topic": "Multimedia support"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hour]",
+        "topic": "RAID architectures",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Interfacing andCommunication",
+        "subdomainId": "AR-05",
         "topicId": "AR-05-07",
-        "topic": "RAID architectures"
+        "tier": "Tier 2"
       }
     ],
     "AR-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Functional Organization",
+        "subdomainId": "AR-06",
         "topicId": "AR-06-01",
-        "topic": "Implementation of simple datapaths, including instruction pipelining, hazard detection and resolution"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Control unit: hardwired realization vs. microprogrammed realization",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Functional Organization",
+        "subdomainId": "AR-06",
         "topicId": "AR-06-02",
-        "topic": "Control unit: hardwired realization vs. microprogrammed realization"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Instructionpipelining",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Functional Organization",
+        "subdomainId": "AR-06",
         "topicId": "AR-06-03",
-        "topic": "Instruction pipelining"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Introduction to instruction-level parallelism (ILP)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Functional Organization",
+        "subdomainId": "AR-06",
         "topicId": "AR-06-04",
-        "topic": "Introduction to instruction-level parallelism (ILP)"
+        "tier": "Elective"
       }
     ],
     "AR-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Power Law",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Multiprocessing and AlternativeArchitectures",
+        "subdomainId": "AR-07",
         "topicId": "AR-07-01",
-        "topic": "Power Law"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Example SIMD and MIMD instruction sets and architectures",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Multiprocessing and AlternativeArchitectures",
+        "subdomainId": "AR-07",
         "topicId": "AR-07-02",
-        "topic": "Example SIMD and MIMD instruction sets and architectures"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar)",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Multiprocessing and AlternativeArchitectures",
+        "subdomainId": "AR-07",
         "topicId": "AR-07-03",
-        "topic": "Interconnection networks (hypercube, shuffle-exchange, mesh, crossbar)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Shared multiprocessor memory systems and memory consistency",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Multiprocessing and AlternativeArchitectures",
+        "subdomainId": "AR-07",
         "topicId": "AR-07-04",
-        "topic": "Shared multiprocessor memory systems and memory consistency"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Multiprocessor cache coherence",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Multiprocessing and AlternativeArchitectures",
+        "subdomainId": "AR-07",
         "topicId": "AR-07-05",
-        "topic": "Multiprocessor cache coherence"
+        "tier": "Elective"
       }
     ],
     "AR-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Superscalar architecture",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Performance Enhancements",
+        "subdomainId": "AR-08",
         "topicId": "AR-08-01",
-        "topic": "Superscalar architecture"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Branch prediction, Speculative execution, Out-of-order execution",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Performance Enhancements",
+        "subdomainId": "AR-08",
         "topicId": "AR-08-02",
-        "topic": "Branch prediction, Speculative execution, Out-of-order execution"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Prefetching",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Performance Enhancements",
+        "subdomainId": "AR-08",
         "topicId": "AR-08-03",
-        "topic": "Prefetching"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Vector processors and GPUs",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Performance Enhancements",
+        "subdomainId": "AR-08",
         "topicId": "AR-08-04",
-        "topic": "Vector processors and GPUs"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Hardware support for multithreading",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Performance Enhancements",
+        "subdomainId": "AR-08",
         "topicId": "AR-08-05",
-        "topic": "Hardware support for multithreading"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Scalability",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Performance Enhancements",
+        "subdomainId": "AR-08",
         "topicId": "AR-08-06",
-        "topic": "Scalability"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Alternative architectures, such as VLIW/EPIC, and Accelerators and other kinds of Special-Purpose",
+        "domainId": "AR",
+        "domain": "Architecture and Organization",
+        "subdomain": "Performance Enhancements",
+        "subdomainId": "AR-08",
         "topicId": "AR-08-07",
-        "topic": "Alternative architectures, such as VLIW/EPIC, and Accelerators and other kinds of Special-Purpose "
+        "tier": "Elective"
       }
     ]
   },
   "CN": {
     "CN-01": [
       {
+        "breakdown": "[1 Core-Tier1 hours]",
+        "topic": "Models as abstractions of situations",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Introduction to Modeling and Simulation",
+        "subdomainId": "CN-01",
         "topicId": "CN-01-01",
-        "topic": "Models as abstractions of situations"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hours]",
+        "topic": "Simulations as dynamic modeling",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Introduction to Modeling and Simulation",
+        "subdomainId": "CN-01",
         "topicId": "CN-01-02",
-        "topic": "Simulations as dynamic modeling"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hours]",
+        "topic": "Simulation techniques and tools, such as physical simulations, human-in-the-loop guided simulations, and",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Introduction to Modeling and Simulation",
+        "subdomainId": "CN-01",
         "topicId": "CN-01-03",
-        "topic": "Simulation techniques and tools, such as physical simulations, human-in-the-loop guided simulations, and "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hours]",
+        "topic": "Foundational approaches to validating models(e.g., comparing a simulation’s output to real data or the",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Introduction to Modeling and Simulation",
+        "subdomainId": "CN-01",
         "topicId": "CN-01-04",
-        "topic": "Foundational approaches to validating models(e.g., comparing a simulation’s output to real data or the "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hours]",
+        "topic": "Presentation of results in a form relevant to the system being modeled",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Introduction to Modeling and Simulation",
+        "subdomainId": "CN-01",
         "topicId": "CN-01-05",
-        "topic": "Presentation of results in a form relevant to the system being modeled"
+        "tier": "Tier 1"
       }
     ],
     "CN-02": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Purpose of modeling and simulation including optimization; supporting decision making, forecasting,",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-01",
-        "topic": "Purpose of modeling and simulation including optimization; supporting decision making, forecasting, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Tradeoffs including performance, accuracy, validity, and complexity",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-02",
-        "topic": "Tradeoffs including performance, accuracy, validity, and complexity"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "The simulation process; identification ofkey characteristics or behaviors, simplifying assumptions;",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-03",
-        "topic": "The simulation process; identification ofkey characteristics or behaviors, simplifying assumptions; "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Model building: use of mathematical formulasor equations, graphs, constraints; methodologies and",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-04",
-        "topic": "Model building: use of mathematical formulas or equations, graphs, constraints; methodologies and "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Formal models and modeling techniques:  mathematical descriptions involving simplifying assumptions",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-05",
-        "topic": "Formal models and modeling techniques:  mathematical descriptions involving simplifying assumptions "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Assessing and evaluating models and simulations in a variety of contexts; verification and validation of",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-06",
-        "topic": "Assessing and evaluating models and simulations in a variety of contexts; verification and validation of "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Important application areas including health care and diagnostics, economics and finance, city and urban",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-07",
-        "topic": "Important application areas including health care and diagnostics, economics and finance, city and urban "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Software in support of simulation and modeling; packages, languages",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Modeling and Simulation",
+        "subdomainId": "CN-02",
         "topicId": "CN-02-08",
-        "topic": "Software in support of simulation and modeling; packages, languages"
+        "tier": "Elective"
       }
     ],
     "CN-03": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Fundamental programming concepts:",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Processing",
+        "subdomainId": "CN-03",
         "topicId": "CN-03-01",
-        "topic": "Fundamental programming concepts:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Numerical methods",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Processing",
+        "subdomainId": "CN-03",
         "topicId": "CN-03-02",
-        "topic": "Numerical methods"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Fundamental properties of parallel and distributed computation:",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Processing",
+        "subdomainId": "CN-03",
         "topicId": "CN-03-03",
-        "topic": "Fundamental properties of parallel and distributed computation:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Computing costs, e.g., the cost of re-computing  a value vs. the cost of storing and lookup.",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Processing",
+        "subdomainId": "CN-03",
         "topicId": "CN-03-04",
-        "topic": "Computing costs, e.g., the cost of re-computing  a value vs. the cost of storing and lookup."
+        "tier": "Elective"
       }
     ],
     "CN-04": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Principles of data visualization",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Interactive Visualization",
+        "subdomainId": "CN-04",
         "topicId": "CN-04-01",
-        "topic": "Principles of data visualization"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Graphing and visualization algorithms",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Interactive Visualization",
+        "subdomainId": "CN-04",
         "topicId": "CN-04-02",
-        "topic": "Graphing and visualization algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Image processing techniques",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Interactive Visualization",
+        "subdomainId": "CN-04",
         "topicId": "CN-04-03",
-        "topic": "Image processing techniques"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Scalability concerns",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Interactive Visualization",
+        "subdomainId": "CN-04",
         "topicId": "CN-04-04",
-        "topic": "Scalability concerns"
+        "tier": "Elective"
       }
     ],
     "CN-05": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Content management models, frameworks, systems, design methods (asin IM. Information Management)",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Data, Information, and Knowledge",
+        "subdomainId": "CN-05",
         "topicId": "CN-05-01",
-        "topic": "Content management models, frameworks, systems, design methods (asin IM. Information Management)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g.,",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Data, Information, and Knowledge",
+        "subdomainId": "CN-05",
         "topicId": "CN-05-02",
-        "topic": "Digital representations of content including numbers, text, images (e.g., raster and vector), video (e.g., "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Digital content creation/capture and preservation, including digitization, sampling, compression,",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Data, Information, and Knowledge",
+        "subdomainId": "CN-05",
         "topicId": "CN-05-03",
-        "topic": "Digital content creation/capture and preservation, including digitization, sampling, compression, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Content structure / management, including digital libraries and static/dynamic/stream aspects for:",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Data, Information, and Knowledge",
+        "subdomainId": "CN-05",
         "topicId": "CN-05-04",
-        "topic": "Content structure / management, including digital libraries and static/dynamic/stream aspects for:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Processing and pattern recognition, including indexing, searching (including: queries and query languages;",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Data, Information, and Knowledge",
+        "subdomainId": "CN-05",
         "topicId": "CN-05-05",
-        "topic": "Processing and pattern recognition, including indexing, searching (including: queries and query languages; "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "User / society support for presentation and interaction, including browse, search, filter, route, visualize,",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Data, Information, and Knowledge",
+        "subdomainId": "CN-05",
         "topicId": "CN-05-06",
-        "topic": "User / society support for presentation and interaction, including browse, search, filter, route, visualize, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Modeling, design, logical and physical implementation,using relevant systems/software",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Data, Information, and Knowledge",
+        "subdomainId": "CN-05",
         "topicId": "CN-05-07",
-        "topic": "Modeling, design, logical and physical implementation, using relevant systems/software"
+        "tier": "Elective"
       }
     ],
     "CN-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Error, stability, convergence, including truncation and round-off",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Numerical Analysis",
+        "subdomainId": "CN-06",
         "topicId": "CN-06-01",
-        "topic": "Error, stability, convergence, including truncation and round-off"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Function approximationincluding Taylor’s series, interpolation, extrapolation, and regression",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Numerical Analysis",
+        "subdomainId": "CN-06",
         "topicId": "CN-06-02",
-        "topic": "Function approximationincluding Taylor’s series, interpolation, extrapolation, and regression"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Numerical differentiation and integration (Simpson’s Rule, explicit and implicit methods)",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Numerical Analysis",
+        "subdomainId": "CN-06",
         "topicId": "CN-06-03",
-        "topic": "Numerical differentiation and integration (Simpson’s Rule, explicit and implicit methods) "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Differential equations (Euler’s Method, finite differences)",
+        "domainId": "CN",
+        "domain": "Computational Science",
+        "subdomain": "Numerical Analysis",
+        "subdomainId": "CN-06",
         "topicId": "CN-06-04",
-        "topic": "Differential equations (Euler’s Method, finite differences) "
+        "tier": "Elective"
       }
     ]
   },
   "DS": {
     "DS-01": [
       {
+        "breakdown": "[4 Core-Tier1 hours]",
+        "topic": "Sets",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Sets, Relations, and Functions",
+        "subdomainId": "DS-01",
         "topicId": "DS-01-01",
-        "topic": "Sets"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours]",
+        "topic": "Relations",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Sets, Relations, and Functions",
+        "subdomainId": "DS-01",
         "topicId": "DS-01-02",
-        "topic": "Relations"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours]",
+        "topic": "Functions",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Sets, Relations, and Functions",
+        "subdomainId": "DS-01",
         "topicId": "DS-01-03",
-        "topic": "Functions"
+        "tier": "Tier 1"
       }
     ],
     "DS-02": [
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Propositional logic (cross-reference: Propositional logic is also reviewed in  IS/Knowledge Based",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-01",
-        "topic": "Propositional logic (cross-reference: Propositional logic is also reviewed in  IS/Knowledge Based "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Logical connectives",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-02",
-        "topic": "Logical connectives"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Truth tables",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-03",
-        "topic": "Truth tables"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Normal forms (conjunctive and disjunctive)",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-04",
-        "topic": "Normal forms (conjunctive and disjunctive)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Validity of well-formed formula",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-05",
-        "topic": "Validity of well-formed formula"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Propositional inference rules (conceptsof modus ponens and modus tollens)",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-06",
-        "topic": "Propositional inference rules (concepts of modus ponens and modus tollens)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Predicate logic",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-07",
-        "topic": "Predicate logic"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[9 Core-Tier1 hours]",
+        "topic": "Limitations of propositional and predicate logic (e.g., expressiveness issues)",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basic Logic",
+        "subdomainId": "DS-02",
         "topicId": "DS-02-08",
-        "topic": "Limitations of propositional and predicate logic (e.g., expressiveness issues)"
+        "tier": "Tier 1"
       }
     ],
     "DS-03": [
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-01",
-        "topic": "Notions of implication, equivalence, converse, inverse, contrapositive, negation, and contradiction"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "The structure of mathematical proofs",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-02",
-        "topic": "The structure of mathematical proofs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Direct proofs",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-03",
-        "topic": "Direct proofs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Disproving by counterexample",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-04",
-        "topic": "Disproving by counterexample"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Proof by contradiction",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-05",
-        "topic": "Proof by contradiction"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Induction over natural numbers",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-06",
-        "topic": "Induction over natural numbers"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Structural induction",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-07",
-        "topic": "Structural induction "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Weak and strong induction (i.e., First and Second Principle of Induction)",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-08",
-        "topic": "Weak and strong induction (i.e., First and Second Principle of Induction)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Recursive mathematical definitions",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-09",
-        "topic": "Recursive mathematical definitions"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Well orderings",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Proof Techniques",
+        "subdomainId": "DS-03",
         "topicId": "DS-03-10",
-        "topic": "Well orderings"
+        "tier": "Tier 2"
       }
     ],
     "DS-04": [
       {
+        "breakdown": "[5 Core-Tier1 hours]",
+        "topic": "Counting arguments",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basics of Counting",
+        "subdomainId": "DS-04",
         "topicId": "DS-04-01",
-        "topic": "Counting arguments"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours]",
+        "topic": "The pigeonhole principle",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basics of Counting",
+        "subdomainId": "DS-04",
         "topicId": "DS-04-02",
-        "topic": "The pigeonhole principle"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours]",
+        "topic": "Permutations and combinations",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basics of Counting",
+        "subdomainId": "DS-04",
         "topicId": "DS-04-03",
-        "topic": "Permutations and combinations"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours]",
+        "topic": "Solving recurrence relations (cross-reference: AL/Basic Analysis)",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basics of Counting",
+        "subdomainId": "DS-04",
         "topicId": "DS-04-04",
-        "topic": "Solving recurrence relations (cross-reference: AL/Basic Analysis)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[5 Core-Tier1 hours]",
+        "topic": "Basic modular arithmetic",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Basics of Counting",
+        "subdomainId": "DS-04",
         "topicId": "DS-04-05",
-        "topic": "Basic modular arithmetic"
+        "tier": "Tier 1"
       }
     ],
     "DS-05": [
       {
+        "breakdown": "[3 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Trees",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Graphs and Trees",
+        "subdomainId": "DS-05",
         "topicId": "DS-05-01",
-        "topic": "Trees"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Undirected graphs",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Graphs and Trees",
+        "subdomainId": "DS-05",
         "topicId": "DS-05-02",
-        "topic": "Undirected graphs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Directed graphs",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Graphs and Trees",
+        "subdomainId": "DS-05",
         "topicId": "DS-05-03",
-        "topic": "Directed graphs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Weighted graphs",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Graphs and Trees",
+        "subdomainId": "DS-05",
         "topicId": "DS-05-04",
-        "topic": "Weighted graphs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Spanning trees/forests",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Graphs and Trees",
+        "subdomainId": "DS-05",
         "topicId": "DS-05-05",
-        "topic": "Spanning trees/forests"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 1 Core-Tier2 hour]",
+        "topic": "Graph isomorphism",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Graphs and Trees",
+        "subdomainId": "DS-05",
         "topicId": "DS-05-06",
-        "topic": "Graph isomorphism"
+        "tier": "Tier 2"
       }
     ],
     "DS-06": [
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Finite probability space, events",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-01",
-        "topic": "Finite probability space, events"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Axioms of probability and probability measures",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-02",
-        "topic": "Axioms of probability and probability measures"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Conditional probability, Bayes’ theorem",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-03",
-        "topic": "Conditional probability, Bayes’ theorem"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Independence",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-04",
-        "topic": "Independence"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Integer random variables (Bernoulli, binomial)",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-05",
-        "topic": "Integer random variables (Bernoulli, binomial)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Expectation, including Linearity of Expectation",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-06",
-        "topic": "Expectation, including Linearity of Expectation "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Variance",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-07",
-        "topic": "Variance"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[6 Core-Tier1 hours, 2 Core-Tier2 hour]",
+        "topic": "Conditional Independence",
+        "domainId": "DS",
+        "domain": "Discrete Structures",
+        "subdomain": "Discrete Probability",
+        "subdomainId": "DS-06",
         "topicId": "DS-06-08",
-        "topic": "Conditional Independence"
+        "tier": "Tier 2"
       }
     ]
   },
   "GV": {
     "GV-01": [
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Media applications including user interfaces, audio and videoediting, game engines, cad, visualization,",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-01",
-        "topic": "Media applications including user interfaces, audio and videoediting, game engines, cad, visualization, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Digitization of analog data, resolution,and the limits of human perception, e.g., pixels for visual display,",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-02",
-        "topic": "Digitization of analog data, resolution,and the limits of human perception, e.g., pixels for visual display, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Use of standard APIsfor the construction of UIs and display of standardmediaformats (see HCI/GUI",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-03",
-        "topic": "Use of standard APIs for the construction of UIs and display of standard mediaformats (see HCI/GUI "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Standardmediaformats, including lossless and lossy formats",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-04",
-        "topic": "Standard mediaformats, including lossless and lossy formats"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Additive and subtractive color models (CMYK and RGB) and why these provide a range of colors",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-05",
-        "topic": "Additive and subtractive color models (CMYK and RGB) and why these provide a range of colors"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Tradeoffs between storing data and re-computing data as embodied by vector and raster representations of",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-06",
-        "topic": "Tradeoffs between storing data and re-computing data as embodied by vector and raster representations of "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Animation as a sequence of still images",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-07",
-        "topic": "Animation as a sequence of still images"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 and 1 Core-Tier2 hours]",
+        "topic": "Double buffering",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Fundamental Concepts",
+        "subdomainId": "GV-01",
         "topicId": "GV-01-08",
-        "topic": "Double buffering"
+        "tier": "Elective"
       }
     ],
     "GV-02": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Rendering in nature,e.g., the emission and scattering of light and its relation to numerical integration",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-01",
-        "topic": "Rendering in nature, e.g., the emission and scattering of light and its relation to numerical integration"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Forward and backward rendering (i.e.,ray-casting and rasterization)",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-02",
-        "topic": "Forward and backward rendering (i.e.,ray-casting and rasterization)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Polygonal representation",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-03",
-        "topic": "Polygonal representation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Basic radiometry, similartriangles, and projection model",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-04",
-        "topic": "Basic radiometry, similar triangles, and projection model"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Affine and coordinate system transformations",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-05",
-        "topic": "Affine and coordinate system transformations"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Ray tracing",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-06",
-        "topic": "Ray tracing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Visibility and occlusion, including solutions to this problem such as depth buffering, Painter’s algorithm,",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-07",
-        "topic": "Visibility and occlusion, including solutions to this problem such as depth buffering, Painter’s algorithm, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "The forward and backward rendering equation",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-08",
-        "topic": "The forward and backward rendering equation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Simple triangle rasterization",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-09",
-        "topic": "Simple triangle rasterization"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Rendering with a shader-based API",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-10",
-        "topic": "Rendering with a shader-based API"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Texture mapping, including minification and magnification (e.g., trilinear MIP-mapping)",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-11",
-        "topic": "Texture mapping, including minification and magnification (e.g., trilinear MIP-mapping)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Application of spatial data structures to rendering",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-12",
-        "topic": "Application of spatial data structures to rendering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Sampling and anti-aliasing",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-13",
-        "topic": "Sampling and anti-aliasing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Scene graphs and the graphics pipeline",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Basic Rendering",
+        "subdomainId": "GV-02",
         "topicId": "GV-02-14",
-        "topic": "Scene graphs and the graphics pipeline"
+        "tier": "Elective"
       }
     ],
     "GV-03": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Basic geometric operations such as intersection calculation and proximity tests",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-01",
-        "topic": "Basic geometric operations such as intersection calculation and proximity tests"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Volumes, voxels,and point-based representations",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-02",
-        "topic": "Volumes, voxels, and point-based representations"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Parametricpolynomial curves and surfaces",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-03",
-        "topic": "Parametricpolynomial curves and surfaces"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Implicit representation of curves and surfaces",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-04",
-        "topic": "Implicit representation of curves and surfaces"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Approximation techniques such as polynomial curves, Bezier curves, spline curves and surfaces, and non-",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-05",
-        "topic": "Approximation techniques such as polynomial curves, Bezier curves, spline curves and surfaces, and non-"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Surface representation techniques including tessellation, mesh representation, mesh fairing,and mesh",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-06",
-        "topic": "Surface representation techniques including tessellation, mesh representation, mesh fairing,and mesh "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Spatial subdivision techniques",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-07",
-        "topic": "Spatial subdivision techniques"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Procedural models such as fractals,generative modeling, and L-systems",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-08",
-        "topic": "Procedural models such as fractals, generative modeling, and L-systems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Graftals, cross referenced with programming languages (grammars to generated pictures)",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-09",
-        "topic": "Graftals, cross referenced with programming languages (grammars to generated pictures)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Elastically deformableand freeform deformable models",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-10",
-        "topic": "Elastically deformableand freeform deformable models"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Subdivision surfaces",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-11",
-        "topic": "Subdivision surfaces"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Multiresolution modeling",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-12",
-        "topic": "Multiresolution modeling"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Reconstruction",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-13",
-        "topic": "Reconstruction"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Constructive SolidGeometry (CSG) representation",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Geometric Modeling",
+        "subdomainId": "GV-03",
         "topicId": "GV-03-14",
-        "topic": "Constructive Solid Geometry (CSG) representation"
+        "tier": "Elective"
       }
     ],
     "GV-04": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Solutions and approximations to the rendering equation, for example:",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-01",
-        "topic": "Solutions and approximations to the rendering equation, for example:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Time (motion blur), lens position (focus), and continuous frequency (color) and their impact on rendering",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-02",
-        "topic": "Time (motion blur), lens position (focus), and continuous frequency (color) and their impact on rendering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Shadow mapping",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-03",
-        "topic": "Shadow mapping"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Occlusion culling",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-04",
-        "topic": "Occlusion culling"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Bidirectional Scattering Distribution function (BSDF) theory and microfacets",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-05",
-        "topic": "Bidirectional Scattering Distribution function (BSDF) theory and microfacets"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Subsurface scattering",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-06",
-        "topic": "Subsurface scattering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Area light sources",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-07",
-        "topic": "Area light sources"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Hierarchical depth buffering",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-08",
-        "topic": "Hierarchical depth buffering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "The Light Field, image-based rendering",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-09",
-        "topic": "The Light Field, image-based rendering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Non-photorealistic rendering",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-10",
-        "topic": "Non-photorealistic rendering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "GPU architecture",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-11",
-        "topic": "GPU architecture"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Human visual systems including adaptation to light, sensitivity to noise, and flicker fusion",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Advanced Rendering",
+        "subdomainId": "GV-04",
         "topicId": "GV-04-12",
-        "topic": "Human visual systems including adaptation to light, sensitivity to noise, and flicker fusion"
+        "tier": "Elective"
       }
     ],
     "GV-05": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Forward and inverse kinematics",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-01",
-        "topic": "Forward and inverse kinematics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Collision detection and response",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-02",
-        "topic": "Collision detection and response"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Procedural animation using noise, rules (boids/crowds), and particle systems",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-03",
-        "topic": "Procedural animation using noise, rules (boids/crowds), and particle systems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Skinning algorithms",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-04",
-        "topic": "Skinning algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Physics based motions including rigid body dynamics, physical particle systems, mass-spring networks for",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-05",
-        "topic": "Physics based motions including rigid body dynamics, physical particle systems, mass-spring networks for "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Key-frame animation",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-06",
-        "topic": "Key-frame animation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Splines",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-07",
-        "topic": "Splines"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data structures forrotations, such as quaternions",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-08",
-        "topic": "Data structures forrotations, such as quaternions"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Camera animation",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-09",
-        "topic": "Camera animation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Motion capture",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Computer Animation",
+        "subdomainId": "GV-05",
         "topicId": "GV-05-10",
-        "topic": "Motion capture"
+        "tier": "Elective"
       }
     ],
     "GV-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Visualization of 2D/3D scalar fields: colormapping, isosurfaces",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Visualization",
+        "subdomainId": "GV-06",
         "topicId": "GV-06-01",
-        "topic": "Visualization of 2D/3D scalar fields: colormapping, isosurfaces"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Direct volume data rendering: ray-casting, transfer functions, segmentation",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Visualization",
+        "subdomainId": "GV-06",
         "topicId": "GV-06-02",
-        "topic": "Direct volume data rendering: ray-casting, transfer functions, segmentation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Visualization of:",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Visualization",
+        "subdomainId": "GV-06",
         "topicId": "GV-06-03",
-        "topic": "Visualization of:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Perceptual and cognitive foundationsthat drive visual abstractions",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Visualization",
+        "subdomainId": "GV-06",
         "topicId": "GV-06-04",
-        "topic": "Perceptual and cognitive foundationsthat drive visual abstractions"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Visualization design",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Visualization",
+        "subdomainId": "GV-06",
         "topicId": "GV-06-05",
-        "topic": "Visualization design"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Evaluation of visualization methods",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Visualization",
+        "subdomainId": "GV-06",
         "topicId": "GV-06-06",
-        "topic": "Evaluation of visualization methods"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Applications of visualization",
+        "domainId": "GV",
+        "domain": "Graphics and Visualization",
+        "subdomain": "Visualization",
+        "subdomainId": "GV-06",
         "topicId": "GV-06-07",
-        "topic": "Applications of visualization"
+        "tier": "Elective"
       }
     ]
   },
   "HCI": {
     "HCI-01": [
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Contexts for HCI(anything with a user interface, e.g.,webpage, business applications, mobile applications,",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-01",
-        "topic": "Contexts for HCI (anything with a user interface, e.g.,webpage, business applications, mobile applications, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Processes for user-centered development, e.g.,early focus on users, empirical testing, iterative design",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-02",
-        "topic": "Processes for user-centered development, e.g., early focus on users, empirical testing, iterative design"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Different measures for evaluation, e.g.,utility, efficiency, learnability, user satisfaction",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-03",
-        "topic": "Different measures for evaluation, e.g.,utility, efficiency, learnability, user satisfaction"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Usability heuristics and the principles of usability testing",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-04",
-        "topic": "Usability heuristics and the principles of usability testing"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Physical capabilities that inform interaction design, e.g.,color perception, ergonomics",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-05",
-        "topic": "Physical capabilities that inform interaction design, e.g.,color perception, ergonomics"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Cognitive models that informinteraction design, e.g.,attention, perception and recognition, movement, and",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-06",
-        "topic": "Cognitive models that inform interaction design, e.g.,attention, perception and recognition, movement, and "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Social models that inform interaction design, e.g.,culture, communication, networks and organizations",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-07",
-        "topic": "Social models that inform interaction design, e.g.,culture, communication, networks and organizations"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Principles of good design and good designers; engineering tradeoffs",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-08",
-        "topic": "Principles of good design and good designers; engineering tradeoffs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Accessibility, e.g.,interfaces for differently-abled populations (e.g.,blind, motion-impaired)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-09",
-        "topic": "Accessibility, e.g.,interfaces for differently-abled populations (e.g.,blind, motion-impaired)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4Core-Tier1 hours]",
+        "topic": "Interfaces for differently-aged population groups (e.g.,children, 80+)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Foundations",
+        "subdomainId": "HCI-01",
         "topicId": "HCI-01-10",
-        "topic": "Interfaces for differently-aged population groups (e.g., children, 80+)"
+        "tier": "Tier 1"
       }
     ],
     "HCI-02": [
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Principles of graphical user interfaces (GUIs)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-01",
-        "topic": "Principles of graphical user interfaces (GUIs)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Elements of visualdesign (layout, color, fonts, labeling)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-02",
-        "topic": "Elements of visual design (layout, color, fonts, labeling)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Task analysis, including qualitative aspects of generating task analytic models",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-03",
-        "topic": "Task analysis, including qualitative aspects of generating task analytic models"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Low-fidelity (paper) prototyping",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-04",
-        "topic": "Low-fidelity (paper) prototyping"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Quantitative evaluation techniques, e.g., keystroke-level evaluation",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-05",
-        "topic": "Quantitative evaluation techniques, e.g., keystroke-level evaluation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Help and documentation",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-06",
-        "topic": "Help and documentation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Handling human/system failure",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-07",
-        "topic": "Handling human/system failure"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "User interface standards",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Designing Interaction",
+        "subdomainId": "HCI-02",
         "topicId": "HCI-02-08",
-        "topic": "User interface standards "
+        "tier": "Tier 2"
       }
     ],
     "HCI-03": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Software Architecture Patterns, e.g.,Model-View controller; command objects, online, offline (cross",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-01",
-        "topic": "Software Architecture Patterns, e.g., Model-View controller; command objects, online, offline (cross  "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Interaction Design Patterns: visual hierarchy, navigational distance",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-02",
-        "topic": "Interaction Design Patterns: visual hierarchy, navigational distance"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Event management and user interaction",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-03",
-        "topic": "Event management and user interaction "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Geometry management (cross-reference GV/GeometricModelling)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-04",
-        "topic": "Geometry management (cross-reference GV/Geometric Modelling) "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Choosing interaction styles and interaction techniques",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-05",
-        "topic": "Choosing interaction styles and interaction techniques "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Presenting information: navigation, representation, manipulation",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-06",
-        "topic": "Presenting information: navigation, representation, manipulation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Interface animation techniques (e.g.,scene graphs)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-07",
-        "topic": "Interface animation techniques (e.g., scene graphs) "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Widget classes and libraries",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-08",
-        "topic": "Widget classes and libraries"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Modern GUI libraries (e.g. iOS, Android, JavaFX) GUIbuilders and UI programming environments (cross-",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-09",
-        "topic": "Modern GUI libraries (e.g. iOS, Android, JavaFX) GUIbuilders and UI programming environments (cross-"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Declarative Interface Specification: Stylesheets and DOMs",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-10",
-        "topic": "Declarative Interface Specification: Stylesheets and DOMs "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data-driven applications (database-backed web pages)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-11",
-        "topic": "Data-driven applications (database-backed web pages) "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cross-platform design",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-12",
-        "topic": "Cross-platform design "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Design for resource-constrained devices(e.g. small, mobile devices)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Programming Interactive Systems",
+        "subdomainId": "HCI-03",
         "topicId": "HCI-03-13",
-        "topic": "Design for resource-constrained devices(e.g. small, mobile devices)"
+        "tier": "Elective"
       }
     ],
     "HCI-04": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Approaches to, and characteristics of, the design process",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-01",
-        "topic": "Approaches to, and characteristics of, the design process"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Functionality and usability requirements (cross-reference toSE/Requirements Engineering)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-02",
-        "topic": "Functionality and usability requirements (cross-reference to SE/Requirements Engineering)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Techniques for gathering requirements, e.g.,interviews, surveys, ethnographic and contextual enquiry",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-03",
-        "topic": "Techniques for gathering requirements, e.g.,interviews, surveys, ethnographic and contextual enquiry"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Techniques and tools forthe analysisand presentation of requirements, e.g.,reports, personas",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-04",
-        "topic": "Techniques and tools for the analysis and presentation of requirements, e.g.,reports, personas"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Prototyping techniques and tools, e.g.,sketching, storyboards, low-fidelity prototyping, wireframes",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-05",
-        "topic": "Prototyping techniques and tools, e.g.,sketching, storyboards, low-fidelity prototyping, wireframes "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Evaluation without users, using both qualitative and quantitative techniques, e.g.,walkthroughs, GOMS,",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-06",
-        "topic": "Evaluation without users, using both qualitative and quantitative techniques, e.g.,walkthroughs, GOMS, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Evaluation with users, e.g.,observation, think-aloud, interview, survey, experiment",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-07",
-        "topic": "Evaluation with users, e.g.,observation, think-aloud, interview, survey, experiment"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Challenges to effective evaluation, e.g.,sampling, generalization",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-08",
-        "topic": "Challenges to effective evaluation, e.g.,sampling, generalization"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Reporting the results of evaluations",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-09",
-        "topic": "Reporting the results of evaluations"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Internationalization, designing for users fromother cultures, cross-cultural",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "User-Centered Design and Testing",
+        "subdomainId": "HCI-04",
         "topicId": "HCI-04-10",
-        "topic": "Internationalization, designing for users fromother cultures, cross-cultural"
+        "tier": "Elective"
       }
     ],
     "HCI-05": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Choosing interaction styles and interaction techniques",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "New Interactive Technologies",
+        "subdomainId": "HCI-05",
         "topicId": "HCI-05-01",
-        "topic": "Choosing interaction styles and interaction techniques"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Representing information to users: navigation, representation, manipulation",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "New Interactive Technologies",
+        "subdomainId": "HCI-05",
         "topicId": "HCI-05-02",
-        "topic": "Representing information to users: navigation, representation, manipulation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Approaches to design, implementation and evaluation of non-mouse interaction",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "New Interactive Technologies",
+        "subdomainId": "HCI-05",
         "topicId": "HCI-05-03",
-        "topic": "Approaches to design, implementation and evaluation of non-mouse interaction"
+        "tier": "Elective"
       }
     ],
     "HCI-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Asynchronous group communication, e.g.,e-mail, forums,social networks",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Collaboration andCommunication",
+        "subdomainId": "HCI-06",
         "topicId": "HCI-06-01",
-        "topic": "Asynchronous group communication, e.g., e-mail, forums, social networks"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Synchronous group communication, e.g.,chat rooms, conferencing, online games",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Collaboration andCommunication",
+        "subdomainId": "HCI-06",
         "topicId": "HCI-06-02",
-        "topic": "Synchronous group communication, e.g.,chat rooms, conferencing, online games"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Social media, social computing, andsocial network analysis",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Collaboration andCommunication",
+        "subdomainId": "HCI-06",
         "topicId": "HCI-06-03",
-        "topic": "Social media, social computing, and social network analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Collaboration andCommunication",
+        "subdomainId": "HCI-06",
         "topicId": "HCI-06-04",
-        "topic": "Online collaboration, 'smart' spaces, and social coordination aspects of workflow technologies"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Online communities",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Collaboration andCommunication",
+        "subdomainId": "HCI-06",
         "topicId": "HCI-06-05",
-        "topic": "Online communities"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Software characters and intelligent agents, virtual worlds and avatars(cross-reference IS/Agents)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Collaboration andCommunication",
+        "subdomainId": "HCI-06",
         "topicId": "HCI-06-06",
-        "topic": "Software characters and intelligent agents, virtual worlds and avatars (cross-reference IS/Agents)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Social psychology",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Collaboration andCommunication",
+        "subdomainId": "HCI-06",
         "topicId": "HCI-06-07",
-        "topic": "Social psychology"
+        "tier": "Elective"
       }
     ],
     "HCI-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "t-tests",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Statistical Methods for HCI",
+        "subdomainId": "HCI-07",
         "topicId": "HCI-07-01",
-        "topic": "t-tests"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "ANOVA",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Statistical Methods for HCI",
+        "subdomainId": "HCI-07",
         "topicId": "HCI-07-02",
-        "topic": "ANOVA"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Randomization (non-parametric) testing, within vs. between-subjects design",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Statistical Methods for HCI",
+        "subdomainId": "HCI-07",
         "topicId": "HCI-07-03",
-        "topic": "Randomization (non-parametric) testing, within vs. between-subjects design"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Calculating effect size",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Statistical Methods for HCI",
+        "subdomainId": "HCI-07",
         "topicId": "HCI-07-04",
-        "topic": " C alculating effect size"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Exploratory data analysis",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Statistical Methods for HCI",
+        "subdomainId": "HCI-07",
         "topicId": "HCI-07-05",
-        "topic": "Exploratory data analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Presenting statistical data",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Statistical Methods for HCI",
+        "subdomainId": "HCI-07",
         "topicId": "HCI-07-06",
-        "topic": "Presenting statistical data"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Combiningqualitative and quantitative results",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Statistical Methods for HCI",
+        "subdomainId": "HCI-07",
         "topicId": "HCI-07-07",
-        "topic": "Combiningqualitative and quantitative results"
+        "tier": "Elective"
       }
     ],
     "HCI-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Applied psychology and security policies",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-01",
-        "topic": "Applied psychology and security policies"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Security economics",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-02",
-        "topic": "Security economics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Regulatory environments–responsibility, liability and self-determination",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-03",
-        "topic": "Regulatory environments – responsibility, liability and self-determination"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Organizational vulnerabilities and threats",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-04",
-        "topic": "Organizational vulnerabilities and threats"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Usability design and security",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-05",
-        "topic": "Usability design and security"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Pretext, impersonation and fraud, e.g., phishing and spear phishing (cross-reference IAS/Threats and",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-06",
-        "topic": "Pretext, impersonation and fraud, e.g., phishing and spear phishing (cross-reference IAS/Threats and "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Trust, privacy and deception",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-07",
-        "topic": "Trust, privacy and deception"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Biometric authentication (camera, voice)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-08",
-        "topic": "Biometric authentication (camera, voice)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Identity management",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Human Factors and Security",
+        "subdomainId": "HCI-08",
         "topicId": "HCI-08-09",
-        "topic": "Identity management"
+        "tier": "Elective"
       }
     ],
     "HCI-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Intellectual styles and perspectives to technology andits interfaces",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Design-Oriented HCI",
+        "subdomainId": "HCI-09",
         "topicId": "HCI-09-01",
-        "topic": "Intellectual styles and perspectives to technology andits interfaces"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Consideration of HCI as a designdiscipline",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Design-Oriented HCI",
+        "subdomainId": "HCI-09",
         "topicId": "HCI-09-02",
-        "topic": "Consideration of HCI as a designdiscipline"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Critically reflective HCI",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Design-Oriented HCI",
+        "subdomainId": "HCI-09",
         "topicId": "HCI-09-03",
-        "topic": "Critically reflective HCI"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Indicative domains of application",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Design-Oriented HCI",
+        "subdomainId": "HCI-09",
         "topicId": "HCI-09-04",
-        "topic": "Indicative domains of application"
+        "tier": "Elective"
       }
     ],
     "HCI-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Output",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-01",
-        "topic": "Output"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "User input",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-02",
-        "topic": "User input "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Physical modelling and rendering",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-03",
-        "topic": "Physical modelling and rendering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "System architectures",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-04",
-        "topic": "System architectures "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Networking",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-05",
-        "topic": "Networking"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour]",
+        "topic": "CIA (Confidentiality, Integrity, Availability)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-06",
-        "topic": "CIA (Confidentiality, Integrity, Availability)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour]",
+        "topic": "Concepts of risk, threats, vulnerabilities, and attack vectors (cros-reference SE/Software Project",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-07",
-        "topic": "Concepts of risk, threats, vulnerabilities, and attack vectors (cros- reference SE/Software Project "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour]",
+        "topic": "Authentication and authorization, access control (mandatory vs. discretionary)",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-08",
-        "topic": "Authentication and authorization, access control (mandatory vs. discretionary)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour]",
+        "topic": "Concept of trust and trustworthiness",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-09",
-        "topic": "Concept of trust and trustworthiness"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour]",
+        "topic": "Ethics (responsible disclosure). (cross-reference SP/Professional Ethics/Accountability, responsibility and",
+        "domainId": "HCI",
+        "domain": "Human-Computer Interaction",
+        "subdomain": "Mixed, Augmented andVirtual Reality",
+        "subdomainId": "HCI-10",
         "topicId": "HCI-10-10",
-        "topic": "Ethics (responsible disclosure). (cross-reference SP/Professional Ethics/Accountability, responsibility and "
+        "tier": "Elective"
       }
     ]
   },
   "IAS": {
     "IAS-01": [
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Least privilege and isolation  (cross-reference OS/Security and Protection/Policy/mechanism separation",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-01",
-        "topic": "Least privilege and isolation  (cross-reference OS/Security and Protection/Policy/mechanism separation "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Fail-safe defaults (cross-referenceSE/Software Construction/ Coding practices: techniques,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-02",
-        "topic": "Fail-safe defaults (cross-referenceSE/Software Construction/ Coding practices: techniques, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Open design (cross-reference SE/Software Evolution/ Software development in the context of large, pre-",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-03",
-        "topic": "Open design (cross-reference SE/Software Evolution/ Software development in the context of large, pre-"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "End-to-end security (cross-reference SF/Reliability through Redundancy/ How errors increase the longer",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-04",
-        "topic": "End-to-end security (cross-reference SF/Reliability through Redundancy/ How errors increase the longer "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Defense in depth  (e.g., defensive programming, layered defense)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-05",
-        "topic": "Defense in depth  (e.g., defensive programming, layered defense) "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Security by design (cross-reference SE/Software Design/System design principles)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-06",
-        "topic": "Security by design (cross-reference SE/Software Design/System design principles)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Tensions between security and other design goals",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-07",
-        "topic": "Tensions between security and other design goals"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Complete mediation",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-08",
-        "topic": "Complete mediation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Use of vetted security components",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-09",
-        "topic": "Use of vetted security components"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Economy of mechanism (reducing trusted computing base,minimize attack surface) (cross-reference",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-10",
-        "topic": "Economy of mechanism (reducing trusted computing base, minimize attack surface) (cross-reference "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Usable security(cross-reference HCI/Foundations/Cognitive models that inform interaction design)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-11",
-        "topic": "Usable security (cross-reference HCI/Foundations/Cognitive models that inform interaction design)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Security composability",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-12",
-        "topic": "Security composability "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour,1 Core-Tier2 hour]",
+        "topic": "Prevention,detection, and deterrence (cross-reference SF/Reliability through Redundancy/Distinction",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Principles of Secure Design",
+        "subdomainId": "IAS-01",
         "topicId": "IAS-01-13",
-        "topic": "Prevention, detection, and deterrence (cross-reference SF/Reliability through Redundancy/Distinction "
+        "tier": "Tier 2"
       }
     ],
     "IAS-02": [
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Input validation and data sanitization (cross-referenceSDF/Development Methods/Program Correctness)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-01",
-        "topic": "Input validation and data sanitization (cross-reference SDF/Development Methods/Program Correctness)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Choice of programming languageand type-safe languages",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-02",
-        "topic": "Choice of programming languageand type-safe languages"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Examples of input validation anddata sanitization errors (cross-referenceSDF/Development",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-03",
-        "topic": "Examples of input validation and data sanitization errors (cross-reference SDF/Development "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Race conditions (cross-referenceSF/Parallelism/Parallel programming andPD/Parallel Architecture/Shared",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-04",
-        "topic": "Race conditions (cross-reference SF/Parallelism/Parallel programming and PD/Parallel Architecture/Shared "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Correct handling of exceptions and unexpectedbehaviors (cross-referenceSDF/Development",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-05",
-        "topic": "Correct handling of exceptions and unexpectedbehaviors (cross-reference SDF/Development "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-06",
-        "topic": "Correct usage of third-party components (cross-reference SDF/Development Methods/program correctness "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-07",
-        "topic": "Effectively deploying security updates (cross-reference OS/Security and Protection/Security methods and "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Information flow control",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-08",
-        "topic": "Information flow control"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Correctly generating randomness for security purposes",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-09",
-        "topic": "Correctly generating randomness for security purposes"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Mechanisms for detecting andmitigating input and data sanitization errors",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-10",
-        "topic": "Mechanisms for detecting andmitigating input and data sanitization errors"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Fuzzing",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-11",
-        "topic": "Fuzzing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Static analysis and dynamic analysis",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-12",
-        "topic": "Static analysis and dynamic analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Program verification",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-13",
-        "topic": "Program verification"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Operating system support (e.g., address space randomization, canaries)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-14",
-        "topic": "Operating system support (e.g., address space randomization, canaries)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Hardware support (e.g., DEP, TPM)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Defensive Programming",
+        "subdomainId": "IAS-02",
         "topicId": "IAS-02-15",
-        "topic": "Hardware support (e.g., DEP, TPM)"
+        "tier": "Elective"
       }
     ],
     "IAS-03": [
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Attacker goals, capabilities, and motivations (such as  underground economy, digital espionage,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Threats and Attacks",
+        "subdomainId": "IAS-03",
         "topicId": "IAS-03-01",
-        "topic": "Attacker goals, capabilities, and motivations (such as  underground economy, digital espionage, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Examples of malware (e.g., viruses, worms, spyware, botnets, Trojan horses or rootkits)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Threats and Attacks",
+        "subdomainId": "IAS-03",
         "topicId": "IAS-03-02",
-        "topic": "Examples of malware (e.g., viruses, worms, spyware, botnets, Trojan horses or rootkits)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Denial ofService (DoS) and Distributed Denial of Service (DDoS)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Threats and Attacks",
+        "subdomainId": "IAS-03",
         "topicId": "IAS-03-03",
-        "topic": "Denial of Service (DoS) and Distributed Denial of Service (DDoS)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Social engineering (e.g., phishing) (cross-reference SP/Social Context/Social implications of computing in",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Threats and Attacks",
+        "subdomainId": "IAS-03",
         "topicId": "IAS-03-04",
-        "topic": "Social engineering (e.g., phishing) (cross-reference SP/Social Context/Social implications of computing in "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Attacks on privacy and anonymity (cross-reference HCI/Foundations/Social models that inform interaction",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Threats and Attacks",
+        "subdomainId": "IAS-03",
         "topicId": "IAS-03-05",
-        "topic": "Attacks on privacy and anonymity (cross-reference HCI/Foundations/Social models that inform interaction "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Malware/unwanted communication such as covert channelsand steganography",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Threats and Attacks",
+        "subdomainId": "IAS-03",
         "topicId": "IAS-03-06",
-        "topic": "Malware/unwanted communication such as covert channelsand steganography"
+        "tier": "Elective"
       }
     ],
     "IAS-04": [
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Network specific threats and attack types (e.g., denial of service, spoofing, sniffing and traffic redirection,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-01",
-        "topic": "Network specific threats and attack types (e.g., denial of service, spoofing, sniffing and traffic redirection, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Use of cryptography for data and network security",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-02",
-        "topic": "Use of cryptography for data and network security"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Architectures for secure networks (e.g., secure channels, secure routing protocols, secure DNS, VPNs,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-03",
-        "topic": "Architectures for secure networks (e.g., secure channels, secure routing protocols, secure DNS, VPNs, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Defense mechanisms and countermeasures (e.g., network monitoring, intrusion detection, firewalls,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-04",
-        "topic": "Defense mechanisms and countermeasures (e.g., network monitoring, intrusion detection, firewalls, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Security for wireless, cellular networks (cross-reference NC/Mobility/Principles of cellular networks;",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-05",
-        "topic": "Security for wireless, cellular networks (cross-reference NC/Mobility/Principles of cellular networks; "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Other non-wired networks (e.g., ad hoc, sensor, and vehicular networks)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-06",
-        "topic": "Other non-wired networks (e.g., ad hoc, sensor, and vehicular networks) "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Censorship resistance",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-07",
-        "topic": "Censorship resistance"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Operational network security management(e.g., configure network access control)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Network Security",
+        "subdomainId": "IAS-04",
         "topicId": "IAS-04-08",
-        "topic": "Operational network security management (e.g., configure network access control)"
+        "tier": "Elective"
       }
     ],
     "IAS-05": [
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "BasicCryptography Terminology coveringnotions pertainingto the different (communication) partners,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-01",
-        "topic": "BasicCryptography Terminology coveringnotions pertaining to the different (communication) partners, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Cipher types(e.g.,Caesar cipher, affine cipher)together with typical attack methodssuch as frequency",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-02",
-        "topic": "Cipher types(e.g., Caesar cipher, affine cipher) together with typical attack methodssuch as frequency "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Public Key Infrastructure support for digital signature and encryption and its challenges",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-03",
-        "topic": "Public Key Infrastructure support for digital signature and encryption and its challenges"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Mathematical Preliminariesessential for cryptography,includingtopics in linear algebra, number theory,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-04",
-        "topic": "Mathematical Preliminaries essential for cryptography, includingtopics in linear algebra, number theory, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Cryptographic primitives:",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-05",
-        "topic": "Cryptographic primitives:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Symmetric key cryptography",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-06",
-        "topic": "Symmetric key cryptography"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Public key cryptography:",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-07",
-        "topic": "Public key cryptography:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Authenticated key exchange protocols, e.g.,TLS",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-08",
-        "topic": "Authenticated key exchange protocols, e.g., TLS"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Cryptographic protocols: challenge-response authentication, zero-knowledge protocols, commitment,",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-09",
-        "topic": "Cryptographic protocols: challenge-response authentication, zero-knowledge protocols, commitment, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Motivate concepts using real-world applications, e.g., electronic cash, secure channels between clients and",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-10",
-        "topic": "Motivate concepts using real-world applications, e.g., electronic cash, secure channels between clients and "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Security definitions and attacks on cryptographic primitives:",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-11",
-        "topic": "Security definitions and attacks on cryptographic primitives:"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Cryptographic standards and references implementations",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-12",
-        "topic": "Cryptographic standards and references implementations"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier2 hour]",
+        "topic": "Quantum cryptography",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Cryptography",
+        "subdomainId": "IAS-05",
         "topicId": "IAS-05-13",
-        "topic": "Quantum cryptography"
+        "tier": "Elective"
       }
     ],
     "IAS-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Web security model",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Web Security",
+        "subdomainId": "IAS-06",
         "topicId": "IAS-06-01",
-        "topic": "Web security model"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Session management, authentication",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Web Security",
+        "subdomainId": "IAS-06",
         "topicId": "IAS-06-02",
-        "topic": "Session management, authentication"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Application vulnerabilities and defenses",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Web Security",
+        "subdomainId": "IAS-06",
         "topicId": "IAS-06-03",
-        "topic": "Application vulnerabilities and defenses"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Client-side security",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Web Security",
+        "subdomainId": "IAS-06",
         "topicId": "IAS-06-04",
-        "topic": "Client-side security"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Server-side security tools, e.g. Web Application Firewalls (WAFs) and fuzzers",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Web Security",
+        "subdomainId": "IAS-06",
         "topicId": "IAS-06-05",
-        "topic": "Server-side security tools, e.g. Web Application Firewalls (WAFs) and fuzzers"
+        "tier": "Elective"
       }
     ],
     "IAS-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Code integrity and code signing",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-01",
-        "topic": "Code integrity and code signing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Secure boot, measured boot, and root of trust",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-02",
-        "topic": "Secure boot, measured boot, and root of trust"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Attestation",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-03",
-        "topic": "Attestation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "TPM and secure co-processors",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-04",
-        "topic": "TPM and secure co-processors"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Security threats from peripherals, e.g., DMA, IOMMU",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-05",
-        "topic": "Security threats from peripherals, e.g., DMA, IOMMU"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Physical attacks: hardware Trojans, memory probes, cold boot attacks",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-06",
-        "topic": "Physical attacks: hardware Trojans, memory probes, cold boot attacks"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Security of embedded devices, e.g., medical devices, cars",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-07",
-        "topic": "Security of embedded devices, e.g., medical devices, cars"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Trusted path",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Platform Security",
+        "subdomainId": "IAS-07",
         "topicId": "IAS-07-08",
-        "topic": "Trusted path"
+        "tier": "Elective"
       }
     ],
     "IAS-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Privacy policy  (cross-reference SP/Social Context/Social implications of computing in a networked world;",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Security Policy and Governance",
+        "subdomainId": "IAS-08",
         "topicId": "IAS-08-01",
-        "topic": "Privacy policy  (cross-reference SP/Social Context/Social implications of computing in a networked world; "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Inference controls/statistical disclosure limitation",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Security Policy and Governance",
+        "subdomainId": "IAS-08",
         "topicId": "IAS-08-02",
-        "topic": "Inference controls/statistical disclosure limitation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Backup policy, password refresh policy",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Security Policy and Governance",
+        "subdomainId": "IAS-08",
         "topicId": "IAS-08-03",
-        "topic": "Backup policy, password refresh policy"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Breach disclosure policy",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Security Policy and Governance",
+        "subdomainId": "IAS-08",
         "topicId": "IAS-08-04",
-        "topic": "Breach disclosure policy"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data collection and retention policies",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Security Policy and Governance",
+        "subdomainId": "IAS-08",
         "topicId": "IAS-08-05",
-        "topic": "Data collection and retention policies"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Supply chain policy",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Security Policy and Governance",
+        "subdomainId": "IAS-08",
         "topicId": "IAS-08-06",
-        "topic": "Supply chain policy"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cloud security tradeoffs",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Security Policy and Governance",
+        "subdomainId": "IAS-08",
         "topicId": "IAS-08-07",
-        "topic": "Cloud security tradeoffs"
+        "tier": "Elective"
       }
     ],
     "IAS-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Basic Principles and methodologies for digital forensics",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-01",
-        "topic": "Basic Principles and methodologies for digital forensics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Design systems with forensic needs in mind",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-02",
-        "topic": "Design systems with forensic needs in mind"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Rules of Evidence–general concepts and differences between jurisdictions and Chain of Custody",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-03",
-        "topic": "Rules of Evidence – general concepts and differences between jurisdictions and Chain of Custody"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Search and Seizure of evidence: legal and procedural requirements",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-04",
-        "topic": "Search and Seizure of evidence: legal and procedural requirements"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "DigitalEvidence methods and standards",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-05",
-        "topic": "DigitalEvidence methods and standards"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Techniques and standards for Preservation of Data",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-06",
-        "topic": "Techniques and standards for Preservation of Data"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Legal and Reporting Issues including working as an expert witness",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-07",
-        "topic": "Legal and Reporting Issues including working as an expert witness"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "OS/File System Forensics",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-08",
-        "topic": "OS/File System Forensics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Application Forensics",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-09",
-        "topic": "Application Forensics "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Web Forensics",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-10",
-        "topic": "Web Forensics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Network Forensics",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-11",
-        "topic": "Network Forensics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Mobile Device Forensics",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-12",
-        "topic": "Mobile Device Forensics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Computer/network/system attacks",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-13",
-        "topic": "Computer/network/system attacks"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Attackdetection and investigation",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-14",
-        "topic": "Attack detection and investigation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Anti-forensics",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Digital Forensics",
+        "subdomainId": "IAS-09",
         "topicId": "IAS-09-15",
-        "topic": "Anti-forensics"
+        "tier": "Elective"
       }
     ],
     "IAS-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Building security into the software development lifecycle (cross-reference SE/Software Processes)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Secure Software Engineering",
+        "subdomainId": "IAS-10",
         "topicId": "IAS-10-01",
-        "topic": "Building security into the software development lifecycle (cross-reference SE/Software Processes)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Secure design principles and patterns",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Secure Software Engineering",
+        "subdomainId": "IAS-10",
         "topicId": "IAS-10-02",
-        "topic": "Secure design principles and patterns"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Secure software specifications and requirements",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Secure Software Engineering",
+        "subdomainId": "IAS-10",
         "topicId": "IAS-10-03",
-        "topic": "Secure software specifications and requirements "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Secure software development practices (cross-reference SE/Software Construction)",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Secure Software Engineering",
+        "subdomainId": "IAS-10",
         "topicId": "IAS-10-04",
-        "topic": "Secure software development practices (cross-reference SE/Software Construction)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Secure testing-the process of testing that security requirements are met (includingstatic anddynamic",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Secure Software Engineering",
+        "subdomainId": "IAS-10",
         "topicId": "IAS-10-05",
-        "topic": "Secure testing - the process of testing that security requirements are met (including static and dynamic "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Softwarequalityassurance andbenchmarking measurements",
+        "domainId": "IAS",
+        "domain": "Information Assurance and Security",
+        "subdomain": "Secure Software Engineering",
+        "subdomainId": "IAS-10",
         "topicId": "IAS-10-06",
-        "topic": "Software quality assurance andbenchmarking measurements"
+        "tier": "Elective"
       }
     ]
   },
   "IM": {
     "IM-01": [
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Information systems as socio-technical systems",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-01",
-        "topic": "Information systems as socio-technical systems"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Basic information storage and retrieval(IS&R) concepts",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-02",
-        "topic": "Basic information storage and retrieval(IS&R) concepts"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Information capture and representation",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-03",
-        "topic": "Information capture and representation"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Supporting human needs: searching, retrieving, linking, browsing, navigating",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-04",
-        "topic": "Supporting human needs: searching, retrieving, linking, browsing, navigating"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Information management applications",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-05",
-        "topic": "Information management applications "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Declarative and navigational queries, use of links",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-06",
-        "topic": "Declarative and navigational queries, use of links"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Analysis and indexing",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-07",
-        "topic": "Analysis and indexing"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 2 Core-Tier2 hours]",
+        "topic": "Quality issues: reliability, scalability, efficiency, and effectiveness",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationManagementConcepts",
+        "subdomainId": "IM-01",
         "topicId": "IM-01-08",
-        "topic": "Quality issues: reliability, scalability, efficiency, and effectiveness"
+        "tier": "Tier 2"
       }
     ],
     "IM-02": [
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Approaches to and evolution of database systems",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Database Systems",
+        "subdomainId": "IM-02",
         "topicId": "IM-02-01",
-        "topic": "Approaches to and evolution of database systems"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Components of database systems",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Database Systems",
+        "subdomainId": "IM-02",
         "topicId": "IM-02-02",
-        "topic": "Components of database systems "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management,",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Database Systems",
+        "subdomainId": "IM-02",
         "topicId": "IM-02-03",
-        "topic": "Design of core DBMS functions (e.g., query mechanisms, transaction management, buffer management, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Database architecture and data independence",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Database Systems",
+        "subdomainId": "IM-02",
         "topicId": "IM-02-04",
-        "topic": "Database architecture and data independence"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Use of a declarative query language",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Database Systems",
+        "subdomainId": "IM-02",
         "topicId": "IM-02-05",
-        "topic": "Use of a declarative query language"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Systems supporting structured and/or stream content",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Database Systems",
+        "subdomainId": "IM-02",
         "topicId": "IM-02-06",
-        "topic": "Systems supporting structured and/or stream content"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Approaches for managing large volumes of data (e.g., noSQL database systems, use of MapReduce).",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Database Systems",
+        "subdomainId": "IM-02",
         "topicId": "IM-02-07",
-        "topic": "Approaches for managing large volumes of data (e.g., noSQL database systems, use of MapReduce). "
+        "tier": "Elective"
       }
     ],
     "IM-03": [
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Data modeling",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Modeling",
+        "subdomainId": "IM-03",
         "topicId": "IM-03-01",
-        "topic": "Data modeling"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Conceptual models (e.g., entity-relationship, UML diagrams)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Modeling",
+        "subdomainId": "IM-03",
         "topicId": "IM-03-02",
-        "topic": "Conceptual models (e.g., entity-relationship, UML diagrams) "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Spreadsheet models",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Modeling",
+        "subdomainId": "IM-03",
         "topicId": "IM-03-03",
-        "topic": "Spreadsheet models"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Relational data models",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Modeling",
+        "subdomainId": "IM-03",
         "topicId": "IM-03-04",
-        "topic": "Relational data models"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Object-oriented models(cross-reference PL/Object-Oriented Programming)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Modeling",
+        "subdomainId": "IM-03",
         "topicId": "IM-03-05",
-        "topic": "Object-oriented models(cross-reference PL/Object-Oriented Programming)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Semi-structured data model (expressed using DTD or XML Schema, for example)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Modeling",
+        "subdomainId": "IM-03",
         "topicId": "IM-03-06",
-        "topic": "Semi-structured data model (expressed using DTD or XML Schema, for example)"
+        "tier": "Tier 2"
       }
     ],
     "IM-04": [
       {
+        "breakdown": "[Elective]",
+        "topic": "The impact of indices on query performance",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Indexing",
+        "subdomainId": "IM-04",
         "topicId": "IM-04-01",
-        "topic": "The impact of indices on query performance"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "The basic structure of an index",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Indexing",
+        "subdomainId": "IM-04",
         "topicId": "IM-04-02",
-        "topic": "The basic structure of an index"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Keeping a buffer of data in memory",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Indexing",
+        "subdomainId": "IM-04",
         "topicId": "IM-04-03",
-        "topic": "Keeping a buffer of data in memory"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Creating indexes with SQL",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Indexing",
+        "subdomainId": "IM-04",
         "topicId": "IM-04-04",
-        "topic": "Creating indexes with SQL"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Indexing text",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Indexing",
+        "subdomainId": "IM-04",
         "topicId": "IM-04-05",
-        "topic": "Indexing text"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Indexing the web (e.g., web crawling)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Indexing",
+        "subdomainId": "IM-04",
         "topicId": "IM-04-06",
-        "topic": "Indexing the web (e.g., web crawling)"
+        "tier": "Elective"
       }
     ],
     "IM-05": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Mapping conceptual schema to a relational schema",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-01",
-        "topic": "Mapping conceptual schema to a relational schema"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Entity and referential integrity",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-02",
-        "topic": "Entity and referential integrity"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Relational algebra and relational calculus",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-03",
-        "topic": "Relational algebra and relational calculus"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Relational Database design",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-04",
-        "topic": "Relational Database design"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Functional dependency",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-05",
-        "topic": "Functional dependency"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Decomposition of a schema; lossless-join and dependency-preservation properties of a decomposition",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-06",
-        "topic": "Decomposition of a schema; lossless-join and dependency-preservation properties of a decomposition"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Candidate keys, superkeys,and closure of a set of attributes",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-07",
-        "topic": "Candidate keys, superkeys,and closure of a set of attributes"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Normal forms (BCNF)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-08",
-        "topic": "Normal forms (BCNF)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Multi-valued dependency (4NF)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-09",
-        "topic": "Multi-valued dependency (4NF)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Join dependency (PJNF, 5NF)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-10",
-        "topic": "Join dependency (PJNF, 5NF)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Representation theory",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Relational Databases",
+        "subdomainId": "IM-05",
         "topicId": "IM-05-11",
-        "topic": "Representation theory"
+        "tier": "Elective"
       }
     ],
     "IM-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Overview of database languages",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-01",
-        "topic": "Overview of database languages"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "SQL (data definition, query formulation, update sublanguage, constraints, integrity)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-02",
-        "topic": "SQL (data definition, query formulation, update sublanguage, constraints, integrity)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Selections",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-03",
-        "topic": "Selections"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Projections",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-04",
-        "topic": "Projections"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Select-project-join",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-05",
-        "topic": "Select-project-join"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Aggregates andgroup-by",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-06",
-        "topic": "Aggregates andgroup-by "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Subqueries",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-07",
-        "topic": "Subqueries"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "QBE and 4th-generation environments",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-08",
-        "topic": "QBE and 4th-generation environments"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Different ways to invoke non-procedural queries in conventional languages",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-09",
-        "topic": "Different ways to invoke non-procedural queries in conventional languages"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Introduction to other major query languages (e.g., XPATH, SPARQL)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-10",
-        "topic": "Introduction to other major query languages (e.g., XPATH, SPARQL)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Stored procedures",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Query Languages",
+        "subdomainId": "IM-06",
         "topicId": "IM-06-11",
-        "topic": "Stored procedures"
+        "tier": "Elective"
       }
     ],
     "IM-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Transactions",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Transaction Processing",
+        "subdomainId": "IM-07",
         "topicId": "IM-07-01",
-        "topic": "Transactions "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Failure and recovery",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Transaction Processing",
+        "subdomainId": "IM-07",
         "topicId": "IM-07-02",
-        "topic": "Failure and recovery"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Concurrency control",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Transaction Processing",
+        "subdomainId": "IM-07",
         "topicId": "IM-07-03",
-        "topic": "Concurrency control"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Interaction of transaction management with storage, especially buffering",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Transaction Processing",
+        "subdomainId": "IM-07",
         "topicId": "IM-07-04",
-        "topic": "Interaction of transaction management with storage, especially buffering"
+        "tier": "Elective"
       }
     ],
     "IM-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Distributed DBMS",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Distributed Databases",
+        "subdomainId": "IM-08",
         "topicId": "IM-08-01",
-        "topic": "Distributed DBMS"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Parallel DBMS",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Distributed Databases",
+        "subdomainId": "IM-08",
         "topicId": "IM-08-02",
-        "topic": "Parallel DBMS"
+        "tier": "Elective"
       }
     ],
     "IM-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Storage and file structure",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-01",
-        "topic": "Storage and file structure"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Indexed files",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-02",
-        "topic": "Indexed files"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Hashed files",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-03",
-        "topic": "Hashed files"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Signature files",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-04",
-        "topic": "Signature files"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "B-trees",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-05",
-        "topic": "B-trees"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Files with dense index",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-06",
-        "topic": "Files with dense index"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Files with variable length records",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-07",
-        "topic": "Files with variable length records"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Database efficiency and tuning",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Physical Database Design",
+        "subdomainId": "IM-09",
         "topicId": "IM-09-08",
-        "topic": "Database efficiency and tuning"
+        "tier": "Elective"
       }
     ],
     "IM-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Usesof data mining",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Mining",
+        "subdomainId": "IM-10",
         "topicId": "IM-10-01",
-        "topic": "Usesof data mining"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data mining algorithms",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Mining",
+        "subdomainId": "IM-10",
         "topicId": "IM-10-02",
-        "topic": "Data mining algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Associative and sequential patterns",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Mining",
+        "subdomainId": "IM-10",
         "topicId": "IM-10-03",
-        "topic": "Associative and sequential patterns"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data clustering",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Mining",
+        "subdomainId": "IM-10",
         "topicId": "IM-10-04",
-        "topic": "Data clustering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Market basket analysis",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Mining",
+        "subdomainId": "IM-10",
         "topicId": "IM-10-05",
-        "topic": "Market basket analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data cleaning",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Mining",
+        "subdomainId": "IM-10",
         "topicId": "IM-10-06",
-        "topic": "Data cleaning"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data visualization(cross-reference GV/Visualization and CN/Interactive Visualization)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Data Mining",
+        "subdomainId": "IM-10",
         "topicId": "IM-10-07",
-        "topic": "Data visualization(cross-reference GV/Visualization and CN/Interactive Visualization)"
+        "tier": "Elective"
       }
     ],
     "IM-11": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Documents, electronic publishing, markup, and markup languages",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-01",
-        "topic": "Documents, electronic publishing, markup, and markup languages"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Tries, inverted files, PAT trees, signature files, indexing",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-02",
-        "topic": "Tries, inverted files, PAT trees, signature files, indexing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Morphological analysis, stemming, phrases, stop lists",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-03",
-        "topic": "Morphological analysis, stemming, phrases, stop lists"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Term frequency distributions, uncertainty, fuzziness, weighting",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-04",
-        "topic": "Term frequency distributions, uncertainty, fuzziness, weighting"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Vector space, probabilistic, logical, and advanced models",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-05",
-        "topic": "Vector space, probabilistic, logical, and advanced models"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Information needs, relevance, evaluation, effectiveness",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-06",
-        "topic": "Information needs, relevance, evaluation, effectiveness"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Thesauri, ontologies, classification and categorization, metadata",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-07",
-        "topic": "Thesauri, ontologies, classification and categorization, metadata"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Bibliographic information, bibliometrics, citations",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-08",
-        "topic": "Bibliographic information, bibliometrics, citations"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Routing and (community) filtering",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-09",
-        "topic": "Routing and (community) filtering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Multimedia search, information seeking behavior, user modeling, feedback",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-10",
-        "topic": "Multimedia search, information seeking behavior, user modeling, feedback"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Information summarization and visualization",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-11",
-        "topic": "Information summarization and visualization"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Faceted search (e.g., usingcitations, keywords, classification schemes)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-12",
-        "topic": "Faceted search (e.g., using citations, keywords, classification schemes)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Digital libraries",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-13",
-        "topic": "Digital libraries"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Digitization, storage, interchange, digital objects, composites, and packages",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-14",
-        "topic": "Digitization, storage, interchange, digital objects, composites, and packages"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Metadata and cataloging",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-15",
-        "topic": "Metadata and cataloging"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Naming,repositories, archives",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-16",
-        "topic": "Naming,repositories, archives"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Archiving and preservation, integrity",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-17",
-        "topic": "Archiving and preservation, integrity"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Spaces (conceptual, geographical, 2/3D, VR)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-18",
-        "topic": "Spaces (conceptual, geographical, 2/3D, VR)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Architectures (agents, buses, wrappers/mediators), interoperability",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-19",
-        "topic": "Architectures (agents, buses, wrappers/mediators), interoperability"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Services (searching, linking, browsing, and so forth)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-20",
-        "topic": "Services (searching, linking, browsing, and so forth)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Intellectual property rightsmanagement, privacy, and protection (watermarking)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "InformationStorage and Retrieval",
+        "subdomainId": "IM-11",
         "topicId": "IM-11-21",
-        "topic": "Intellectual property rightsmanagement, privacy, and protection (watermarking)"
+        "tier": "Elective"
       }
     ],
     "IM-12": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Input and output devices, device drivers, control signals and protocols, DSPs",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Multimedia Systems",
+        "subdomainId": "IM-12",
         "topicId": "IM-12-01",
-        "topic": "Input and output devices, device drivers, control signals and protocols, DSPs"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Standards (e.g.,audio, graphics,video)",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Multimedia Systems",
+        "subdomainId": "IM-12",
         "topicId": "IM-12-02",
-        "topic": "Standards (e.g., audio, graphics, video)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Applications, media editors, authoring systems, and authoring",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Multimedia Systems",
+        "subdomainId": "IM-12",
         "topicId": "IM-12-03",
-        "topic": "Applications, media editors, authoring systems, and authoring"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Streams/structures, capture/represent/transform, spaces/domains, compression/coding",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Multimedia Systems",
+        "subdomainId": "IM-12",
         "topicId": "IM-12-04",
-        "topic": "Streams/structures, capture/represent/transform, spaces/domains, compression/coding"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Content-based analysis, indexing, and retrieval of audio, images, animation, and video",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Multimedia Systems",
+        "subdomainId": "IM-12",
         "topicId": "IM-12-05",
-        "topic": "Content-based analysis, indexing, and retrieval of audio, images, animation, and video"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Presentation, rendering, synchronization, multi-modal integration/interfaces",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Multimedia Systems",
+        "subdomainId": "IM-12",
         "topicId": "IM-12-06",
-        "topic": "Presentation, rendering, synchronization, multi-modal integration/interfaces"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Real-time delivery, quality of service (including performance), capacity planning, audio/video",
+        "domainId": "IM",
+        "domain": "Information Management",
+        "subdomain": "Multimedia Systems",
+        "subdomainId": "IM-12",
         "topicId": "IM-12-07",
-        "topic": "Real-time delivery, quality of service (including performance), capacity planning, audio/video "
+        "tier": "Elective"
       }
     ]
   },
   "IS": {
     "IS-01": [
       {
+        "breakdown": "[1 Core-Tier2 hours]",
+        "topic": "Overview of AI problems,examples of successful recent AI applications",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Fundamental Issues",
+        "subdomainId": "IS-01",
         "topicId": "IS-01-01",
-        "topic": "Overview of AI problems, examples of successful recent AI applications"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2 hours]",
+        "topic": "What is intelligent behavior?",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Fundamental Issues",
+        "subdomainId": "IS-01",
         "topicId": "IS-01-02",
-        "topic": "What is intelligent behavior? "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2 hours]",
+        "topic": "Problem characteristics",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Fundamental Issues",
+        "subdomainId": "IS-01",
         "topicId": "IS-01-03",
-        "topic": "Problem characteristics"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2 hours]",
+        "topic": "Nature of agents",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Fundamental Issues",
+        "subdomainId": "IS-01",
         "topicId": "IS-01-04",
-        "topic": "Nature of agents"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2 hours]",
+        "topic": "Philosophical and ethical issues. [elective]",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Fundamental Issues",
+        "subdomainId": "IS-01",
         "topicId": "IS-01-05",
-        "topic": "Philosophical and ethical issues. [elective]"
+        "tier": "Tier 2"
       }
     ],
     "IS-02": [
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Problem spaces (states, goals and operators),  problem solving by search",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Search Strategies",
+        "subdomainId": "IS-02",
         "topicId": "IS-02-01",
-        "topic": "Problem spaces (states, goals and operators),  problem solving by search"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Factored representation (factoring state into variables)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Search Strategies",
+        "subdomainId": "IS-02",
         "topicId": "IS-02-02",
-        "topic": "Factored representation (factoring state into variables)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Uninformed search(breadth-first, depth-first, depth-first with iterative deepening)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Search Strategies",
+        "subdomainId": "IS-02",
         "topicId": "IS-02-03",
-        "topic": "Uninformed search (breadth-first, depth-first, depth-first with iterative deepening)  "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Heuristics and informed search (hill-climbing, generic best-first, A*)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Search Strategies",
+        "subdomainId": "IS-02",
         "topicId": "IS-02-04",
-        "topic": "Heuristics and informed search (hill-climbing, generic best-first, A*)  "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Space and time efficiency of search",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Search Strategies",
+        "subdomainId": "IS-02",
         "topicId": "IS-02-05",
-        "topic": "Space and time efficiency of search  "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Two-player games (introduction to minimax search)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Search Strategies",
+        "subdomainId": "IS-02",
         "topicId": "IS-02-06",
-        "topic": "Two-player games (introduction to minimax search)  "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier2 hours]",
+        "topic": "Constraint satisfaction(backtracking and local search methods)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Search Strategies",
+        "subdomainId": "IS-02",
         "topicId": "IS-02-07",
-        "topic": "Constraint satisfaction (backtracking and local search methods) "
+        "tier": "Tier 2"
       }
     ],
     "IS-03": [
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Review of propositional and predicate logic (cross-reference DS/Basic Logic)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Knowledge Representation and Reasoning",
+        "subdomainId": "IS-03",
         "topicId": "IS-03-01",
-        "topic": "Review of propositional and predicate logic (cross-reference DS/Basic Logic)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Resolution and theorem proving (propositional logic only)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Knowledge Representation and Reasoning",
+        "subdomainId": "IS-03",
         "topicId": "IS-03-02",
-        "topic": "Resolution and theorem proving (propositional logic only)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Forward chaining, backward chaining",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Knowledge Representation and Reasoning",
+        "subdomainId": "IS-03",
         "topicId": "IS-03-03",
-        "topic": "Forward chaining, backward chaining"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Review of probabilistic reasoning, Bayes theorem (cross-reference with DS/Discrete Probability)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Knowledge Representation and Reasoning",
+        "subdomainId": "IS-03",
         "topicId": "IS-03-04",
-        "topic": "Review of probabilistic reasoning, Bayes theorem (cross-reference with DS/Discrete Probability)"
+        "tier": "Tier 2"
       }
     ],
     "IS-04": [
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Definition and examples of broad variety of machine learning tasks, including classification",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Machine Learning",
+        "subdomainId": "IS-04",
         "topicId": "IS-04-01",
-        "topic": "Definition and examples of broad variety of machine learning tasks, including classification "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Inductive learning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Machine Learning",
+        "subdomainId": "IS-04",
         "topicId": "IS-04-02",
-        "topic": "Inductive learning"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Simple statistical-based learning,such as Naive Bayesian Classifier,decision trees",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Machine Learning",
+        "subdomainId": "IS-04",
         "topicId": "IS-04-03",
-        "topic": "Simple statistical-based learning, such as Naive Bayesian Classifier, decision trees"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "The over-fitting problem",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Machine Learning",
+        "subdomainId": "IS-04",
         "topicId": "IS-04-04",
-        "topic": "The over-fitting problem"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Measuring classifier accuracy",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Basic Machine Learning",
+        "subdomainId": "IS-04",
         "topicId": "IS-04-05",
-        "topic": "Measuring classifier accuracy"
+        "tier": "Tier 2"
       }
     ],
     "IS-05": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Constructing search trees, dynamic search space, combinatorial explosion of search space",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Search",
+        "subdomainId": "IS-05",
         "topicId": "IS-05-01",
-        "topic": "Constructing search trees, dynamic search space, combinatorial explosion of search space"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Stochastic search",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Search",
+        "subdomainId": "IS-05",
         "topicId": "IS-05-02",
-        "topic": "Stochastic search"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Implementation of A* search,beam search",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Search",
+        "subdomainId": "IS-05",
         "topicId": "IS-05-03",
-        "topic": "Implementation of A* search, beam search"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Minimaxsearch,alpha-beta pruning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Search",
+        "subdomainId": "IS-05",
         "topicId": "IS-05-04",
-        "topic": "Minimax search, alpha-beta pruning"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Expectimax search (MDP-solving) and chance nodes",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Search",
+        "subdomainId": "IS-05",
         "topicId": "IS-05-05",
-        "topic": "Expectimax search (MDP-solving) and chance nodes"
+        "tier": "Elective"
       }
     ],
     "IS-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Knowledge representation issues",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-01",
-        "topic": "Knowledge representation issues"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Non-monotonic reasoning (e.g., non-classical logics, default reasoning)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-02",
-        "topic": "Non-monotonic reasoning (e.g., non-classical logics, default reasoning)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Argumentation",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-03",
-        "topic": "Argumentation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Reasoning about action and change (e.g., situation and event calculus)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-04",
-        "topic": "Reasoning about action and change (e.g., situation and event calculus)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Temporal and spatial reasoning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-05",
-        "topic": "Temporal and spatial reasoning"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Rule-based Expert Systems",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-06",
-        "topic": "Rule-based Expert Systems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Semantic networks",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-07",
-        "topic": "Semantic networks"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Model-based and Case-based reasoning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-08",
-        "topic": "Model-based and Case-based reasoning"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Planning:",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced Representation and Reasoning",
+        "subdomainId": "IS-06",
         "topicId": "IS-06-09",
-        "topic": "Planning:"
+        "tier": "Elective"
       }
     ],
     "IS-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Review of basic probability (cross-reference DS/Discrete Probability)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Reasoning Under Uncertainty",
+        "subdomainId": "IS-07",
         "topicId": "IS-07-01",
-        "topic": "Review of basic probability (cross-reference DS/Discrete Probability)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Random variables and probability distributions",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Reasoning Under Uncertainty",
+        "subdomainId": "IS-07",
         "topicId": "IS-07-02",
-        "topic": "Random variables and probability distributions"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Conditional Independence",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Reasoning Under Uncertainty",
+        "subdomainId": "IS-07",
         "topicId": "IS-07-03",
-        "topic": "Conditional Independence"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Knowledge representations",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Reasoning Under Uncertainty",
+        "subdomainId": "IS-07",
         "topicId": "IS-07-04",
-        "topic": "Knowledge representations"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Decision Theory",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Reasoning Under Uncertainty",
+        "subdomainId": "IS-07",
         "topicId": "IS-07-05",
-        "topic": "Decision Theory"
+        "tier": "Elective"
       }
     ],
     "IS-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Definitions of agents",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Agents",
+        "subdomainId": "IS-08",
         "topicId": "IS-08-01",
-        "topic": "Definitions of agents"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Agent architectures (e.g., reactive, layered, cognitive)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Agents",
+        "subdomainId": "IS-08",
         "topicId": "IS-08-02",
-        "topic": "Agent architectures (e.g., reactive, layered, cognitive)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Agent theory",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Agents",
+        "subdomainId": "IS-08",
         "topicId": "IS-08-03",
-        "topic": "Agent theory"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Rationality,gametheory",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Agents",
+        "subdomainId": "IS-08",
         "topicId": "IS-08-04",
-        "topic": "Rationality, game theory"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Software agents, personal assistants, and information access",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Agents",
+        "subdomainId": "IS-08",
         "topicId": "IS-08-05",
-        "topic": "Software agents, personal assistants, and information access"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Learning agents",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Agents",
+        "subdomainId": "IS-08",
         "topicId": "IS-08-06",
-        "topic": "Learning agents"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Multi-agent systems",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Agents",
+        "subdomainId": "IS-08",
         "topicId": "IS-08-07",
-        "topic": "Multi-agent systems"
+        "tier": "Elective"
       }
     ],
     "IS-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Deterministic and stochastic grammars",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-01",
-        "topic": "Deterministic and stochastic grammars"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Parsing algorithms",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-02",
-        "topic": "Parsing algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Representing meaning / Semantics",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-03",
-        "topic": "Representing meaning / Semantics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Corpus-based methods",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-04",
-        "topic": "Corpus-based methods"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "N-grams and HMMs",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-05",
-        "topic": "N-grams and HMMs"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Smoothing and backoff",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-06",
-        "topic": "Smoothing and backoff"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Examples of use: POS tagging and morphology",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-07",
-        "topic": "Examples of use: POS tagging and morphology"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Information retrieval (Cross-reference IM/Information Storage and Retrieval)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-08",
-        "topic": "Information retrieval (Cross-reference IM/Information Storage and Retrieval)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Information extraction",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-09",
-        "topic": "Information extraction"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Language translation",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-10",
-        "topic": "Language translation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Text classification, categorization",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Natural Language Processing",
+        "subdomainId": "IS-09",
         "topicId": "IS-09-11",
-        "topic": "Text classification, categorization"
+        "tier": "Elective"
       }
     ],
     "IS-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Definition and examples of broad variety of machine learning tasks",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-01",
-        "topic": "Definition and examples of broad variety of machine learning tasks"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "General statistical-based learning, parameter estimation (maximum likelihood)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-02",
-        "topic": "General statistical-based learning, parameter estimation (maximum likelihood)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Inductive logic programming (ILP)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-03",
-        "topic": "Inductive logic programming (ILP)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Supervised learning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-04",
-        "topic": "Supervised learning  "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Ensembles",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-05",
-        "topic": "Ensembles"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Nearest-neighbor algorithms",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-06",
-        "topic": "Nearest-neighbor algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Unsupervised Learning and clustering",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-07",
-        "topic": "Unsupervised Learning and clustering"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Semi-supervised learning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-08",
-        "topic": "Semi-supervised learning"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Learning graphical models (Cross-reference IS/Reasoning under Uncertainty)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-09",
-        "topic": "Learning graphical models (Cross-reference IS/Reasoning under Uncertainty)  "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Performance evaluation (such as cross-validation, area under ROC curve)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-10",
-        "topic": "Performance evaluation (such as cross-validation, area under ROC curve)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Learning theory",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-11",
-        "topic": "Learning theory"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "The problem of overfitting, the curse of dimensionality",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-12",
-        "topic": "The problem of overfitting, the curse of dimensionality  "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Reinforcement learning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-13",
-        "topic": "Reinforcement learning "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Application of Machine Learning algorithms to Data Mining (cross-reference IM/Data Mining)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Advanced MachineLearning",
+        "subdomainId": "IS-10",
         "topicId": "IS-10-14",
-        "topic": "Application of Machine Learning algorithms to Data Mining (cross-reference IM/Data Mining)"
+        "tier": "Elective"
       }
     ],
     "IS-11": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Overview: problems and progress",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Robotics",
+        "subdomainId": "IS-11",
         "topicId": "IS-11-01",
-        "topic": "Overview: problems and progress"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Configuration space and environmental maps",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Robotics",
+        "subdomainId": "IS-11",
         "topicId": "IS-11-02",
-        "topic": "Configuration space and environmental maps"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Interpreting uncertain sensor data",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Robotics",
+        "subdomainId": "IS-11",
         "topicId": "IS-11-03",
-        "topic": "Interpreting uncertain sensor data"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Localizing and mapping",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Robotics",
+        "subdomainId": "IS-11",
         "topicId": "IS-11-04",
-        "topic": "Localizing and mapping"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Navigation and control",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Robotics",
+        "subdomainId": "IS-11",
         "topicId": "IS-11-05",
-        "topic": "Navigation and control"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Motion planning",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Robotics",
+        "subdomainId": "IS-11",
         "topicId": "IS-11-06",
-        "topic": "Motion planning"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Multiple-robot coordination",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Robotics",
+        "subdomainId": "IS-11",
         "topicId": "IS-11-07",
-        "topic": "Multiple-robot coordination"
+        "tier": "Elective"
       }
     ],
     "IS-12": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Computer vision",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
         "topicId": "IS-12-01",
-        "topic": "Computer vision"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Audio and speech recognition",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
         "topicId": "IS-12-02",
-        "topic": "Audio and speech recognition"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Modularity inrecognition",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
         "topicId": "IS-12-03",
-        "topic": "Modularity in recognition"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Approaches to pattern recognition(cross-reference IS/Advanced Machine Learning)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
         "topicId": "IS-12-04",
-        "topic": "Approaches to pattern recognition (cross-reference IS/Advanced Machine Learning) "
-      }
-    ],
-    "IS-13": [
-      {
-        "topicId": "IS-13-01",
-        "topic": "Organization of the Internet (Internet Service Providers, Content Providers, etc.)"
-      }
-    ],
-    "NC-07": [
-      {
-        "topicId": "NC-07-02",
-        "topic": "Switching techniques (e.g., circuit, packet)"
+        "tier": "Elective"
       },
       {
-        "topicId": "NC-07-04",
-        "topic": "Layering principles (encapsulation, multiplexing)"
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Organization of the Internet (Internet Service Providers, Content Providers, etc.)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
+        "topicId": "IS-12-05",
+        "tier": "Elective"
       },
       {
-        "topicId": "NC-07-05",
-        "topic": "Roles of the different layers (application, transport, network, datalink, physical)"
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Switching techniques (e.g., circuit, packet)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
+        "topicId": "IS-12-06",
+        "tier": "Elective"
       },
       {
-        "topicId": "NC-07-03",
-        "topic": "Physical pieces of a network, including hosts, routers, switches, ISPs, wireless, LAN, access point, and "
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Physical pieces of a network, includinghosts, routers, switches, ISPs, wireless, LAN, access point, and",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
+        "topicId": "IS-12-07",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Layering principles (encapsulation, multiplexing)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
+        "topicId": "IS-12-08",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Roles of the different layers (application, transport, network, datalink, physical)",
+        "domainId": "IS",
+        "domain": "Intelligent Systems",
+        "subdomain": "Perception and Computer Vision",
+        "subdomainId": "IS-12",
+        "topicId": "IS-12-09",
+        "tier": "Elective"
       }
     ]
   },
   "NC": {
     "NC-01": [
       {
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Naming and address schemes (DNS, IP addresses, Uniform Resource Identifiers, etc.)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Networked Applications",
+        "subdomainId": "NC-01",
         "topicId": "NC-01-01",
-        "topic": "Naming and address schemes (DNS, IP addresses, Uniform Resource Identifiers, etc.)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Distributed applications (client/server, peer-to-peer, cloud, etc.)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Networked Applications",
+        "subdomainId": "NC-01",
         "topicId": "NC-01-02",
-        "topic": "Distributed applications (client/server, peer-to-peer, cloud, etc.)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "HTTP as an application layer protocol",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Networked Applications",
+        "subdomainId": "NC-01",
         "topicId": "NC-01-03",
-        "topic": "HTTP as an application layer protocol"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Multiplexing with TCP and UDP",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Networked Applications",
+        "subdomainId": "NC-01",
         "topicId": "NC-01-04",
-        "topic": "Multiplexing with TCP and UDP"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1.5 Core-Tier1 hours]",
+        "topic": "Socket APIs",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Networked Applications",
+        "subdomainId": "NC-01",
         "topicId": "NC-01-05",
-        "topic": "Socket APIs"
+        "tier": "Tier 1"
       }
     ],
     "NC-02": [
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Error control (retransmission techniques, timers)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Reliable Data Delivery",
+        "subdomainId": "NC-02",
         "topicId": "NC-02-01",
-        "topic": "Error control (retransmission techniques, timers)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Flow control (acknowledgements, sliding window)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Reliable Data Delivery",
+        "subdomainId": "NC-02",
         "topicId": "NC-02-02",
-        "topic": "Flow control (acknowledgements, sliding window)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Performance issues (pipelining)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Reliable Data Delivery",
+        "subdomainId": "NC-02",
         "topicId": "NC-02-03",
-        "topic": "Performance issues (pipelining)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "TCP",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Reliable Data Delivery",
+        "subdomainId": "NC-02",
         "topicId": "NC-02-04",
-        "topic": "TCP"
+        "tier": "Tier 2"
       }
     ],
     "NC-03": [
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Routing versus forwarding",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Routingand Forwarding",
+        "subdomainId": "NC-03",
         "topicId": "NC-03-01",
-        "topic": "Routing versus forwarding"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Static routing",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Routingand Forwarding",
+        "subdomainId": "NC-03",
         "topicId": "NC-03-02",
-        "topic": "Static routing"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Internet Protocol (IP)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Routingand Forwarding",
+        "subdomainId": "NC-03",
         "topicId": "NC-03-03",
-        "topic": "Internet Protocol (IP)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Scalability issues (hierarchical addressing)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Routingand Forwarding",
+        "subdomainId": "NC-03",
         "topicId": "NC-03-04",
-        "topic": "Scalability issues (hierarchical addressing)"
+        "tier": "Tier 2"
       }
     ],
     "NC-04": [
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Multiple Access Problem",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Local Area Networks",
+        "subdomainId": "NC-04",
         "topicId": "NC-04-01",
-        "topic": "Multiple Access Problem"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Common approaches to multiple access (exponential-backoff, time division multiplexing, etc)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Local Area Networks",
+        "subdomainId": "NC-04",
         "topicId": "NC-04-02",
-        "topic": "Common approaches to multiple access (exponential-backoff, time division multiplexing, etc)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Local Area Networks",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Local Area Networks",
+        "subdomainId": "NC-04",
         "topicId": "NC-04-03",
-        "topic": "Local Area Networks"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Ethernet",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Local Area Networks",
+        "subdomainId": "NC-04",
         "topicId": "NC-04-04",
-        "topic": "Ethernet"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1.5 Core-Tier2 hours]",
+        "topic": "Switching",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Local Area Networks",
+        "subdomainId": "NC-04",
         "topicId": "NC-04-05",
-        "topic": "Switching"
+        "tier": "Tier 2"
       }
     ],
     "NC-05": [
       {
+        "breakdown": "[1Core-Tier2 hours]",
+        "topic": "Need for resource allocation",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Resource Allocation",
+        "subdomainId": "NC-05",
         "topicId": "NC-05-01",
-        "topic": "Need for resource allocation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hours]",
+        "topic": "Fixed allocation (TDM, FDM, WDM) versus dynamic allocation",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Resource Allocation",
+        "subdomainId": "NC-05",
         "topicId": "NC-05-02",
-        "topic": "Fixed allocation (TDM, FDM, WDM) versus dynamic allocation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hours]",
+        "topic": "End-to-end versus network assisted approaches",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Resource Allocation",
+        "subdomainId": "NC-05",
         "topicId": "NC-05-03",
-        "topic": "End-to-end versus network assisted approaches"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hours]",
+        "topic": "Fairness",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Resource Allocation",
+        "subdomainId": "NC-05",
         "topicId": "NC-05-04",
-        "topic": "Fairness"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hours]",
+        "topic": "Principles of congestion control",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Resource Allocation",
+        "subdomainId": "NC-05",
         "topicId": "NC-05-05",
-        "topic": "Principles of congestion control"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1Core-Tier2 hours]",
+        "topic": "Approaches to Congestion (e.g.,Content Distribution Networks)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Resource Allocation",
+        "subdomainId": "NC-05",
         "topicId": "NC-05-06",
-        "topic": "Approaches to Congestion (e.g., Content Distribution Networks) "
+        "tier": "Tier 2"
       }
     ],
     "NC-06": [
       {
+        "breakdown": "[1 Core-Tier2hours]",
+        "topic": "Principles of cellular networks",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Mobility",
+        "subdomainId": "NC-06",
         "topicId": "NC-06-01",
-        "topic": "Principles of cellular networks"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hours]",
+        "topic": "802.11 networks",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Mobility",
+        "subdomainId": "NC-06",
         "topicId": "NC-06-02",
-        "topic": "802.11 networks"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2hours]",
+        "topic": "Issues in supporting mobile nodes (home agents)",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Mobility",
+        "subdomainId": "NC-06",
         "topicId": "NC-06-03",
-        "topic": "Issues in supporting mobile nodes (home agents)"
+        "tier": "Tier 2"
       }
     ],
     "NC-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Socialnetworksoverview",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Social Networking",
+        "subdomainId": "NC-07",
         "topicId": "NC-07-01",
-        "topic": "Social networks overview"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Examplesocialnetworkplatforms",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Social Networking",
+        "subdomainId": "NC-07",
         "topicId": "NC-07-02",
-        "topic": "Example social network platforms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Structure of social network graphs",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Social Networking",
+        "subdomainId": "NC-07",
         "topicId": "NC-07-03",
-        "topic": "Structure of social network graphs"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Socialnetworkanalysis",
+        "domainId": "NC",
+        "domain": "Net Centric Computing",
+        "subdomain": "Social Networking",
+        "subdomainId": "NC-07",
         "topicId": "NC-07-04",
-        "topic": "Social network analysis"
+        "tier": "Elective"
       }
     ]
   },
   "OS": {
     "OS-01": [
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Role and purpose of the operating system",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Overview of Operating Systems",
+        "subdomainId": "OS-01",
         "topicId": "OS-01-01",
-        "topic": "Role and purpose of the operating system"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Functionality of a typical operating system",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Overview of Operating Systems",
+        "subdomainId": "OS-01",
         "topicId": "OS-01-02",
-        "topic": "Functionality of a typical operating system"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Mechanisms to support client-server models, hand-held devices",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Overview of Operating Systems",
+        "subdomainId": "OS-01",
         "topicId": "OS-01-03",
-        "topic": "Mechanisms to support client-server models, hand-held devices"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Design issues (efficiency, robustness, flexibility, portability, security, compatibility)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Overview of Operating Systems",
+        "subdomainId": "OS-01",
         "topicId": "OS-01-04",
-        "topic": "Design issues (efficiency, robustness, flexibility, portability, security, compatibility)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Influences of security,networking, multimedia, windowing systems",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Overview of Operating Systems",
+        "subdomainId": "OS-01",
         "topicId": "OS-01-05",
-        "topic": "Influences of security,networking, multimedia, windowing systems"
+        "tier": "Tier 1"
       }
     ],
     "OS-02": [
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Structuring methods (monolithic, layered, modular, micro-kernel models)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Operating System Principles",
+        "subdomainId": "OS-02",
         "topicId": "OS-02-01",
-        "topic": "Structuring methods (monolithic, layered, modular, micro-kernel models)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Abstractions, processes, and resources",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Operating System Principles",
+        "subdomainId": "OS-02",
         "topicId": "OS-02-02",
-        "topic": "Abstractions, processes, and resources"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Concepts of application program interfaces (APIs)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Operating System Principles",
+        "subdomainId": "OS-02",
         "topicId": "OS-02-03",
-        "topic": "Concepts of application program interfaces (APIs)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "The evolution of hardware/software techniquesand application needs",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Operating System Principles",
+        "subdomainId": "OS-02",
         "topicId": "OS-02-04",
-        "topic": "The evolution of hardware/software techniquesand application needs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Device organization",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Operating System Principles",
+        "subdomainId": "OS-02",
         "topicId": "OS-02-05",
-        "topic": "Device organization"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Interrupts: methods and implementations",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Operating System Principles",
+        "subdomainId": "OS-02",
         "topicId": "OS-02-06",
-        "topic": "Interrupts: methods and implementations"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2Core-Tier1 hours]",
+        "topic": "Concept of user/system state and protection, transition to kernel mode",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Operating System Principles",
+        "subdomainId": "OS-02",
         "topicId": "OS-02-07",
-        "topic": "Concept of user/system state and protection, transition to kernel mode"
+        "tier": "Tier 1"
       }
     ],
     "OS-03": [
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "States and state diagrams (cross-reference SF/StateandState Machines)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Concurrency",
+        "subdomainId": "OS-03",
         "topicId": "OS-03-01",
-        "topic": "States and state diagrams (cross-reference SF/Stateand State Machines)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Structures (ready list, process control blocks, and so forth)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Concurrency",
+        "subdomainId": "OS-03",
         "topicId": "OS-03-02",
-        "topic": "Structures (ready list, process control blocks, and so forth)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Dispatching and context switching",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Concurrency",
+        "subdomainId": "OS-03",
         "topicId": "OS-03-03",
-        "topic": "Dispatching and context switching"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "The role of interrupts",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Concurrency",
+        "subdomainId": "OS-03",
         "topicId": "OS-03-04",
-        "topic": "The role of interrupts"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Managingatomic access to OS objects",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Concurrency",
+        "subdomainId": "OS-03",
         "topicId": "OS-03-05",
-        "topic": "Managing atomic access to OS objects"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Implementing synchronization primitives",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Concurrency",
+        "subdomainId": "OS-03",
         "topicId": "OS-03-06",
-        "topic": "Implementing synchronization primitives"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Multiprocessor issues (spin-locks, reentrancy) (cross-reference SF/Parallelism)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Concurrency",
+        "subdomainId": "OS-03",
         "topicId": "OS-03-07",
-        "topic": "Multiprocessor issues (spin-locks, reentrancy) (cross-reference SF/Parallelism)"
+        "tier": "Tier 2"
       }
     ],
     "OS-04": [
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Preemptive and non-preemptive scheduling (cross-reference SF/Resource Allocation and Scheduling,",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Scheduling and Dispatch",
+        "subdomainId": "OS-04",
         "topicId": "OS-04-01",
-        "topic": "Preemptive and non-preemptive scheduling (cross-reference SF/Resource Allocation and Scheduling, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Schedulers and policies (cross-reference SF/ResourceAllocation and Scheduling, PD/Parallel",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Scheduling and Dispatch",
+        "subdomainId": "OS-04",
         "topicId": "OS-04-02",
-        "topic": "Schedulers and policies (cross-reference SF/Resource Allocation and Scheduling, PD/Parallel "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Processes and threads (cross-reference SF/Computational paradigms)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Scheduling and Dispatch",
+        "subdomainId": "OS-04",
         "topicId": "OS-04-03",
-        "topic": "Processes and threads (cross-reference SF/ C omputational paradigms)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Deadlines and real-time issues",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Scheduling and Dispatch",
+        "subdomainId": "OS-04",
         "topicId": "OS-04-04",
-        "topic": "Deadlines and real-time issues"
+        "tier": "Tier 2"
       }
     ],
     "OS-05": [
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Review of physical memory and memory management hardware",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Memory Management",
+        "subdomainId": "OS-05",
         "topicId": "OS-05-01",
-        "topic": "Review of physical memory and memory management hardware"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Working sets and thrashing",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Memory Management",
+        "subdomainId": "OS-05",
         "topicId": "OS-05-02",
-        "topic": "Working sets and thrashing"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3Core-Tier2 hours]",
+        "topic": "Caching(cross-reference AR/Memory System Organization and Architecture)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Memory Management",
+        "subdomainId": "OS-05",
         "topicId": "OS-05-03",
-        "topic": "Caching(cross-reference AR/Memory System Organization and Architecture)"
+        "tier": "Tier 2"
       }
     ],
     "OS-06": [
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Overview of system security",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Security and Protection",
+        "subdomainId": "OS-06",
         "topicId": "OS-06-01",
-        "topic": "Overview of system security"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Policy/mechanism separation",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Security and Protection",
+        "subdomainId": "OS-06",
         "topicId": "OS-06-02",
-        "topic": "Policy/mechanism separation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Securitymethods and devices",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Security and Protection",
+        "subdomainId": "OS-06",
         "topicId": "OS-06-03",
-        "topic": "Security methods and devices"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Protection, access control, and authentication",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Security and Protection",
+        "subdomainId": "OS-06",
         "topicId": "OS-06-04",
-        "topic": "Protection, access control, and authentication"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2Core-Tier2 hours]",
+        "topic": "Backups",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Security and Protection",
+        "subdomainId": "OS-06",
         "topicId": "OS-06-05",
-        "topic": "Backups"
+        "tier": "Tier 2"
       }
     ],
     "OS-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Types of virtualization (includingHardware/Software, OS, Server, Service, Network)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Virtual Machines",
+        "subdomainId": "OS-07",
         "topicId": "OS-07-01",
-        "topic": "Types of virtualization (including Hardware/Software, OS, Server, Service, Network) "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Paging and virtual memory",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Virtual Machines",
+        "subdomainId": "OS-07",
         "topicId": "OS-07-02",
-        "topic": "Paging and virtual memory"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Virtual file systems",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Virtual Machines",
+        "subdomainId": "OS-07",
         "topicId": "OS-07-03",
-        "topic": "Virtual file systems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Hypervisors",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Virtual Machines",
+        "subdomainId": "OS-07",
         "topicId": "OS-07-04",
-        "topic": "Hypervisors "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Portable virtualization; emulation vs. isolation",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Virtual Machines",
+        "subdomainId": "OS-07",
         "topicId": "OS-07-05",
-        "topic": "Portable virtualization; emulation vs. isolation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cost of virtualization",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Virtual Machines",
+        "subdomainId": "OS-07",
         "topicId": "OS-07-06",
-        "topic": "Cost of virtualization"
+        "tier": "Elective"
       }
     ],
     "OS-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Characteristics of serial and parallel devices",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Device Management",
+        "subdomainId": "OS-08",
         "topicId": "OS-08-01",
-        "topic": "Characteristics of serial and parallel devices"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Abstracting device differences",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Device Management",
+        "subdomainId": "OS-08",
         "topicId": "OS-08-02",
-        "topic": "Abstracting device differences"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Buffering strategies",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Device Management",
+        "subdomainId": "OS-08",
         "topicId": "OS-08-03",
-        "topic": "Buffering strategies"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Direct memory access",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Device Management",
+        "subdomainId": "OS-08",
         "topicId": "OS-08-04",
-        "topic": "Direct memory access"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Recovery from failures",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Device Management",
+        "subdomainId": "OS-08",
         "topicId": "OS-08-05",
-        "topic": "Recovery from failures"
+        "tier": "Elective"
       }
     ],
     "OS-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Files: data, metadata, operations, organization, buffering, sequential, nonsequential",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-01",
-        "topic": "Files: data, metadata, operations, organization, buffering, sequential, nonsequential"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Directories: contents and structure",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-02",
-        "topic": "Directories: contents and structure"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "File systems: partitioning, mount/unmount, virtual file systems",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-03",
-        "topic": "File systems: partitioning, mount/unmount, virtual file systems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Standard implementation techniques",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-04",
-        "topic": "Standard implementation techniques"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Memory-mapped files",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-05",
-        "topic": "Memory-mapped files"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Special-purpose file systems",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-06",
-        "topic": "Special-purpose file systems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Naming, searching, access, backups",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-07",
-        "topic": "Naming, searching, access, backups"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Journaling and log-structured file systems",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "File Systems",
+        "subdomainId": "OS-09",
         "topicId": "OS-09-08",
-        "topic": "Journaling and log-structured file systems"
+        "tier": "Elective"
       }
     ],
     "OS-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Process and task scheduling",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Real Time and Embedded Systems",
+        "subdomainId": "OS-10",
         "topicId": "OS-10-01",
-        "topic": "Process and task scheduling"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Memory/disk management requirements in a real-time environment",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Real Time and Embedded Systems",
+        "subdomainId": "OS-10",
         "topicId": "OS-10-02",
-        "topic": "Memory/disk management requirements in a real-time environment"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Failures, risks, and recovery",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Real Time and Embedded Systems",
+        "subdomainId": "OS-10",
         "topicId": "OS-10-03",
-        "topic": "Failures, risks, and recovery"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Special concerns in real-time systems",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Real Time and Embedded Systems",
+        "subdomainId": "OS-10",
         "topicId": "OS-10-04",
-        "topic": "Special concerns in real-time systems"
+        "tier": "Elective"
       }
     ],
     "OS-11": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Fault Tolerance",
+        "subdomainId": "OS-11",
         "topicId": "OS-11-01",
-        "topic": "Fundamental concepts: reliable and available systems (cross-reference SF/Reliability through Redundancy)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Spatial and temporal redundancy (cross-reference SF/Reliability through Redundancy)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Fault Tolerance",
+        "subdomainId": "OS-11",
         "topicId": "OS-11-02",
-        "topic": "Spatial and temporal redundancy (cross-reference SF/Reliability through Redundancy)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Methods used to implement fault tolerance",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Fault Tolerance",
+        "subdomainId": "OS-11",
         "topicId": "OS-11-03",
-        "topic": "Methods used to implement fault tolerance"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Examples of OS mechanisms for detection, recovery, restart to implement fault tolerance, use of these",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "Fault Tolerance",
+        "subdomainId": "OS-11",
         "topicId": "OS-11-04",
-        "topic": "Examples of OS mechanisms for detection, recovery, restart to implement fault tolerance, use of these "
+        "tier": "Elective"
       }
     ],
     "OS-12": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Why system performance needs to be evaluated (cross-reference SF/Performance/Figures of performance",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "System Performance Evaluation",
+        "subdomainId": "OS-12",
         "topicId": "OS-12-01",
-        "topic": "Why system performance needs to be evaluated (cross-reference SF/Performance/Figures of performance "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "What is to be evaluated (cross-reference SF/Performance/Figures of performance merit)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "System Performance Evaluation",
+        "subdomainId": "OS-12",
         "topicId": "OS-12-02",
-        "topic": "What is to be evaluated (cross-reference SF/Performance/Figures of performance merit)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Systems performance policies, e.g.,caching, paging, scheduling, memory management,andsecurity",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "System Performance Evaluation",
+        "subdomainId": "OS-12",
         "topicId": "OS-12-03",
-        "topic": "Systems performance policies, e.g., caching, paging, scheduling, memory management, and security"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Evaluation models: deterministic, analytic, simulation, or implementation-specific",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "System Performance Evaluation",
+        "subdomainId": "OS-12",
         "topicId": "OS-12-04",
-        "topic": "Evaluation models: deterministic, analytic, simulation, or implementation-specific"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "How to collect evaluation data (profiling and tracing mechanisms)",
+        "domainId": "OS",
+        "domain": "Operating System",
+        "subdomain": "System Performance Evaluation",
+        "subdomainId": "OS-12",
         "topicId": "OS-12-05",
-        "topic": "How to collect evaluation data (profiling and tracing mechanisms)"
-      }
-    ]
-  },
-  "PBD": {
-    "PBD-01": [
-      {
-        "topicId": "PBD-01-01",
-        "topic": "Overview of platforms (e.g., Web, Mobile, Game,Industrial) "
-      },
-      {
-        "topicId": "PBD-01-02",
-        "topic": "Programming via platform-specific APIs"
-      },
-      {
-        "topicId": "PBD-01-03",
-        "topic": "Overview of Platform Languages (e.g., Objective C, HTML5) "
-      },
-      {
-        "topicId": "PBD-01-04",
-        "topic": "Programming under platform constraints"
-      }
-    ],
-    "PBD-02": [
-      {
-        "topicId": "PBD-02-01",
-        "topic": "Web programming languages (e.g., HTML5, Java Script, PHP, CSS) "
-      },
-      {
-        "topicId": "PBD-02-02",
-        "topic": "Web platform constraints "
-      },
-      {
-        "topicId": "PBD-02-03",
-        "topic": "Software as a Service (SaaS)"
-      },
-      {
-        "topicId": "PBD-02-04",
-        "topic": "Web standards"
-      }
-    ],
-    "PBD-03": [
-      {
-        "topicId": "PBD-03-01",
-        "topic": "Mobile programming languages "
-      },
-      {
-        "topicId": "PBD-03-02",
-        "topic": "Challenges with mobility and wireless communication"
-      },
-      {
-        "topicId": "PBD-03-03",
-        "topic": "Location-aware applications"
-      },
-      {
-        "topicId": "PBD-03-04",
-        "topic": "Performance / power tradeoffs"
-      },
-      {
-        "topicId": "PBD-03-05",
-        "topic": "Mobile platform constraints"
-      },
-      {
-        "topicId": "PBD-03-06",
-        "topic": "Emerging technologies"
-      }
-    ],
-    "PBD-04": [
-      {
-        "topicId": "PBD-04-01",
-        "topic": "Types of Industrial Platforms (e.g., Mathematic, Robotic, Industrial Control) "
-      },
-      {
-        "topicId": "PBD-04-02",
-        "topic": "Robotic software and its architecture"
-      },
-      {
-        "topicId": "PBD-04-03",
-        "topic": "Domain-specific languages"
-      },
-      {
-        "topicId": "PBD-04-04",
-        "topic": "Industrial platform constraints"
-      }
-    ],
-    "PBD-05": [
-      {
-        "topicId": "PBD-05-01",
-        "topic": "Types of game platforms (e.g., XBox, Wii, PlayStation) "
-      },
-      {
-        "topicId": "PBD-05-02",
-        "topic": "Game platform languages (e.g., C++, Java, Lua, Python)"
-      },
-      {
-        "topicId": "PBD-05-03",
-        "topic": "Game platform constraints"
+        "tier": "Elective"
       }
     ]
   },
   "PD": {
     "PD-01": [
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Multiple simultaneous computations",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallelism Fundamentals",
+        "subdomainId": "PD-01",
         "topicId": "PD-01-01",
-        "topic": "Multiple simultaneous computations"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Goals of parallelism (e.g., throughput) versus concurrency (e.g., controlling access to shared resources)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallelism Fundamentals",
+        "subdomainId": "PD-01",
         "topicId": "PD-01-02",
-        "topic": "Goals of parallelism (e.g., throughput) versus concurrency (e.g., controlling access to shared resources)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Parallelism, communication, and coordination",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallelism Fundamentals",
+        "subdomainId": "PD-01",
         "topicId": "PD-01-03",
-        "topic": "Parallelism, communication, and coordination "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Programming errors not found in sequential programming",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallelism Fundamentals",
+        "subdomainId": "PD-01",
         "topicId": "PD-01-04",
-        "topic": "Programming errors not found in sequential programming"
+        "tier": "Tier 1"
       }
     ],
     "PD-02": [
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Need for communication and coordination/synchronization",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Decomposition",
+        "subdomainId": "PD-02",
         "topicId": "PD-02-01",
-        "topic": "Need for communication and coordination/synchronization"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Independence and partitioning",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Decomposition",
+        "subdomainId": "PD-02",
         "topicId": "PD-02-02",
-        "topic": "Independence and partitioning"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Basic knowledge of parallel decomposition concepts (cross-reference SF/System Support for Parallelism)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Decomposition",
+        "subdomainId": "PD-02",
         "topicId": "PD-02-03",
-        "topic": "Basic knowledge of parallel decomposition concepts (cross-reference SF/System Support for Parallelism) "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Task-based decomposition",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Decomposition",
+        "subdomainId": "PD-02",
         "topicId": "PD-02-04",
-        "topic": "Task-based decomposition"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Data-parallel decomposition",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Decomposition",
+        "subdomainId": "PD-02",
         "topicId": "PD-02-05",
-        "topic": "Data-parallel decomposition"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Actors and reactive processes (e.g., request handlers)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Decomposition",
+        "subdomainId": "PD-02",
         "topicId": "PD-02-06",
-        "topic": "Actors and reactive processes (e.g., request handlers) "
+        "tier": "Tier 2"
       }
     ],
     "PD-03": [
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Shared Memory",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Communication and Coordination",
+        "subdomainId": "PD-03",
         "topicId": "PD-03-01",
-        "topic": "Shared Memory "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Consistency, and its role in programming language guarantees for data-race-free programs",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Communication and Coordination",
+        "subdomainId": "PD-03",
         "topicId": "PD-03-02",
-        "topic": " C onsistency, and its role in programming language guarantees for data-race-free programs "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Message passing",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Communication and Coordination",
+        "subdomainId": "PD-03",
         "topicId": "PD-03-03",
-        "topic": "Message passing"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Atomicity",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Communication and Coordination",
+        "subdomainId": "PD-03",
         "topicId": "PD-03-04",
-        "topic": "Atomicity"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Consensus",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Communication and Coordination",
+        "subdomainId": "PD-03",
         "topicId": "PD-03-05",
-        "topic": "Consensus"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 3 Core-Tier2 hours]",
+        "topic": "Conditional actions",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Communication and Coordination",
+        "subdomainId": "PD-03",
         "topicId": "PD-03-06",
-        "topic": "Conditional actions"
+        "tier": "Elective"
       }
     ],
     "PD-04": [
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Critical paths, work and span, and the relation to Amdahl’s law (cross-reference SF/Performance)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-01",
-        "topic": "Critical paths, work and span, and the relation to Amdahl’s law (cross-reference SF/Performance)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Speed-up and scalability",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-02",
-        "topic": "Speed-up and scalability"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Naturally (embarrassingly) parallel algorithms",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-03",
-        "topic": "Naturally (embarrassingly) parallel algorithms"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Parallel algorithmic patterns (divide-and-conquer, map and reduce,master-workers,others)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-04",
-        "topic": "Parallel algorithmic patterns (divide-and-conquer, map and reduce, master-workers, others)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Parallel graph algorithms (e.g., parallel shortest path, parallel spanning tree) (cross-reference",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-05",
-        "topic": "Parallel graph algorithms (e.g., parallel shortest path, parallel spanning tree) (cross-reference "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Parallel matrix computations",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-06",
-        "topic": "Parallel matrix computations"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Producer-consumer and pipelined algorithms",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-07",
-        "topic": "Producer-consumer and pipelined algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Examples of non-scalable parallelalgorithms",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Algorithms, Analysis, and Programming",
+        "subdomainId": "PD-04",
         "topicId": "PD-04-08",
-        "topic": "Examples of non-scalable parallel algorithms"
+        "tier": "Elective"
       }
     ],
     "PD-05": [
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Multicore processors",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-01",
-        "topic": "Multicore processors"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Shared vs. distributed memory",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-02",
-        "topic": "Shared vs. distributed memory"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Symmetric multiprocessing (SMP)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-03",
-        "topic": "Symmetric multiprocessing (SMP)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "SIMD, vector processing",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-04",
-        "topic": "SIMD, vector processing "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "GPU, co-processing",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-05",
-        "topic": "GPU, co-processing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Flynn’s taxonomy",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-06",
-        "topic": "Flynn’s taxonomy"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Instruction level support for parallel programming",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-07",
-        "topic": "Instruction level support for parallel programming"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Memory issues",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-08",
-        "topic": "Memory issues"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Topologies",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Architecture",
+        "subdomainId": "PD-05",
         "topicId": "PD-05-09",
-        "topic": "Topologies"
+        "tier": "Elective"
       }
     ],
     "PD-06": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Load balancing",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Performance",
+        "subdomainId": "PD-06",
         "topicId": "PD-06-01",
-        "topic": "Load balancing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Performance measurement",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Performance",
+        "subdomainId": "PD-06",
         "topicId": "PD-06-02",
-        "topic": "Performance measurement"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Scheduling and contention (cross-reference OS/Scheduling and Dispatch)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Performance",
+        "subdomainId": "PD-06",
         "topicId": "PD-06-03",
-        "topic": "Scheduling and contention (cross-reference OS/Scheduling and Dispatch)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Evaluating communication overhead",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Performance",
+        "subdomainId": "PD-06",
         "topicId": "PD-06-04",
-        "topic": "Evaluating communication overhead"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Data management",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Performance",
+        "subdomainId": "PD-06",
         "topicId": "PD-06-05",
-        "topic": "Data management"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Power usage and management",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Parallel Performance",
+        "subdomainId": "PD-06",
         "topicId": "PD-06-06",
-        "topic": "Power usage and management"
+        "tier": "Elective"
       }
     ],
     "PD-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Faults (cross-reference OS/Fault Tolerance)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Distributed Systems",
+        "subdomainId": "PD-07",
         "topicId": "PD-07-01",
-        "topic": "Faults (cross-reference OS/Fault Tolerance)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Distributed message sending",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Distributed Systems",
+        "subdomainId": "PD-07",
         "topicId": "PD-07-02",
-        "topic": "Distributed message sending"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Distributed system design tradeoffs",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Distributed Systems",
+        "subdomainId": "PD-07",
         "topicId": "PD-07-03",
-        "topic": "Distributed system design tradeoffs"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Distributed service design",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Distributed Systems",
+        "subdomainId": "PD-07",
         "topicId": "PD-07-04",
-        "topic": "Distributed service design"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Core distributed algorithms",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Distributed Systems",
+        "subdomainId": "PD-07",
         "topicId": "PD-07-05",
-        "topic": "Core distributed algorithms"
+        "tier": "Elective"
       }
     ],
     "PD-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Internet-Scale computing",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Cloud Computing",
+        "subdomainId": "PD-08",
         "topicId": "PD-08-01",
-        "topic": "Internet-Scale computing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cloud services",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Cloud Computing",
+        "subdomainId": "PD-08",
         "topicId": "PD-08-02",
-        "topic": "Cloud services"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Virtualization (cross-reference SF/Virtualization and Isolation and OS/Virtual Machines)",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Cloud Computing",
+        "subdomainId": "PD-08",
         "topicId": "PD-08-03",
-        "topic": "Virtualization (cross-reference SF/Virtualization and Isolation and OS/Virtual Machines)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cloud-based data storage",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Cloud Computing",
+        "subdomainId": "PD-08",
         "topicId": "PD-08-04",
-        "topic": "Cloud-based data storage"
+        "tier": "Elective"
       }
     ],
     "PD-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Formal models of processes and message passing, including algebras such as Communicating Sequential",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Formal Models and Semantics",
+        "subdomainId": "PD-09",
         "topicId": "PD-09-01",
-        "topic": "Formal models of processes and message passing, including algebras such as Communicating Sequential "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Formal models of parallel computation, including the Parallel Random Access Machine (PRAM) and",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Formal Models and Semantics",
+        "subdomainId": "PD-09",
         "topicId": "PD-09-02",
-        "topic": "Formal models of parallel computation, including the Parallel Random Access Machine (PRAM) and "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Formal models of computational dependencies",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Formal Models and Semantics",
+        "subdomainId": "PD-09",
         "topicId": "PD-09-03",
-        "topic": "Formal models of computational dependencies"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Models of (relaxed) shared memory consistency and their relation to programming language specifications",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Formal Models and Semantics",
+        "subdomainId": "PD-09",
         "topicId": "PD-09-04",
-        "topic": "Models of (relaxed) shared memory consistency and their relation to programming language specifications"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Algorithmic correctness criteria including linearizability",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Formal Models and Semantics",
+        "subdomainId": "PD-09",
         "topicId": "PD-09-05",
-        "topic": "Algorithmic correctness criteria including linearizability"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Models of algorithmic progress, including non-blocking guarantees and fairness",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Formal Models and Semantics",
+        "subdomainId": "PD-09",
         "topicId": "PD-09-06",
-        "topic": "Models of algorithmic progress, including non-blocking guarantees and fairness"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Techniques for specifying and checking correctness properties such as atomicity and freedom from data",
+        "domainId": "PD",
+        "domain": "Parallel and Distributed Computing",
+        "subdomain": "Formal Models and Semantics",
+        "subdomainId": "PD-09",
         "topicId": "PD-09-07",
-        "topic": "Techniques for specifying and checking correctness properties such as atomicity and freedom from data "
+        "tier": "Elective"
+      }
+    ]
+  },
+  "PBD": {
+    "PBD-01": [
+      {
+        "breakdown": "[Elective]",
+        "topic": "Overview of platforms (e.g.,Web, Mobile, Game,Industrial)",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Introduction",
+        "subdomainId": "PBD-01",
+        "topicId": "PBD-01-01",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Programming via platform-specific APIs",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Introduction",
+        "subdomainId": "PBD-01",
+        "topicId": "PBD-01-02",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Overview of Platform Languages (e.g., Objective C, HTML5)",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Introduction",
+        "subdomainId": "PBD-01",
+        "topicId": "PBD-01-03",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Programming under platform constraints",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Introduction",
+        "subdomainId": "PBD-01",
+        "topicId": "PBD-01-04",
+        "tier": "Elective"
+      }
+    ],
+    "PBD-02": [
+      {
+        "breakdown": "[Elective]",
+        "topic": "Web programming languages (e.g.,HTML5, Java Script, PHP, CSS)",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Web Platforms",
+        "subdomainId": "PBD-02",
+        "topicId": "PBD-02-01",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Web platform constraints",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Web Platforms",
+        "subdomainId": "PBD-02",
+        "topicId": "PBD-02-02",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Software as a Service (SaaS)",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Web Platforms",
+        "subdomainId": "PBD-02",
+        "topicId": "PBD-02-03",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Web standards",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Web Platforms",
+        "subdomainId": "PBD-02",
+        "topicId": "PBD-02-04",
+        "tier": "Elective"
+      }
+    ],
+    "PBD-03": [
+      {
+        "breakdown": "[Elective]",
+        "topic": "Mobileprogramminglanguages",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Mobile Platforms",
+        "subdomainId": "PBD-03",
+        "topicId": "PBD-03-01",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Challenges with mobility and wireless communication",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Mobile Platforms",
+        "subdomainId": "PBD-03",
+        "topicId": "PBD-03-02",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Location-aware applications",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Mobile Platforms",
+        "subdomainId": "PBD-03",
+        "topicId": "PBD-03-03",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Performance / power tradeoffs",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Mobile Platforms",
+        "subdomainId": "PBD-03",
+        "topicId": "PBD-03-04",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Mobile platform constraints",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Mobile Platforms",
+        "subdomainId": "PBD-03",
+        "topicId": "PBD-03-05",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Emergingtechnologies",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Mobile Platforms",
+        "subdomainId": "PBD-03",
+        "topicId": "PBD-03-06",
+        "tier": "Elective"
+      }
+    ],
+    "PBD-04": [
+      {
+        "breakdown": "[Elective]",
+        "topic": "Types of Industrial Platforms (e.g.,Mathematic, Robotic, Industrial Control)",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Industrial Platforms",
+        "subdomainId": "PBD-04",
+        "topicId": "PBD-04-01",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Roboticsoftware and itsarchitecture",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Industrial Platforms",
+        "subdomainId": "PBD-04",
+        "topicId": "PBD-04-02",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Domain-specificlanguages",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Industrial Platforms",
+        "subdomainId": "PBD-04",
+        "topicId": "PBD-04-03",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Industrialplatformconstraints",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Industrial Platforms",
+        "subdomainId": "PBD-04",
+        "topicId": "PBD-04-04",
+        "tier": "Elective"
+      }
+    ],
+    "PBD-05": [
+      {
+        "breakdown": "[Elective]",
+        "topic": "Types ofgameplatforms (e.g., XBox, Wii, PlayStation)",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Game Platforms",
+        "subdomainId": "PBD-05",
+        "topicId": "PBD-05-01",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Gameplatformlanguages (e.g.,C++, Java, Lua, Python)",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Game Platforms",
+        "subdomainId": "PBD-05",
+        "topicId": "PBD-05-02",
+        "tier": "Elective"
+      },
+      {
+        "breakdown": "[Elective]",
+        "topic": "Gameplatformconstraints",
+        "domainId": "PBD",
+        "domain": "Platform-based Development",
+        "subdomain": "Game Platforms",
+        "subdomainId": "PBD-05",
+        "topicId": "PBD-05-03",
+        "tier": "Elective"
       }
     ]
   },
   "PL": {
     "PL-01": [
       {
+        "breakdown": "[4 Core-Tier1 hours, 6 Core-Tier2 hours]",
+        "topic": "Object-oriented design",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Object-Oriented Programming",
+        "subdomainId": "PL-01",
         "topicId": "PL-01-01",
-        "topic": "Object-oriented design "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours, 6 Core-Tier2 hours]",
+        "topic": "Definition of classes: fields, methods, and constructors",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Object-Oriented Programming",
+        "subdomainId": "PL-01",
         "topicId": "PL-01-02",
-        "topic": "Definition of classes: fields, methods, and constructors "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours, 6 Core-Tier2 hours]",
+        "topic": "Subclasses, inheritance, and method overriding",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Object-Oriented Programming",
+        "subdomainId": "PL-01",
         "topicId": "PL-01-03",
-        "topic": "Subclasses, inheritance, and method overriding "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours, 6 Core-Tier2 hours]",
+        "topic": "Dynamic dispatch: definition of method-call",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Object-Oriented Programming",
+        "subdomainId": "PL-01",
         "topicId": "PL-01-04",
-        "topic": "Dynamic dispatch: definition of method-call "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours, 6 Core-Tier2 hours]",
+        "topic": "Subtyping (cross-reference PL/Type Systems)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Object-Oriented Programming",
+        "subdomainId": "PL-01",
         "topicId": "PL-01-05",
-        "topic": "Subtyping (cross-reference PL/Type Systems)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours, 6 Core-Tier2 hours]",
+        "topic": "Object-oriented idioms for encapsulation",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Object-Oriented Programming",
+        "subdomainId": "PL-01",
         "topicId": "PL-01-06",
-        "topic": "Object-oriented idioms for encapsulation "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4 Core-Tier1 hours, 6 Core-Tier2 hours]",
+        "topic": "Using collection classes, iterators, and other common library components",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Object-Oriented Programming",
+        "subdomainId": "PL-01",
         "topicId": "PL-01-07",
-        "topic": "Using collection classes, iterators, and other common library components"
+        "tier": "Tier 2"
       }
     ],
     "PL-02": [
       {
+        "breakdown": "[3 Core-Tier1 hours, 4 Core-Tier2 hours]",
+        "topic": "Effect-free programming",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Functional Programming",
+        "subdomainId": "PL-02",
         "topicId": "PL-02-01",
-        "topic": "Effect-free programming "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 4 Core-Tier2 hours]",
+        "topic": "Processing structured data (e.g., trees) via functions with cases for each data variant",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Functional Programming",
+        "subdomainId": "PL-02",
         "topicId": "PL-02-02",
-        "topic": "Processing structured data (e.g., trees) via functions with cases for each data variant "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 4 Core-Tier2 hours]",
+        "topic": "First-class functions (taking, returning, and storing functions)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Functional Programming",
+        "subdomainId": "PL-02",
         "topicId": "PL-02-03",
-        "topic": "First-class functions (taking, returning, and storing functions)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 4 Core-Tier2 hours]",
+        "topic": "Function closures (functions using variables in the enclosing lexical environment)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Functional Programming",
+        "subdomainId": "PL-02",
         "topicId": "PL-02-04",
-        "topic": "Function closures (functions using variables in the enclosing lexical environment)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours, 4 Core-Tier2 hours]",
+        "topic": "Defining higher-order operations on aggregates, especially map, reduce/fold, and filter",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Functional Programming",
+        "subdomainId": "PL-02",
         "topicId": "PL-02-05",
-        "topic": "Defining higher-order operations on aggregates, especially map, reduce/fold, and filter"
+        "tier": "Tier 2"
       }
     ],
     "PL-03": [
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Events and event handlers",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Event-Driven and Reactive Programming",
+        "subdomainId": "PL-03",
         "topicId": "PL-03-01",
-        "topic": "Events and event handlers "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Canonical uses such as GUIs, mobile devices, robots, servers",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Event-Driven and Reactive Programming",
+        "subdomainId": "PL-03",
         "topicId": "PL-03-02",
-        "topic": "Canonical uses such as GUIs, mobile devices, robots, servers"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Using a reactive framework",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Event-Driven and Reactive Programming",
+        "subdomainId": "PL-03",
         "topicId": "PL-03-03",
-        "topic": "Using a reactive framework"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Externally-generated events and program-generated events",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Event-Driven and Reactive Programming",
+        "subdomainId": "PL-03",
         "topicId": "PL-03-04",
-        "topic": "Externally-generated events and program-generated events"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Separation of model, view, and controller",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Event-Driven and Reactive Programming",
+        "subdomainId": "PL-03",
         "topicId": "PL-03-05",
-        "topic": "Separation of model, view, and controller"
+        "tier": "Tier 2"
       }
     ],
     "PL-04": [
       {
+        "breakdown": "[1 Core-Tier1 hour, 4 Core-Tier2 hours]",
+        "topic": "A type as a set of values together with a set of operations",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Basic Type Systems",
+        "subdomainId": "PL-04",
         "topicId": "PL-04-01",
-        "topic": "A type as a set of values together with a set of operations "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 4 Core-Tier2 hours]",
+        "topic": "Association of types to variables, arguments, results, and fields",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Basic Type Systems",
+        "subdomainId": "PL-04",
         "topicId": "PL-04-02",
-        "topic": "Association of types to variables, arguments, results, and fields "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 4 Core-Tier2 hours]",
+        "topic": "Type safety and errors caused by using values inconsistentlygiventheir intended types",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Basic Type Systems",
+        "subdomainId": "PL-04",
         "topicId": "PL-04-03",
-        "topic": "Type safety and errors caused by using values inconsistently giventheir intended types"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 4 Core-Tier2 hours]",
+        "topic": "Goals and limitations of static typing",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Basic Type Systems",
+        "subdomainId": "PL-04",
         "topicId": "PL-04-04",
-        "topic": "Goals and limitations of static typing "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 4 Core-Tier2 hours]",
+        "topic": "Generic types (parametric polymorphism)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Basic Type Systems",
+        "subdomainId": "PL-04",
         "topicId": "PL-04-05",
-        "topic": "Generic types (parametric polymorphism)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 4 Core-Tier2 hours]",
+        "topic": "Complementary benefits of static and dynamic typing",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Basic Type Systems",
+        "subdomainId": "PL-04",
         "topicId": "PL-04-06",
-        "topic": "Complementary benefits of static and dynamic typing"
+        "tier": "Tier 2"
       }
     ],
     "PL-05": [
       {
+        "breakdown": "[1 Core-Tier2 hour]",
+        "topic": "Programs that take (other) programs as input such as interpreters, compilers, type-checkers, documentation",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Program Representation",
+        "subdomainId": "PL-05",
         "topicId": "PL-05-01",
-        "topic": "Programs that take (other) programs as input such as interpreters, compilers, type-checkers, documentation "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2 hour]",
+        "topic": "Abstract syntax trees; contrast with concrete syntax",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Program Representation",
+        "subdomainId": "PL-05",
         "topicId": "PL-05-02",
-        "topic": "Abstract syntax trees; contrast with concrete syntax"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2 hour]",
+        "topic": "Data structures to represent code for execution, translation, or transmission",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Program Representation",
+        "subdomainId": "PL-05",
         "topicId": "PL-05-03",
-        "topic": "Data structures to represent code for execution, translation, or transmission"
+        "tier": "Tier 2"
       }
     ],
     "PL-06": [
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Interpretation vs. compilation to native code vs. compilation toportable intermediate representation",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Translation and Execution",
+        "subdomainId": "PL-06",
         "topicId": "PL-06-01",
-        "topic": "Interpretation vs. compilation to native code vs. compilation toportable intermediate representation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Language translation pipeline: parsing, optional type-checking, translation, linking, execution",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Translation and Execution",
+        "subdomainId": "PL-06",
         "topicId": "PL-06-02",
-        "topic": "Language translation pipeline: parsing, optional type-checking, translation, linking, execution"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Run-time representation of core language constructs such as objects (method tables) and first-class",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Translation and Execution",
+        "subdomainId": "PL-06",
         "topicId": "PL-06-03",
-        "topic": "Run-time representation of core language constructs such as objects (method tables) and first-class "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Run-time layout of memory: call-stack, heap, static data",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Translation and Execution",
+        "subdomainId": "PL-06",
         "topicId": "PL-06-04",
-        "topic": "Run-time layout of memory: call-stack, heap, static data"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2 hours]",
+        "topic": "Memory management",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Translation and Execution",
+        "subdomainId": "PL-06",
         "topicId": "PL-06-05",
-        "topic": "Memory management"
+        "tier": "Tier 2"
       }
     ],
     "PL-07": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Scanning (lexical analysis) using regular expressions",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Syntax Analysis",
+        "subdomainId": "PL-07",
         "topicId": "PL-07-01",
-        "topic": "Scanning (lexical analysis) using regular expressions"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Parsing strategies including top-down (e.g., recursive descent, Earley parsing, or LL) and bottom-up (e.g.,",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Syntax Analysis",
+        "subdomainId": "PL-07",
         "topicId": "PL-07-02",
-        "topic": "Parsing strategies including top-down (e.g., recursive descent, Earley parsing, or LL) and bottom-up (e.g., "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Generating scanners and parsers from declarative specifications",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Syntax Analysis",
+        "subdomainId": "PL-07",
         "topicId": "PL-07-03",
-        "topic": "Generating scanners and parsers from declarative specifications"
+        "tier": "Elective"
       }
     ],
     "PL-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "High-level program representations such as abstract syntax trees",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Compiler Semantic Analysis",
+        "subdomainId": "PL-08",
         "topicId": "PL-08-01",
-        "topic": "High-level program representations such as abstract syntax trees"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Scope and binding resolution",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Compiler Semantic Analysis",
+        "subdomainId": "PL-08",
         "topicId": "PL-08-02",
-        "topic": "Scope and binding resolution"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Type checking",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Compiler Semantic Analysis",
+        "subdomainId": "PL-08",
         "topicId": "PL-08-03",
-        "topic": "Type checking"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Declarative specifications such as attribute grammars",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Compiler Semantic Analysis",
+        "subdomainId": "PL-08",
         "topicId": "PL-08-04",
-        "topic": "Declarative specifications such as attribute grammars"
+        "tier": "Elective"
       }
     ],
     "PL-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Procedure calls and method dispatching",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Code Generation",
+        "subdomainId": "PL-09",
         "topicId": "PL-09-01",
-        "topic": "Procedure calls and method dispatching"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Separate compilation; linking",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Code Generation",
+        "subdomainId": "PL-09",
         "topicId": "PL-09-02",
-        "topic": "Separate compilation; linking"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Instruction selection",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Code Generation",
+        "subdomainId": "PL-09",
         "topicId": "PL-09-03",
-        "topic": "Instruction selection"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Instruction scheduling",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Code Generation",
+        "subdomainId": "PL-09",
         "topicId": "PL-09-04",
-        "topic": "Instruction scheduling"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Register allocation",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Code Generation",
+        "subdomainId": "PL-09",
         "topicId": "PL-09-05",
-        "topic": "Register allocation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Peephole optimization",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Code Generation",
+        "subdomainId": "PL-09",
         "topicId": "PL-09-06",
-        "topic": "Peephole optimization"
+        "tier": "Elective"
       }
     ],
     "PL-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Dynamic memory management approaches and techniques: malloc/free, garbage collection (mark-sweep,",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Runtime Systems",
+        "subdomainId": "PL-10",
         "topicId": "PL-10-01",
-        "topic": "Dynamic memory management approaches and techniques: malloc/free, garbage collection (mark-sweep, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Datalayout for objects and activation records",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Runtime Systems",
+        "subdomainId": "PL-10",
         "topicId": "PL-10-02",
-        "topic": "Data layout for objects and activation records"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Just-in-time compilation and dynamic recompilation",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Runtime Systems",
+        "subdomainId": "PL-10",
         "topicId": "PL-10-03",
-        "topic": "Just-in-time compilation and dynamic recompilation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Othercommonfeaturesof virtual machines,such as class loading, threads,and security.",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Runtime Systems",
+        "subdomainId": "PL-10",
         "topicId": "PL-10-04",
-        "topic": "Other common features of virtual machines, such as class loading, threads,and security."
+        "tier": "Elective"
       }
     ],
     "PL-11": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Relevant program representations, such as basic blocks, control-flow graphs, def-use chains,and static",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-01",
-        "topic": "Relevant program representations, such as basic blocks, control-flow graphs, def-use chains,and static "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Undecidability and consequences for program analysis",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-02",
-        "topic": "Undecidability and consequences for program analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Flow-insensitive analyses, such as type-checking and scalable pointer and alias analyses",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-03",
-        "topic": "Flow-insensitive analyses, such as type-checking and scalable pointer and alias analyses"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Flow-sensitive analyses, such as forward and backward dataflow analyses",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-04",
-        "topic": "Flow-sensitive analyses, such as forward and backward dataflow analyses"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Path-sensitive analyses, such as software model checking",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-05",
-        "topic": "Path-sensitive analyses, such as software model checking"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Tools and frameworks for defining analyses",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-06",
-        "topic": "Tools and frameworks for defining analyses"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Role of static analysis in program optimization",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-07",
-        "topic": "Role of static analysis in program optimization"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Role of static analysis in (partial) verification and bug-finding",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Static Analysis",
+        "subdomainId": "PL-11",
         "topicId": "PL-11-08",
-        "topic": "Role of static analysis in (partial) verification and bug-finding"
+        "tier": "Elective"
       }
     ],
     "PL-12": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Lazy evaluation and infinite streams",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-01",
-        "topic": "Lazy evaluation and infinite streams"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Control Abstractions: Exception Handling, Continuations, Monads",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-02",
-        "topic": "Control Abstractions: Exception Handling, Continuations, Monads"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Object-oriented abstractions: Multiple inheritance, Mixins, Traits, Multimethods",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-03",
-        "topic": "Object-oriented abstractions: Multiple inheritance, Mixins, Traits, Multimethods"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Metaprogramming: Macros, Generative programming, Model-based development",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-04",
-        "topic": "Metaprogramming: Macros, Generative programming, Model-based development"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Module systems",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-05",
-        "topic": "Module systems"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "String manipulation via pattern-matching (regularexpressions)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-06",
-        "topic": "String manipulation via pattern-matching (regular expressions)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Dynamic code evaluation (“eval”)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-07",
-        "topic": "Dynamic code evaluation (“eval”)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Language support for checking assertions, invariants, and pre/post-conditions",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Advanced Programming Constructs",
+        "subdomainId": "PL-12",
         "topicId": "PL-12-08",
-        "topic": "Language support for checking assertions, invariants, and pre/post-conditions"
+        "tier": "Elective"
       }
     ],
     "PL-13": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Constructs for thread-shared variables and shared-memory synchronization",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Concurrency and Parallelism",
+        "subdomainId": "PL-13",
         "topicId": "PL-13-01",
-        "topic": "Constructs for thread-shared variables and shared-memory synchronization"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Actor models",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Concurrency and Parallelism",
+        "subdomainId": "PL-13",
         "topicId": "PL-13-02",
-        "topic": "Actor models"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Futures",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Concurrency and Parallelism",
+        "subdomainId": "PL-13",
         "topicId": "PL-13-03",
-        "topic": "Futures"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Language support for data parallelism",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Concurrency and Parallelism",
+        "subdomainId": "PL-13",
         "topicId": "PL-13-04",
-        "topic": "Language support for data parallelism"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Models for passing messages between sequential processes",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Concurrency and Parallelism",
+        "subdomainId": "PL-13",
         "topicId": "PL-13-05",
-        "topic": "Models for passing messages between sequential processes"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Effectof memory-consistency models on language semantics and correct code generation",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Concurrency and Parallelism",
+        "subdomainId": "PL-13",
         "topicId": "PL-13-06",
-        "topic": "Effect of memory-consistency models on language semantics and correct code generation"
+        "tier": "Elective"
       }
     ],
     "PL-14": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Compositional type constructors, such as product types (for aggregates), sum types (for unions), function",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Type Systems",
+        "subdomainId": "PL-14",
         "topicId": "PL-14-01",
-        "topic": "Compositional type constructors, such as product types (for aggregates), sum types (for unions), function "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Type checking",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Type Systems",
+        "subdomainId": "PL-14",
         "topicId": "PL-14-02",
-        "topic": "Type checking"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Type safety as preservation plus progress",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Type Systems",
+        "subdomainId": "PL-14",
         "topicId": "PL-14-03",
-        "topic": "Type safety as preservation plus progress"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Type inference",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Type Systems",
+        "subdomainId": "PL-14",
         "topicId": "PL-14-04",
-        "topic": "Type inference"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Static overloading",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Type Systems",
+        "subdomainId": "PL-14",
         "topicId": "PL-14-05",
-        "topic": "Static overloading"
+        "tier": "Elective"
       }
     ],
     "PL-15": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Syntax vs. semantics",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Formal Semantics",
+        "subdomainId": "PL-15",
         "topicId": "PL-15-01",
-        "topic": "Syntax vs. semantics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Lambda Calculus",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Formal Semantics",
+        "subdomainId": "PL-15",
         "topicId": "PL-15-02",
-        "topic": "Lambda Calculus"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Approaches to semantics: Operational, Denotational, Axiomatic",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Formal Semantics",
+        "subdomainId": "PL-15",
         "topicId": "PL-15-03",
-        "topic": "Approaches to semantics: Operational, Denotational, Axiomatic"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Proofs by induction over language semantics",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Formal Semantics",
+        "subdomainId": "PL-15",
         "topicId": "PL-15-04",
-        "topic": "Proofs by induction over language semantics"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Formal definitions and proofs for type systems(cross-reference PL/Type Systems)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Formal Semantics",
+        "subdomainId": "PL-15",
         "topicId": "PL-15-05",
-        "topic": "Formal definitions and proofs for type systems(cross-reference PL/Type Systems)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Parametricity(cross-reference PL/Type Systems)",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Formal Semantics",
+        "subdomainId": "PL-15",
         "topicId": "PL-15-06",
-        "topic": "Parametricity(cross-reference PL/Type Systems)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Using formal semantics for systems modeling",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Formal Semantics",
+        "subdomainId": "PL-15",
         "topicId": "PL-15-07",
-        "topic": "Using formal semantics for systems modeling"
+        "tier": "Elective"
       }
     ],
     "PL-16": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Principles of language design such as orthogonality",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Pragmatics",
+        "subdomainId": "PL-16",
         "topicId": "PL-16-01",
-        "topic": "Principles of language design such as orthogonality"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Evaluation order, precedence, and associativity",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Pragmatics",
+        "subdomainId": "PL-16",
         "topicId": "PL-16-02",
-        "topic": "Evaluation order, precedence, and associativity"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Eager vs. delayed evaluation",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Pragmatics",
+        "subdomainId": "PL-16",
         "topicId": "PL-16-03",
-        "topic": "Eager vs. delayed evaluation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Defining controland iteration constructs",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Pragmatics",
+        "subdomainId": "PL-16",
         "topicId": "PL-16-04",
-        "topic": "Defining controland iteration constructs"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "External calls and system libraries",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Language Pragmatics",
+        "subdomainId": "PL-16",
         "topicId": "PL-16-05",
-        "topic": "External calls and system libraries"
+        "tier": "Elective"
       }
     ],
     "PL-17": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Clausal representation of data structures and algorithms",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Logic Programming",
+        "subdomainId": "PL-17",
         "topicId": "PL-17-01",
-        "topic": "Clausal representation of data structures and algorithms"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Unification",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Logic Programming",
+        "subdomainId": "PL-17",
         "topicId": "PL-17-02",
-        "topic": "Unification"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Backtracking and search",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Logic Programming",
+        "subdomainId": "PL-17",
         "topicId": "PL-17-03",
-        "topic": "Backtracking and search"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cuts",
+        "domainId": "PL",
+        "domain": "Programming Languages",
+        "subdomain": "Logic Programming",
+        "subdomainId": "PL-17",
         "topicId": "PL-17-04",
-        "topic": "Cuts"
+        "tier": "Elective"
       }
     ]
   },
   "SP": {
     "SP-01": [
       {
+        "breakdown": "[1 Core-Tier1 hour, 2 Core-Tier2 hours]",
+        "topic": "Social implications of computing in a networked world (cross-reference HCI/Foundations/social models;",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Social Context",
+        "subdomainId": "SP-01",
         "topicId": "SP-01-01",
-        "topic": "Social implications of computing in a networked world (cross-reference HCI/Foundations/social models; "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 2 Core-Tier2 hours]",
+        "topic": "Impact of social media on individualism, collectivism and culture.",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Social Context",
+        "subdomainId": "SP-01",
         "topicId": "SP-01-02",
-        "topic": "Impact of social media on individualism, collectivism and culture."
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 2 Core-Tier2 hours]",
+        "topic": "Growth and control of the Internet (cross-reference NC/Introduction/organization of the Internet)",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Social Context",
+        "subdomainId": "SP-01",
         "topicId": "SP-01-03",
-        "topic": "Growth and control of the Internet (cross-reference NC/Introduction/organization of the Internet)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 2 Core-Tier2 hours]",
+        "topic": "Often referred to as the digital divide, differences in access to digital technology resources and its resulting",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Social Context",
+        "subdomainId": "SP-01",
         "topicId": "SP-01-04",
-        "topic": "Often referred to as the digital divide, differences in access to digital technology resources and its resulting "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 2 Core-Tier2 hours]",
+        "topic": "Accessibility issues, including legal requirements",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Social Context",
+        "subdomainId": "SP-01",
         "topicId": "SP-01-05",
-        "topic": "Accessibility issues, including legal requirements"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 2 Core-Tier2 hours]",
+        "topic": "Context-aware computing  (cross-reference HCI/Design for non-mouse interfaces/ ubiquitous and context-",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Social Context",
+        "subdomainId": "SP-01",
         "topicId": "SP-01-06",
-        "topic": "Context-aware computing  (cross-reference HCI/Design for non-mouse interfaces/ ubiquitous and context-"
+        "tier": "Tier 2"
       }
     ],
     "SP-02": [
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Ethical argumentation",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Analytical Tools",
+        "subdomainId": "SP-02",
         "topicId": "SP-02-01",
-        "topic": "Ethical argumentation"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Ethical theories and decision-making",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Analytical Tools",
+        "subdomainId": "SP-02",
         "topicId": "SP-02-02",
-        "topic": "Ethical theories and decision-making"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Moral assumptions and values",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Analytical Tools",
+        "subdomainId": "SP-02",
         "topicId": "SP-02-03",
-        "topic": "Moral assumptions and values"
+        "tier": "Tier 1"
       }
     ],
     "SP-03": [
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Communityvalues and the laws by which we live",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-01",
-        "topic": "Community values and the laws by which we live "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "The nature of professionalism including care, attention and discipline, fiduciary responsibility, and",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-02",
-        "topic": "The nature of professionalism including care, attention and discipline, fiduciary responsibility, and "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Keeping up-to-date as acomputingprofessional in terms of familiarity, tools, skills, legal and professional",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-03",
-        "topic": "Keeping up-to-date as a computing professional in terms of familiarity, tools, skills, legal and professional "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Professional certification, codes of ethics, conduct, and practice, such as the ACM/IEEE-CS, SE, AITP,",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-04",
-        "topic": "Professional certification, codes of ethics, conduct, and practice, such as the ACM/IEEE-CS, SE, AITP, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Accountability, responsibility and liability (e.g. software correctness, reliability and safety, as well as",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-05",
-        "topic": "Accountability, responsibility and liability (e.g. software correctness, reliability and safety, as well as "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "The role of thecomputingprofessional in public policy",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-06",
-        "topic": "The role of the computing professional in public policy"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Maintaining awareness of consequences",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-07",
-        "topic": "Maintaining awareness of consequences"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Ethical dissent and whistle-blowing",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-08",
-        "topic": "Ethical dissent and whistle-blowing"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "The relationship between regional culture andethicaldilemmas",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-09",
-        "topic": "The relationship between regional culture and ethicaldilemmas"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Dealing with harassment and discrimination",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-10",
-        "topic": "Dealing with harassment and discrimination"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Forms of professional credentialing",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-11",
-        "topic": "Forms of professional credentialing "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Acceptable use policies for computing in the workplace",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-12",
-        "topic": "Acceptable use policies for computing in the workplace"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Ergonomics and healthy computing environments",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-13",
-        "topic": "Ergonomics and healthy computing environments"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours, 2 Core-Tier2 hours]",
+        "topic": "Time to market and cost considerations versus quality professional standards",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Ethics",
+        "subdomainId": "SP-03",
         "topicId": "SP-03-14",
-        "topic": "Time to market and cost considerations versus quality professional standards"
+        "tier": "Tier 2"
       }
     ],
     "SP-04": [
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Philosophical foundations of intellectual property",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-01",
-        "topic": "Philosophical foundations of intellectual property "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Intellectual property rights (cross-reference IM/Information Storage and Retrieval/intellectual property and",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-02",
-        "topic": "Intellectual property rights (cross-reference IM/Information Storage and Retrieval/intellectual property and "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Intangible digital intellectual property (IDIP)",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-03",
-        "topic": "Intangible digital intellectual property (IDIP)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Legal foundations for intellectual property protection",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-04",
-        "topic": "Legal foundations for intellectual property protection"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Digital rights management",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-05",
-        "topic": "Digital rights management"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Copyrights, patents, trade secrets, trademarks",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-06",
-        "topic": "Copyrights, patents, trade secrets, trademarks"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Plagiarism",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-07",
-        "topic": "Plagiarism"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Foundations of the open source movement",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-08",
-        "topic": "Foundations of the open source movement"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Software piracy",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Intellectual Property",
+        "subdomainId": "SP-04",
         "topicId": "SP-04-09",
-        "topic": "Software piracy"
+        "tier": "Elective"
       }
     ],
     "SP-05": [
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Philosophical foundations of privacy rights (cross-reference IS/Fundamental Issues/philosophical issues)",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-01",
-        "topic": "Philosophical foundations of privacy rights (cross-reference IS/Fundamental Issues/philosophical issues)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Legal foundations of privacy protection",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-02",
-        "topic": "Legal foundations of privacy protection "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Privacy implications of widespread data collection for transactional databases, data warehouses,",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-03",
-        "topic": "Privacy implications of widespread data collection for transactional databases, data warehouses, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Ramifications of differential privacy",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-04",
-        "topic": "Ramifications of differential privacy "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-05",
-        "topic": "Technology-based solutions for privacy protection (cross-reference IAS/Threats and Attacks/attacks on "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Privacy legislation in areas of practice",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-06",
-        "topic": "Privacy legislation in areas of practice"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Civil liberties and cultural differences",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-07",
-        "topic": "Civil liberties and cultural differences"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours]",
+        "topic": "Freedom of expression and its limitations",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Privacy and Civil Liberties",
+        "subdomainId": "SP-05",
         "topicId": "SP-05-08",
-        "topic": "Freedom of expression and its limitations "
+        "tier": "Elective"
       }
     ],
     "SP-06": [
       {
+        "breakdown": "[1Core-Tier1 hour]",
+        "topic": "Reading, understanding and summarizing technical material, including source code and documentation",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Communication",
+        "subdomainId": "SP-06",
         "topicId": "SP-06-01",
-        "topic": "Reading, understanding and summarizing technical material, including source code and documentation"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1Core-Tier1 hour]",
+        "topic": "Writing effective technical documentation and materials",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Communication",
+        "subdomainId": "SP-06",
         "topicId": "SP-06-02",
-        "topic": "Writing effective technical documentation and materials"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1Core-Tier1 hour]",
+        "topic": "Dynamics of oral, written, and electronic team and group communication (cross-reference",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Communication",
+        "subdomainId": "SP-06",
         "topicId": "SP-06-03",
-        "topic": "Dynamics of oral, written, and electronic team and group communication (cross-reference "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1Core-Tier1 hour]",
+        "topic": "Communicating professionally with stakeholders",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Communication",
+        "subdomainId": "SP-06",
         "topicId": "SP-06-04",
-        "topic": "Communicating professionally with stakeholders"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1Core-Tier1 hour]",
+        "topic": "Utilizing collaboration tools  (cross-reference HCI/Collaboration and Communication/online communities;",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Communication",
+        "subdomainId": "SP-06",
         "topicId": "SP-06-05",
-        "topic": "Utilizing collaboration tools  (cross-reference HCI/Collaboration and Communication/online communities; "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1Core-Tier1 hour]",
+        "topic": "Dealing with cross-cultural environments (cross-reference HCI/User-Centered Design and Testing/cross-",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Communication",
+        "subdomainId": "SP-06",
         "topicId": "SP-06-06",
-        "topic": "Dealing with cross-cultural environments (cross-reference HCI/User-Centered Design and Testing/cross-"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1Core-Tier1 hour]",
+        "topic": "Tradeoffs of competing risks in software projects, such as technology,structure/process, quality, people,",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Professional Communication",
+        "subdomainId": "SP-06",
         "topicId": "SP-06-07",
-        "topic": "Tradeoffs of competing risks in software projects, such as technology, structure/process, quality, people, "
+        "tier": "Elective"
       }
     ],
     "SP-07": [
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Being a sustainable practitioner by taking into consideration cultural and environmental impacts of",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-01",
-        "topic": "Being a sustainable practitioner by taking into consideration cultural and environmental impacts of "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Explore global social and environmental impacts of computer use and disposal (e-waste)",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-02",
-        "topic": "Explore global social and environmental impacts of computer use and disposal (e-waste)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Environmental impacts of design choices in specific areas such as algorithms, operating systems, networks,",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-03",
-        "topic": "Environmental impacts of design choices in specific areas such as algorithms, operating systems, networks, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Guidelines for sustainable design standards",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-04",
-        "topic": "Guidelines for sustainable design standards"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Systemic effects of complex computer-mediated phenomena (e.g. telecommuting or web shopping)",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-05",
-        "topic": "Systemic effects of complex computer-mediated phenomena (e.g. telecommuting or web shopping)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Pervasive computing; information processingintegrated into everyday objects and activities,such as smart",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-06",
-        "topic": "Pervasive computing; information processingintegrated into everyday objects and activities, such as smart "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "Research on applications of computing to environmental issues, suchas energy, pollution, resource usage,",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-07",
-        "topic": "Research on applications of computing to environmental issues, such as energy, pollution, resource usage, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour, 1 Core-Tier2 hour]",
+        "topic": "The interdependence ofthe sustainability of software systemswith social systems, including the knowledge",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Sustainability",
+        "subdomainId": "SP-07",
         "topicId": "SP-07-08",
-        "topic": "The interdependence ofthe sustainability of software systems with social systems, including the knowledge "
+        "tier": "Elective"
       }
     ],
     "SP-08": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Prehistory—the world before 1946",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "History",
+        "subdomainId": "SP-08",
         "topicId": "SP-08-01",
-        "topic": "Prehistory—the world before 1946"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "History of computer hardware, software, networking (cross-reference AR/Digital logic and digital systems/",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "History",
+        "subdomainId": "SP-08",
         "topicId": "SP-08-02",
-        "topic": "History of computer hardware, software, networking (cross-reference AR/Digital logic and digital systems/ "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Pioneers of computing",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "History",
+        "subdomainId": "SP-08",
         "topicId": "SP-08-03",
-        "topic": "Pioneers of computing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "History oftheInternet",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "History",
+        "subdomainId": "SP-08",
         "topicId": "SP-08-04",
-        "topic": "History oftheInternet"
+        "tier": "Elective"
       }
     ],
     "SP-09": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Monopolies and their economic implications",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-01",
-        "topic": "Monopolies and their economic implications"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Effect of skilled labor supply and demand on the quality of computing products",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-02",
-        "topic": "Effect of skilled labor supply and demand on the quality of computing products"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Pricing strategies in the computing domain",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-03",
-        "topic": "Pricing strategies in the computing domain"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "The phenomenon of outsourcing and off-shoring software development; impacts on employment and on",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-04",
-        "topic": "The phenomenon of outsourcing and off-shoring software development; impacts on employment and on "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Consequences of globalization for the computer science profession",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-05",
-        "topic": "Consequences of globalization for the computer science profession"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Differences in access to computing resources and the possible effects thereof",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-06",
-        "topic": "Differences in access to computing resources and the possible effects thereof"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cost/benefit analysis of jobs with considerations tomanufacturing, hardware, software, and engineering",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-07",
-        "topic": "Cost/benefit analysis of jobs with considerations tomanufacturing, hardware, software, and engineering "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Cost estimates versus actual costs in relation to total costs",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-08",
-        "topic": "Cost estimates versus actual costs in relation to total costs"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Entrepreneurship: prospects and pitfalls",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-09",
-        "topic": "Entrepreneurship: prospects and pitfalls"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Network effect or demand-side economies of scale",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-10",
-        "topic": "Network effect or demand-side economies of scale"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Use of engineering economics in dealing with finances",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Economies of Computing",
+        "subdomainId": "SP-09",
         "topicId": "SP-09-11",
-        "topic": "Use of engineering economics in dealing with finances"
+        "tier": "Elective"
       }
     ],
     "SP-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Examples of computer crimes and legal redress for computer criminals (cross-reference IAS/Digital",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Security Policies, Laws and Computer Crimes",
+        "subdomainId": "SP-10",
         "topicId": "SP-10-01",
-        "topic": "Examples of computer crimes and legal redress for computer criminals (cross-reference IAS/Digital "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Social engineering, identity theft and recovery (cross-reference HCI/Human Factors and Security/trust,",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Security Policies, Laws and Computer Crimes",
+        "subdomainId": "SP-10",
         "topicId": "SP-10-02",
-        "topic": "Social engineering, identity theft and recovery (cross-reference HCI/Human Factors and Security/trust, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Issues surrounding the misuse of access and breaches in security",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Security Policies, Laws and Computer Crimes",
+        "subdomainId": "SP-10",
         "topicId": "SP-10-03",
-        "topic": "Issues surrounding the misuse of access and breaches in security"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Motivations and ramifications of cyber terrorism and criminal hacking, “cracking”",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Security Policies, Laws and Computer Crimes",
+        "subdomainId": "SP-10",
         "topicId": "SP-10-04",
-        "topic": "Motivations and ramifications of cyber terrorism and criminal hacking, “cracking”"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Effects of malware, such as viruses, worms and Trojan horses",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Security Policies, Laws and Computer Crimes",
+        "subdomainId": "SP-10",
         "topicId": "SP-10-05",
-        "topic": "Effects of malware, such as viruses, worms and Trojan horses"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Crime prevention strategies",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Security Policies, Laws and Computer Crimes",
+        "subdomainId": "SP-10",
         "topicId": "SP-10-06",
-        "topic": "Crime prevention strategies"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Security policies (cross-reference IAS/SecurityPolicy and Governance/policies)",
+        "domainId": "SP",
+        "domain": "Social Issues and Professional Practice",
+        "subdomain": "Security Policies, Laws and Computer Crimes",
+        "subdomainId": "SP-10",
         "topicId": "SP-10-07",
-        "topic": "Security policies (cross-reference IAS/SecurityPolicy and Governance/policies)"
+        "tier": "Elective"
       }
     ]
   },
   "SDF": {
     "SDF-01": [
       {
+        "breakdown": "[11 Core-Tier1 hours]",
+        "topic": "The concept and properties of algorithms",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Algorithms and Design",
+        "subdomainId": "SDF-01",
         "topicId": "SDF-01-01",
-        "topic": "The concept and properties of algorithms"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[11 Core-Tier1 hours]",
+        "topic": "The role of algorithms in the problem-solving process",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Algorithms and Design",
+        "subdomainId": "SDF-01",
         "topicId": "SDF-01-02",
-        "topic": "The role of algorithms in the problem-solving process"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[11 Core-Tier1 hours]",
+        "topic": "Problem-solving strategies",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Algorithms and Design",
+        "subdomainId": "SDF-01",
         "topicId": "SDF-01-03",
-        "topic": "Problem-solving strategies "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[11 Core-Tier1 hours]",
+        "topic": "Fundamental design concepts and principles",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Algorithms and Design",
+        "subdomainId": "SDF-01",
         "topicId": "SDF-01-04",
-        "topic": "Fundamental design concepts and principles"
+        "tier": "Tier 1"
       }
     ],
     "SDF-02": [
       {
+        "breakdown": "[10 Core-Tier1 hours]",
+        "topic": "Basic syntax and semantics of a higher-level language",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Programming Concepts",
+        "subdomainId": "SDF-02",
         "topicId": "SDF-02-01",
-        "topic": "Basic syntax and semantics of a higher-level language"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours]",
+        "topic": "Variables and primitive data types (e.g., numbers, characters, Booleans)",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Programming Concepts",
+        "subdomainId": "SDF-02",
         "topicId": "SDF-02-02",
-        "topic": "Variables and primitive data types (e.g., numbers, characters, Booleans)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours]",
+        "topic": "Expressions and assignments",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Programming Concepts",
+        "subdomainId": "SDF-02",
         "topicId": "SDF-02-03",
-        "topic": "Expressions and assignments"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours]",
+        "topic": "Simple I/O including file I/O",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Programming Concepts",
+        "subdomainId": "SDF-02",
         "topicId": "SDF-02-04",
-        "topic": "Simple I/O including file I/O"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours]",
+        "topic": "Conditional and iterative control structures",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Programming Concepts",
+        "subdomainId": "SDF-02",
         "topicId": "SDF-02-05",
-        "topic": "Conditional and iterative control structures"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours]",
+        "topic": "Functions and parameter passing",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Programming Concepts",
+        "subdomainId": "SDF-02",
         "topicId": "SDF-02-06",
-        "topic": "Functions and parameter passing"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10 Core-Tier1 hours]",
+        "topic": "The concept of recursion",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Programming Concepts",
+        "subdomainId": "SDF-02",
         "topicId": "SDF-02-07",
-        "topic": "The concept of recursion"
+        "tier": "Tier 1"
       }
     ],
     "SDF-03": [
       {
+        "breakdown": "[12 Core-Tier1 hours]",
+        "topic": "Arrays",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Data Structures",
+        "subdomainId": "SDF-03",
         "topicId": "SDF-03-01",
-        "topic": "Arrays"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[12 Core-Tier1 hours]",
+        "topic": "Records/structs (heterogeneous aggregates)",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Data Structures",
+        "subdomainId": "SDF-03",
         "topicId": "SDF-03-02",
-        "topic": "Records/structs (heterogeneous aggregates)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[12 Core-Tier1 hours]",
+        "topic": "Strings and string processing",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Data Structures",
+        "subdomainId": "SDF-03",
         "topicId": "SDF-03-03",
-        "topic": "Strings and string processing"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[12 Core-Tier1 hours]",
+        "topic": "Abstract data types and their implementation",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Data Structures",
+        "subdomainId": "SDF-03",
         "topicId": "SDF-03-04",
-        "topic": "Abstract data types and their implementation"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[12 Core-Tier1 hours]",
+        "topic": "References and aliasing",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Data Structures",
+        "subdomainId": "SDF-03",
         "topicId": "SDF-03-05",
-        "topic": "References and aliasing"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[12 Core-Tier1 hours]",
+        "topic": "Linked lists",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Data Structures",
+        "subdomainId": "SDF-03",
         "topicId": "SDF-03-06",
-        "topic": "Linked lists"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[12 Core-Tier1 hours]",
+        "topic": "Strategies for choosing the appropriatedata structure",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Fundamental Data Structures",
+        "subdomainId": "SDF-03",
         "topicId": "SDF-03-07",
-        "topic": "Strategies for choosing the appropriate data structure"
+        "tier": "Tier 1"
       }
     ],
     "SDF-04": [
       {
+        "breakdown": "[10Core-Tier1 hours]",
+        "topic": "Program comprehension",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Development Methods",
+        "subdomainId": "SDF-04",
         "topicId": "SDF-04-01",
-        "topic": "Program comprehension"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10Core-Tier1 hours]",
+        "topic": "Program correctness",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Development Methods",
+        "subdomainId": "SDF-04",
         "topicId": "SDF-04-02",
-        "topic": "Program correctness"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10Core-Tier1 hours]",
+        "topic": "Simple refactoring",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Development Methods",
+        "subdomainId": "SDF-04",
         "topicId": "SDF-04-03",
-        "topic": "Simple refactoring"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10Core-Tier1 hours]",
+        "topic": "Modern programming environments",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Development Methods",
+        "subdomainId": "SDF-04",
         "topicId": "SDF-04-04",
-        "topic": "Modern programming environments"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10Core-Tier1 hours]",
+        "topic": "Debugging strategies",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Development Methods",
+        "subdomainId": "SDF-04",
         "topicId": "SDF-04-05",
-        "topic": "Debugging strategies"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[10Core-Tier1 hours]",
+        "topic": "Documentation and program style",
+        "domainId": "SDF",
+        "domain": "Software Development Fundamentals",
+        "subdomain": "Development Methods",
+        "subdomainId": "SDF-04",
         "topicId": "SDF-04-06",
-        "topic": "Documentation and program style"
+        "tier": "Tier 1"
       }
     ]
   },
   "SE": {
     "SE-01": [
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Systems level considerations, i.e., the interaction of software withits intended environment (cross-",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-01",
-        "topic": "Systems level considerations, i.e., the interaction of software with its intended environment (cross-"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Introduction to software process models (e.g., waterfall, incremental, agile)",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-02",
-        "topic": "Introduction to software process models (e.g., waterfall, incremental, agile)"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Programming in the large vs. individual programming",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-03",
-        "topic": "Programming in the large vs. individual programming"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Evaluation of software process models",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-04",
-        "topic": "Evaluation of software process models"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Software quality concepts",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-05",
-        "topic": "Software quality concepts"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Process improvement",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-06",
-        "topic": "Process improvement"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Software process capability maturity models",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-07",
-        "topic": "Software process capability maturity models"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier1 hours; 1 Core-Tier2 hour]",
+        "topic": "Software process measurements",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProcesses",
+        "subdomainId": "SE-01",
         "topicId": "SE-01-08",
-        "topic": "Software process measurements"
+        "tier": "Elective"
       }
     ],
     "SE-02": [
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Team participation",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-01",
-        "topic": "Team participation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Effort Estimation (at the personal level)",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-02",
-        "topic": "Effort Estimation (at the personal level)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Risk(cross reference IAS/Secure Software Engineering)",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-03",
-        "topic": "Risk(cross reference IAS/Secure Software Engineering) "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Team management",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-04",
-        "topic": "Team management"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Project management",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-05",
-        "topic": "Project management"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Software measurement and estimation techniques",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-06",
-        "topic": "Software measurement and estimation techniques "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Software quality assurance and the role of measurements",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-07",
-        "topic": "Software quality assurance and the role of measurements"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Risk",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-08",
-        "topic": "Risk"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "System-wide approach to risk including hazards associated with tools",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareProjectManagement",
+        "subdomainId": "SE-02",
         "topicId": "SE-02-09",
-        "topic": "System-wide approach to risk including hazards associated with tools"
+        "tier": "Elective"
       }
     ],
     "SE-03": [
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Software configuration management and version control",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "ToolsandEnvironments",
+        "subdomainId": "SE-03",
         "topicId": "SE-03-01",
-        "topic": "Software configuration management and version control"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Release management",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "ToolsandEnvironments",
+        "subdomainId": "SE-03",
         "topicId": "SE-03-02",
-        "topic": "Release management"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Requirements analysis and design modeling tools",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "ToolsandEnvironments",
+        "subdomainId": "SE-03",
         "topicId": "SE-03-03",
-        "topic": "Requirements analysis and design modeling tools"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Testing tools including static and dynamic analysis tools",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "ToolsandEnvironments",
+        "subdomainId": "SE-03",
         "topicId": "SE-03-04",
-        "topic": "Testing tools including static and dynamic analysis tools"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Programming environments that automate parts of program construction processes (e.g., automated builds)",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "ToolsandEnvironments",
+        "subdomainId": "SE-03",
         "topicId": "SE-03-05",
-        "topic": "Programming environments that automate parts of program construction processes (e.g., automated builds)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Tool integration concepts and mechanisms",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "ToolsandEnvironments",
+        "subdomainId": "SE-03",
         "topicId": "SE-03-06",
-        "topic": "Tool integration concepts and mechanisms"
+        "tier": "Tier 2"
       }
     ],
     "SE-04": [
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Describing functional requirements using, for example, use cases or users stories",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-01",
-        "topic": "Describing functional requirements using, for example, use cases or users stories"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Properties of requirements including consistency, validity, completeness, and feasibility",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-02",
-        "topic": "Properties of requirements including consistency, validity, completeness, and feasibility"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Software requirements elicitation",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-03",
-        "topic": "Software requirements elicitation"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Describing system data using, for example, class diagrams or entity-relationship diagrams",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-04",
-        "topic": "Describing system data using, for example, class diagrams or entity-relationship diagrams"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Non-functional requirements and their relationship to software quality(cross-reference IAS/Secure",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-05",
-        "topic": "Non-functional requirements and their relationship to software quality (cross-reference IAS/Secure "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Evaluation and use of requirements specifications",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-06",
-        "topic": "Evaluation and use of requirements specifications"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Requirements analysis modeling techniques",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-07",
-        "topic": "Requirements analysis modeling techniques"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Acceptability of certainty / uncertainty considerations regarding software / system behavior",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-08",
-        "topic": "Acceptability of certainty / uncertainty considerations regarding software / system behavior"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Prototyping",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-09",
-        "topic": "Prototyping"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Basic concepts of formal requirements specification",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-10",
-        "topic": "Basic concepts of formal requirements specification"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Requirements specification",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-11",
-        "topic": "Requirements specification"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Requirements validation",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-12",
-        "topic": "Requirements validation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier1 hour; 3 Core-Tier2 hours]",
+        "topic": "Requirements tracing",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "RequirementsEngineering",
+        "subdomainId": "SE-04",
         "topicId": "SE-04-13",
-        "topic": "Requirements tracing"
+        "tier": "Elective"
       }
     ],
     "SE-05": [
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "System design principles:  levels of abstraction (architectural design and detailed design), separation of",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-01",
-        "topic": "System design principles:  levels of abstraction (architectural design and detailed design), separation of "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-02",
-        "topic": "Design Paradigms such as structured design (top-down functional decomposition), object-oriented analysis "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Structural and behavioral models of software designs",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-03",
-        "topic": "Structural and behavioral models of software designs"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Design patterns",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-04",
-        "topic": "Design patterns"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Relationships between requirements and designs:  transformation of models,design of contracts, invariants",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-05",
-        "topic": "Relationships between requirements and designs:  transformation of models, design of contracts, invariants"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Software architecture concepts and standard architectures (e.g. client-server, n-layer, transformcentered,",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-06",
-        "topic": "Software architecture concepts and standard architectures (e.g. client-server, n-layer, transform centered, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Refactoring designs using design patterns",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-07",
-        "topic": "Refactoring designs using design patterns"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "The use of components in design:  component selection, design, adaptation and assembly of components,",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-08",
-        "topic": "The use of components in design:  component selection, design, adaptation and assembly of components, "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Internal design qualities, and models for them:  efficiency and performance, redundancy and fault",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-09",
-        "topic": "Internal design qualities, and models for them:  efficiency and performance, redundancy and fault "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "External design qualities, and models for them:  functionality, reliability, performance and efficiency,",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-10",
-        "topic": "External design qualities, and models for them:  functionality, reliability, performance and efficiency, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Measurementand analysis of design quality",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-11",
-        "topic": "Measurement and analysis of design quality"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Tradeoffs between different aspects of quality",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-12",
-        "topic": "Tradeoffs between different aspects of quality"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Application frameworks",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-13",
-        "topic": "Application frameworks"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Middleware:  the object-oriented paradigm within middleware, object request brokers and marshalling,",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-14",
-        "topic": "Middleware:  the object-oriented paradigm within middleware, object request brokers and marshalling, "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours; 5 Core-Tier2 hours]",
+        "topic": "Principles ofsecure design and coding (cross-reference IAS/Principles of Secure Design)",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareDesign",
+        "subdomainId": "SE-05",
         "topicId": "SE-05-15",
-        "topic": "Principles of secure design and coding (cross-reference IAS/Principles of Secure Design)"
+        "tier": "Elective"
       }
     ],
     "SE-06": [
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareConstruction",
+        "subdomainId": "SE-06",
         "topicId": "SE-06-01",
-        "topic": "Coding practices: techniques, idioms/patterns, mechanisms for building quality programs (cross-reference "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Coding standards",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareConstruction",
+        "subdomainId": "SE-06",
         "topicId": "SE-06-02",
-        "topic": "Coding standards"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Integration strategies",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareConstruction",
+        "subdomainId": "SE-06",
         "topicId": "SE-06-03",
-        "topic": "Integration strategies"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Development context: “green field” vs.existing code base",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareConstruction",
+        "subdomainId": "SE-06",
         "topicId": "SE-06-04",
-        "topic": "Development context: “green field” vs. existing code base"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hours]",
+        "topic": "Potential security problems in programs",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareConstruction",
+        "subdomainId": "SE-06",
         "topicId": "SE-06-05",
-        "topic": "Potential security problems in programs"
+        "tier": "Elective"
       }
     ],
     "SE-07": [
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Verification and validation concepts",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-01",
-        "topic": "Verification and validation concepts"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Inspections, reviews, audits",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-02",
-        "topic": "Inspections, reviews, audits"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Testing types, including human computer interface, usability,reliability, security, conformance to",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-03",
-        "topic": "Testing types, including human computer interface, usability,reliability, security, conformance to "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Testing fundamentals(cross-referenceSDF/Development Methods)",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-04",
-        "topic": "Testing fundamentals(cross-reference SDF/Development Methods) "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Defect tracking",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-05",
-        "topic": "Defect tracking"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Limitations of testing in particular domains, such as parallelor safety-critical systems",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-06",
-        "topic": "Limitations of testing in particular domains, such as parallel or safety-critical systems"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Static approaches and dynamic approaches to verification",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-07",
-        "topic": "Static approaches and dynamic approaches to verification"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Test-driven development",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-08",
-        "topic": "Test-driven development"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Validation planning; documentation for validation",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-09",
-        "topic": "Validation planning; documentation for validation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Object-oriented testing; systems testing",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-10",
-        "topic": "Object-oriented testing; systems testing"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Verification and validation of non-code artifacts (documentation, help files, training materials)",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-11",
-        "topic": "Verification and validation of non-code artifacts (documentation, help files, training materials)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Fault logging, fault tracking and technical support for such activities",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-12",
-        "topic": "Fault logging, fault tracking and technical support for such activities"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[4Core-Tier2 hours]",
+        "topic": "Fault estimation and testing termination including defect seeding",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareVerificationand Validation",
+        "subdomainId": "SE-07",
         "topicId": "SE-07-13",
-        "topic": "Fault estimation and testing termination including defect seeding"
+        "tier": "Elective"
       }
     ],
     "SE-08": [
       {
+        "breakdown": "[2 Core-Tier2 hour]",
+        "topic": "Software development in the context of large, pre-existing code bases",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareEvolution",
+        "subdomainId": "SE-08",
         "topicId": "SE-08-01",
-        "topic": "Software development in the context of large, pre-existing code bases"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hour]",
+        "topic": "Software evolution",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareEvolution",
+        "subdomainId": "SE-08",
         "topicId": "SE-08-02",
-        "topic": "Software evolution"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hour]",
+        "topic": "Characteristics of maintainable software",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareEvolution",
+        "subdomainId": "SE-08",
         "topicId": "SE-08-03",
-        "topic": "Characteristics of maintainable software"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hour]",
+        "topic": "Reengineering systems",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareEvolution",
+        "subdomainId": "SE-08",
         "topicId": "SE-08-04",
-        "topic": "Reengineering systems"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2 hour]",
+        "topic": "Software reuse",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareEvolution",
+        "subdomainId": "SE-08",
         "topicId": "SE-08-05",
-        "topic": "Software reuse"
+        "tier": "Tier 2"
       }
     ],
     "SE-09": [
       {
+        "breakdown": "[1 Core-Tier2]",
+        "topic": "Software reliability engineering concepts",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareReliability",
+        "subdomainId": "SE-09",
         "topicId": "SE-09-01",
-        "topic": "Software reliability engineering concepts"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2]",
+        "topic": "Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareReliability",
+        "subdomainId": "SE-09",
         "topicId": "SE-09-02",
-        "topic": "Software reliability, system reliability and failure behavior (cross-reference SF/Reliability Through "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2]",
+        "topic": "Fault lifecycle concepts and techniques",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareReliability",
+        "subdomainId": "SE-09",
         "topicId": "SE-09-03",
-        "topic": "Fault lifecycle concepts and techniques"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[1 Core-Tier2]",
+        "topic": "Software reliability models",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareReliability",
+        "subdomainId": "SE-09",
         "topicId": "SE-09-04",
-        "topic": "Software reliability models"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier2]",
+        "topic": "Software fault tolerance techniques and models",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareReliability",
+        "subdomainId": "SE-09",
         "topicId": "SE-09-05",
-        "topic": "Software fault tolerance techniques and models"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier2]",
+        "topic": "Software reliability engineering practices",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareReliability",
+        "subdomainId": "SE-09",
         "topicId": "SE-09-06",
-        "topic": "Software reliability engineering practices"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[1 Core-Tier2]",
+        "topic": "Measurement-based analysis of software reliability",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "SoftwareReliability",
+        "subdomainId": "SE-09",
         "topicId": "SE-09-07",
-        "topic": "Measurement-based analysis of software reliability"
+        "tier": "Elective"
       }
     ],
     "SE-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Role of formal specification and analysis techniques in the software development cycle",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "FormalMethods",
+        "subdomainId": "SE-10",
         "topicId": "SE-10-01",
-        "topic": "Role of formal specification and analysis techniques in the software development cycle"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Program assertion languages and analysis approaches (including languages for writing and analyzing pre-",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "FormalMethods",
+        "subdomainId": "SE-10",
         "topicId": "SE-10-02",
-        "topic": "Program assertion languages and analysis approaches (including languages for writing and analyzing pre- "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Formal approaches to software modeling and analysis",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "FormalMethods",
+        "subdomainId": "SE-10",
         "topicId": "SE-10-03",
-        "topic": "Formal approaches to software modeling and analysis"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Tools in support of formal methods",
+        "domainId": "SE",
+        "domain": "Software Engineering",
+        "subdomain": "FormalMethods",
+        "subdomainId": "SE-10",
         "topicId": "SE-10-04",
-        "topic": "Tools in support of formal methods"
+        "tier": "Elective"
       }
     ]
   },
   "SF": {
     "SF-01": [
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections;",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Computational Paradigms",
+        "subdomainId": "SF-01",
         "topicId": "SF-01-01",
-        "topic": "Basic building blocks and components of a computer (gates, flip-flops, registers, interconnections; "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions,",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Computational Paradigms",
+        "subdomainId": "SF-01",
         "topicId": "SF-01-02",
-        "topic": "Hardware as a computational paradigm: Fundamental logic building blocks; Logic expressions, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Application-level sequential processing: single thread",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Computational Paradigms",
+        "subdomainId": "SF-01",
         "topicId": "SF-01-03",
-        "topic": "Application-level sequential processing: single thread"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Simple application-level parallel processing: request level (web services/client-server/distributed), single",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Computational Paradigms",
+        "subdomainId": "SF-01",
         "topicId": "SF-01-04",
-        "topic": "Simple application-level parallel processing: request level (web services/client-server/distributed), single "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Basic concept of pipelining, overlapped processing stages",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Computational Paradigms",
+        "subdomainId": "SF-01",
         "topicId": "SF-01-05",
-        "topic": "Basic concept of pipelining, overlapped processing stages"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Basic concept of scaling: going faster vs. handling larger problems",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Computational Paradigms",
+        "subdomainId": "SF-01",
         "topicId": "SF-01-06",
-        "topic": "Basic concept of scaling: going faster vs. handling larger problems"
+        "tier": "Tier 1"
       }
     ],
     "SF-02": [
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "Programming abstractions, interfaces, use of libraries",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Cross-Layer Communications",
+        "subdomainId": "SF-02",
         "topicId": "SF-02-01",
-        "topic": "Programming abstractions, interfaces, use of libraries"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "Distinction between Application and OS services, Remote Procedure Call",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Cross-Layer Communications",
+        "subdomainId": "SF-02",
         "topicId": "SF-02-02",
-        "topic": "Distinction between Application and OS services, Remote Procedure Call"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "Application-Virtual Machine Interaction",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Cross-Layer Communications",
+        "subdomainId": "SF-02",
         "topicId": "SF-02-03",
-        "topic": "Application-Virtual Machine Interaction"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "Reliability",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Cross-Layer Communications",
+        "subdomainId": "SF-02",
         "topicId": "SF-02-04",
-        "topic": "Reliability"
+        "tier": "Tier 1"
       }
     ],
     "SF-03": [
       {
+        "breakdown": "[6 Core-Tier1hours]",
+        "topic": "Digital vs. Analog/Discrete vs. Continuous Systems",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "StateandState Machines",
+        "subdomainId": "SF-03",
         "topicId": "SF-03-01",
-        "topic": "Digital vs. Analog/Discrete vs. Continuous Systems"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1hours]",
+        "topic": "Simple logic gates, logical expressions, Boolean logic simplification",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "StateandState Machines",
+        "subdomainId": "SF-03",
         "topicId": "SF-03-02",
-        "topic": "Simple logic gates, logical expressions, Boolean logic simplification"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1hours]",
+        "topic": "Clocks, State, Sequencing",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "StateandState Machines",
+        "subdomainId": "SF-03",
         "topicId": "SF-03-03",
-        "topic": "Clocks, State, Sequencing"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1hours]",
+        "topic": "Combinational Logic, Sequential Logic, Registers, Memories",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "StateandState Machines",
+        "subdomainId": "SF-03",
         "topicId": "SF-03-04",
-        "topic": "Combinational Logic, Sequential Logic, Registers, Memories"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[6 Core-Tier1hours]",
+        "topic": "Computers and Network Protocols as examples ofstatemachines",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "StateandState Machines",
+        "subdomainId": "SF-03",
         "topicId": "SF-03-05",
-        "topic": "Computers and Network Protocols as examples of state machines"
+        "tier": "Tier 1"
       }
     ],
     "SF-04": [
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Sequential vs. parallel processing",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Parallelism",
+        "subdomainId": "SF-04",
         "topicId": "SF-04-01",
-        "topic": "Sequential vs. parallel processing"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Parallel programmingvs. concurrent programming",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Parallelism",
+        "subdomainId": "SF-04",
         "topicId": "SF-04-02",
-        "topic": "Parallel programming vs. concurrent programming"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Request parallelismvs. Task parallelism",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Parallelism",
+        "subdomainId": "SF-04",
         "topicId": "SF-04-03",
-        "topic": "Request parallelism vs. Task parallelism"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Client-Server/Web Services, Thread (Fork-Join), Pipelining",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Parallelism",
+        "subdomainId": "SF-04",
         "topicId": "SF-04-04",
-        "topic": "Client-Server/Web Services, Thread (Fork-Join), Pipelining"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1 hours]",
+        "topic": "Multicore architectures and hardware support for synchronization",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Parallelism",
+        "subdomainId": "SF-04",
         "topicId": "SF-04-05",
-        "topic": "Multicore architectures and hardware support for synchronization"
+        "tier": "Tier 1"
       }
     ],
     "SF-05": [
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "Performance figures of merit",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Evaluation",
+        "subdomainId": "SF-05",
         "topicId": "SF-05-01",
-        "topic": "Performance figures of merit"
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "Workloadsand representative benchmarks, and methods of collecting and analyzing performance figures of",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Evaluation",
+        "subdomainId": "SF-05",
         "topicId": "SF-05-02",
-        "topic": "Workloadsand representative benchmarks, and methods of collecting and analyzing performance figures of "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "CPI (Cycles per Instruction) equationas tool for understanding tradeoffs in the design of instruction sets,",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Evaluation",
+        "subdomainId": "SF-05",
         "topicId": "SF-05-03",
-        "topic": "CPI (Cycles per Instruction) equationas tool for understanding tradeoffs in the design of instruction sets, "
+        "tier": "Tier 1"
       },
       {
+        "breakdown": "[3 Core-Tier1hours]",
+        "topic": "Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Evaluation",
+        "subdomainId": "SF-05",
         "topicId": "SF-05-04",
-        "topic": "Amdahl’s Law: the part of the computation that cannot be sped up limits the effect of the parts that can"
+        "tier": "Tier 1"
       }
     ],
     "SF-06": [
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Kinds of resources (e.g.,processor share, memory, disk, net bandwidth)",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Resource Allocation and Scheduling",
+        "subdomainId": "SF-06",
         "topicId": "SF-06-01",
-        "topic": "Kinds of resources (e.g., processor share, memory, disk, net bandwidth) "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Kinds of scheduling (e.g.,first-come, priority)",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Resource Allocation and Scheduling",
+        "subdomainId": "SF-06",
         "topicId": "SF-06-02",
-        "topic": "Kinds of scheduling (e.g., first-come, priority) "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Advantages of fair scheduling, preemptive scheduling",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Resource Allocation and Scheduling",
+        "subdomainId": "SF-06",
         "topicId": "SF-06-03",
-        "topic": "Advantages of fair scheduling, preemptive scheduling"
+        "tier": "Tier 2"
       }
     ],
     "SF-07": [
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Speed of light and computers (one foot per nanosecond vs. one GHz clocks)",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Proximity",
+        "subdomainId": "SF-07",
         "topicId": "SF-07-01",
-        "topic": "Speed of light and computers (one foot per nanosecond vs. one GHz clocks)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Latencies in computer systems: memory vs. disk latencies vs. across the network memory",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Proximity",
+        "subdomainId": "SF-07",
         "topicId": "SF-07-02",
-        "topic": "Latencies in computer systems: memory vs. disk latencies vs. across the network memory"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Cachesand the effects ofspatial and temporal localityon performancein processors and systems",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Proximity",
+        "subdomainId": "SF-07",
         "topicId": "SF-07-03",
-        "topic": "Cachesand the effects of spatial and temporal localityon performancein processors and systems"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Caches and cache coherency in databases, operating systems, distributed systems, and computer",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Proximity",
+        "subdomainId": "SF-07",
         "topicId": "SF-07-04",
-        "topic": "Caches and cache coherency in databases, operating systems, distributed systems, and computer "
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[3 Core-Tier2hours]",
+        "topic": "Introduction into the processor memory hierarchyand the formula for average memory access time",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Proximity",
+        "subdomainId": "SF-07",
         "topicId": "SF-07-05",
-        "topic": "Introduction into the processor memory hierarchyand the formula for average memory access time"
+        "tier": "Tier 2"
       }
     ],
     "SF-08": [
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Rationale for protection and predictable performance",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Virtualization and Isolation",
+        "subdomainId": "SF-08",
         "topicId": "SF-08-01",
-        "topic": "Rationale for protection and predictable performance"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Levels of indirection, illustrated by virtual memory for managing physical memory resources",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Virtualization and Isolation",
+        "subdomainId": "SF-08",
         "topicId": "SF-08-02",
-        "topic": "Levels of indirection, illustrated by virtual memory for managing physical memory resources"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Methods for implementing virtual memory and virtual machines",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Virtualization and Isolation",
+        "subdomainId": "SF-08",
         "topicId": "SF-08-03",
-        "topic": "Methods for implementing virtual memory and virtual machines"
+        "tier": "Tier 2"
       }
     ],
     "SF-09": [
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Distinction between bugs and faults",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Reliability through Redundancy",
+        "subdomainId": "SF-09",
         "topicId": "SF-09-01",
-        "topic": "Distinction between bugs and faults"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Redundancy throughcheck and retry",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Reliability through Redundancy",
+        "subdomainId": "SF-09",
         "topicId": "SF-09-02",
-        "topic": "Redundancy through check and retry"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Redundancy through redundant encoding (error correcting codes, CRC, FEC)",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Reliability through Redundancy",
+        "subdomainId": "SF-09",
         "topicId": "SF-09-03",
-        "topic": "Redundancy through redundant encoding (error correcting codes, CRC, FEC)"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Duplication/mirroring/replicas",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Reliability through Redundancy",
+        "subdomainId": "SF-09",
         "topicId": "SF-09-04",
-        "topic": "Duplication/mirroring/replicas"
+        "tier": "Tier 2"
       },
       {
+        "breakdown": "[2 Core-Tier2hours]",
+        "topic": "Other approaches to fault tolerance and availability",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Reliability through Redundancy",
+        "subdomainId": "SF-09",
         "topicId": "SF-09-05",
-        "topic": "Other approaches to fault tolerance and availability"
+        "tier": "Tier 2"
       }
     ],
     "SF-10": [
       {
+        "breakdown": "[Elective]",
+        "topic": "Analytical tools to guidequantitative evaluation",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Quantitative Evaluation",
+        "subdomainId": "SF-10",
         "topicId": "SF-10-01",
-        "topic": "Analytical tools to guidequantitative evaluation"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Order of magnitude analysis (Big-Ohnotation)",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Quantitative Evaluation",
+        "subdomainId": "SF-10",
         "topicId": "SF-10-02",
-        "topic": "Order of magnitude analysis (Big-Oh notation)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Analysis of slow and fast paths of a system",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Quantitative Evaluation",
+        "subdomainId": "SF-10",
         "topicId": "SF-10-03",
-        "topic": "Analysis of slow and fast paths of a system"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Events on their effect on performance (e.g., instruction stalls, cache misses, page faults)",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Quantitative Evaluation",
+        "subdomainId": "SF-10",
         "topicId": "SF-10-04",
-        "topic": "Events on their effect on performance (e.g., instruction stalls, cache misses, page faults)"
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Understanding layered systems, workloads, and platforms, their implications for performance, and the",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Quantitative Evaluation",
+        "subdomainId": "SF-10",
         "topicId": "SF-10-05",
-        "topic": "Understanding layered systems, workloads, and platforms, their implications for performance, and the "
+        "tier": "Elective"
       },
       {
+        "breakdown": "[Elective]",
+        "topic": "Microbenchmarking pitfalls",
+        "domainId": "SF",
+        "domain": "Systems Fundamentals",
+        "subdomain": "Quantitative Evaluation",
+        "subdomainId": "SF-10",
         "topicId": "SF-10-06",
-        "topic": "Microbenchmarking pitfalls"
+        "tier": "Elective"
       }
     ]
   }
 };
 
 const cssubdomains = {
-  "AL-01": "Basic Analysis ",
-  "AL-02": "Algorithmic Strategies ",
-  "AL-03": "Fundamental Data Structures and Algorithms ",
-  "AL-04": "Basic Automata Computability and Complexity",
+  "AL-01": "Basic Analysis",
+  "AL-02": "Algorithmic Strategies",
+  "AL-03": "Fundamental Data Structures and Algorithms",
+  "AL-04": "Basic Automata, Computability and Complexity",
   "AL-05": "Advanced Computational Complexity",
-  "AL-06": "Advanced Automata Theory and Computability ",
-  "AL-07": "Advanced Data Structures Algorithms and Analysis ",
-  "AR-01": "Digital Logic and Digital Systems ",
-  "AR-02": "Machine Level Representation of Data ",
-  "AR-03": "Assembly Level Machine Organization ",
-  "AR-04": "Memory System Organization and Architecture ",
-  "AR-05": "Interfacing and  C ommunication ",
-  "AR-06": "Functional Organization ",
-  "AR-07": "Multiprocessing and Alternative Architectures ",
-  "AR-08": "Performance Enhancements ",
+  "AL-06": "Advanced Automata Theory and Computability",
+  "AL-07": "Advanced Data Structures, Algorithms, and Analysis",
+  "AR-01": "Digital Logic and Digital Systems",
+  "AR-02": "Machine Level Representation of Data",
+  "AR-03": "Assembly Level Machine Organization",
+  "AR-04": "Memory System Organization and Architecture",
+  "AR-05": "Interfacing and Communication",
+  "AR-06": "Functional Organization",
+  "AR-07": "Multiprocessing and Alternative Architectures",
+  "AR-08": "Performance Enhancements",
   "CN-01": "Introduction to Modeling and Simulation",
-  "CN-02": "Modeling and Simulation ",
-  "CN-03": "Processing ",
-  "CN-04": "Interactive Visualization ",
-  "CN-05": "Data, Information, and Knowledge ",
-  "CN-06": "Numerical Analysis ",
-  "DS-01": "Sets, Relations, and Functions ",
-  "DS-02": "Basic Logic",
-  "DS-03": "Proof Techniques ",
-  "DS-04": "Basics of Counting",
-  "DS-05": "Graphs and Trees ",
-  "DS-06": "Discrete Probability ",
-  "GV-01": "Fundamental Concepts ",
-  "GV-02": "Basic Rendering ",
-  "GV-03": "Geometric Modeling ",
+  "CN-02": "Modeling and Simulation",
+  "CN-03": "Processing",
+  "CN-04": "Interactive Visualization",
+  "CN-05": "Data, Information, and Knowledge",
+  "CN-06": "Numerical Analysis",
+  "DS-01": "DS/Sets, Relations, and Functions",
+  "DS-02": "DS/Basic Logic",
+  "DS-03": "DS/Proof Techniques",
+  "DS-04": "DS/Basics of Counting",
+  "DS-05": "DS/Graphs and Trees",
+  "DS-06": "DS/Discrete Probability",
+  "GV-01": "Fundamental Concepts",
+  "GV-02": "Basic Rendering",
+  "GV-03": "Geometric Modeling",
   "GV-04": "Advanced Rendering",
-  "GV-05": "Computer Animation ",
-  "GV-06": "Visualization ",
-  "HCI-01": "Foundations ",
-  "HCI-02": "Designing Interaction ",
+  "GV-05": "Computer Animation",
+  "GV-06": "Visualization",
+  "HCI-01": "Foundations",
+  "HCI-02": "Designing Interaction",
   "HCI-03": "Programming Interactive Systems",
-  "HCI-04": "User-Centered Design and Testing",
+  "HCI-04": "User-Centered Design & Testing",
   "HCI-05": "New Interactive Technologies",
-  "HCI-06": "Collaboration and  C ommunication ",
+  "HCI-06": "Collaboration & Communication",
   "HCI-07": "Statistical Methods for HCI",
-  "HCI-08": "Human Factors and Security ",
-  "HCI-09": "Design-Oriented HCI ",
+  "HCI-08": "Human Factors & Security",
+  "HCI-09": "Design-Oriented HCI",
   "HCI-10": "Mixed, Augmented and Virtual Reality",
-  "IAS-01": "Principles of Secure Design",
-  "IAS-02": "Defensive Programming",
-  "IAS-03": "Threats and Attacks ",
-  "IAS-04": "Network Security ",
-  "IAS-05": "Cryptography",
-  "IAS-06": "Web Security",
-  "IAS-07": "Platform Security",
-  "IAS-08": "Security Policy and Governance",
-  "IAS-09": "Digital Forensics",
-  "IAS-10": "Secure Software Engineering",
-  "IM-01": "InformationManagementConcepts",
-  "IM-02": "Database Systems ",
-  "IM-03": "Data Modeling ",
+  "IAS-01": "Foundational Concepts in Security",
+  "IAS-02": "Principles of Secure Design",
+  "IAS-03": "Defensive Programming",
+  "IAS-04": "Threats and Attacks",
+  "IAS-05": "Network Security",
+  "IAS-06": "Cryptography",
+  "IAS-07": "Web Security",
+  "IAS-08": "Platform Security",
+  "IAS-09": "Security Policy and Governance",
+  "IAS-10": "Digital Forensics",
+  "IAS-11": "Secure Software Engineering",
+  "IM-01": "Information Management Concepts",
+  "IM-02": "Database Systems",
+  "IM-03": "Data Modeling",
   "IM-04": "Indexing",
-  "IM-05": "Relational Databases ",
-  "IM-06": "Query Languages ",
-  "IM-07": "Transaction Processing ",
-  "IM-08": "Distributed Databases ",
-  "IM-09": "Physical Database Design ",
-  "IM-10": "Data Mining ",
-  "IM-11": "Information Storage and Retrieval",
-  "IM-12": "Multimedia Systems",
-  "IS-01": "Fundamental Issues ",
-  "IS-02": "Basic Search Strategies ",
-  "IS-03": "Basic Knowledge Representation and Reasoning ",
-  "IS-04": "Basic Machine Learning ",
-  "IS-05": "Advanced Search ",
+  "IM-05": "Relational Databases",
+  "IM-06": "Query Languages",
+  "IM-07": "Transaction Processing",
+  "IM-08": "Distributed Databases",
+  "IM-09": "Physical Database Design",
+  "IM-10": "Data Mining",
+  "IM-11": "Information Storage And Retrieval",
+  "IM-12": "MultiMedia Systems",
+  "IS-01": "Fundamental Issues",
+  "IS-02": "Basic Search Strategies",
+  "IS-03": "Basic Knowledge Representation and Reasoning",
+  "IS-04": "Basic Machine Learning",
+  "IS-05": "Advanced Search",
   "IS-06": "Advanced Representation and Reasoning",
   "IS-07": "Reasoning Under Uncertainty",
-  "IS-08": "Agents ",
-  "IS-09": "Natural Language Processing ",
-  "IS-10": "Advanced MachineLearning ",
+  "IS-08": "Agents",
+  "IS-09": "Natural Language Processing",
+  "IS-10": "Advanced Machine Learning",
   "IS-11": "Robotics",
-  "IS-12": "Perception and Computer Vision ",
-  "IS-13": "Introduction ",
-  "NC-01": "Networked Applications ",
-  "NC-02": "Reliable Data Delivery ",
-  "NC-03": "Routing and Forwarding ",
-  "NC-04": "Local Area Networks ",
-  "NC-05": "Resource Allocation",
-  "NC-06": "Mobility",
-  "NC-07": "Introduction ",
+  "IS-12": "Perception and Computer Vision",
+  "NC-01": "Introduction",
+  "NC-02": "Networked Applications",
+  "NC-03": "Reliable Data Delivery",
+  "NC-04": "Routing And Forwarding",
+  "NC-05": "Local Area Networks",
+  "NC-06": "Resource Allocation",
+  "NC-07": "Mobility",
+  "NC-08": "Social Networking",
   "OS-01": "Overview of Operating Systems",
-  "OS-02": "Operating System Principles ",
-  "OS-03": "Concurrency ",
-  "OS-04": "Scheduling and Dispatch ",
-  "OS-05": "Memory Management ",
-  "OS-06": "Security and Protection ",
-  "OS-07": "Virtual Machines ",
+  "OS-02": "Operating System Principles",
+  "OS-03": "Concurrency",
+  "OS-04": "Scheduling and Dispatch",
+  "OS-05": "Memory Management",
+  "OS-06": "Security and Protection",
+  "OS-07": "Virtual Machines",
   "OS-08": "Device Management",
-  "OS-09": "File Systems ",
-  "OS-10": "Real Time and Embedded Systems ",
+  "OS-09": "File Systems",
+  "OS-10": "Real Time and Embedded Systems",
   "OS-11": "Fault Tolerance",
   "OS-12": "System Performance Evaluation",
-  "PBD-01": "Introduction ",
+  "PBD-01": "Introduction",
   "PBD-02": "Web Platforms",
-  "PBD-03": "Mobile Platforms ",
-  "PBD-04": "Industrial Platforms ",
-  "PBD-05": "Game Platforms ",
+  "PBD-03": "Mobile Platforms",
+  "PBD-04": "Industrial Platforms",
+  "PBD-05": "Game Platforms",
   "PD-01": "Parallelism Fundamentals ",
-  "PD-02": "Parallel Decomposition ",
-  "PD-03": "Communication and Coordination ",
-  "PD-04": "Parallel Algorithms, Analysis, and Programming ",
-  "PD-05": "Parallel Architecture ",
-  "PD-06": "Parallel Performance ",
-  "PD-07": "Distributed Systems ",
-  "PD-08": "Cloud Computing ",
-  "PD-09": "Formal Models and Semantics ",
-  "PL-01": "Object-Oriented Programming ",
-  "PL-02": "Functional Programming ",
-  "PL-03": "Event-Driven and Reactive Programming ",
-  "PL-04": "Basic Type Systems ",
-  "PL-05": "Program Representation ",
-  "PL-06": "Language Translation and Execution ",
-  "PL-07": "Syntax Analysis ",
-  "PL-08": "Compiler Semantic Analysis ",
-  "PL-09": "Code Generation ",
+  "PD-02": "Parallel Decomposition",
+  "PD-03": "Communication and Coordination",
+  "PD-04": "Parallel Algorithms, Analysis, and Programming",
+  "PD-05": "Parallel Architecture",
+  "PD-06": "Parallel Performance",
+  "PD-07": "Distributed Systems",
+  "PD-08": "Cloud Computing",
+  "PD-09": "Formal Models and Semantics",
+  "PL-01": "Object-Oriented Programming",
+  "PL-02": "Functional Programming",
+  "PL-03": "Event-Driven and Reactive Programming",
+  "PL-04": "Basic Type Systems",
+  "PL-05": "Program Representation",
+  "PL-06": "Language Translation and Execution",
+  "PL-07": "Syntax Analysis",
+  "PL-08": "Compiler Semantic Analysis",
+  "PL-09": "Code Generation",
   "PL-10": "Runtime Systems",
-  "PL-11": "Static Analysis ",
-  "PL-12": "Advanced Programming Constructs ",
-  "PL-13": "Concurrency and Parallelism ",
-  "PL-14": "Type Systems ",
-  "PL-15": "Formal Semantics ",
-  "PL-16": "Language Pragmatics ",
-  "PL-17": "Logic Programming ",
+  "PL-11": "Static Analysis",
+  "PL-12": "Advanced Programming Constructs",
+  "PL-13": "Concurrency and Parallelism",
+  "PL-14": "Type Systems",
+  "PL-15": "Formal Semantics",
+  "PL-16": "Language Pragmatics",
+  "PL-17": "Logic Programming",
   "SDF-01": "Algorithms and Design",
-  "SDF-02": "Fundamental Programming Concepts ",
-  "SDF-03": "Fundamental Data Structures ",
-  "SDF-04": "Development Methods ",
-  "SE-01": "Software Processes ",
-  "SE-02": "Software ProjectManagement ",
-  "SE-03": "Tools andEnvironments ",
-  "SE-04": "RequirementsEngineering ",
-  "SE-05": "Software Design ",
-  "SE-06": "Software Construction ",
-  "SE-07": "Software Verificationand Validation ",
-  "SE-08": "Software Evolution ",
-  "SE-09": "Software Reliability ",
-  "SE-10": "Formal Methods ",
-  "SF-01": "Computational Paradigms ",
-  "SF-02": "Cross-Layer Communications ",
-  "SF-03": "State and State Machines ",
-  "SF-04": "Parallelism ",
+  "SDF-02": "Fundamental Programming Concepts",
+  "SDF-03": "Fundamental Data Structures",
+  "SDF-04": "Development Methods",
+  "SE-01": "Software Processes",
+  "SE-02": "Software Project Management",
+  "SE-03": "Tools and Environments",
+  "SE-04": "Requirements Engineering",
+  "SE-05": "Software Design",
+  "SE-06": "Software Construction",
+  "SE-07": "Software Verification and Validation",
+  "SE-08": "Software Evolution",
+  "SE-09": "Software Reliability",
+  "SE-10": "Formal Methods",
+  "SF-01": "Computational Paradigms",
+  "SF-02": "Cross-Layer Communications",
+  "SF-03": "State and State Machines",
+  "SF-04": "Parallelism",
   "SF-05": "Evaluation",
-  "SF-06": "Resource Allocation and Scheduling ",
-  "SF-07": "Proximity ",
-  "SF-08": "Virtualization and Isolation ",
-  "SF-09": "Reliability through Redundancy ",
+  "SF-06": "Resource Allocation and Scheduling",
+  "SF-07": "Proximity",
+  "SF-08": "Virtualization and Isolation",
+  "SF-09": "Reliability through Redundancy",
   "SF-10": "Quantitative Evaluation",
-  "SP-01": "Social Context ",
-  "SP-02": "Analytical Tools ",
+  "SP-01": "Social Context",
+  "SP-02": "Analytical Tools",
   "SP-03": "Professional Ethics",
-  "SP-04": "Intellectual Property ",
-  "SP-05": "Privacy and Civil Liberties ",
-  "SP-06": "Professional Communication ",
-  "SP-07": "Sustainability ",
+  "SP-04": "Intellectual Property",
+  "SP-05": "Privacy and Civil Liberties",
+  "SP-06": "Professional Communication",
+  "SP-07": "Sustainability",
   "SP-08": "History",
   "SP-09": "Economies of Computing",
   "SP-10": "Security Policies, Laws and Computer Crimes"
 };
 
 const csdomains = {
-  'AL':'Algorithms and Complexity',
-  'AR':'Architecture and Organization',
-  'CN':'Computational Science',
-  'DS':'Discrete Structures',
-  'GV':'Graphics and Visualization',
-  'HCI':'Human-Computer Interaction',
-  'IAS':'Information Assurance and Security',
-  'IM':'Information Management',
-  'IS':'Intelligent Systems',
-  'NC':'Net Centric Computing',
-  'OS':'Operating System',
-  'PBD':'Parallel and Distributed Computing',
-  'PD':'Platform-based Development',
-  'PL':'Programming Languages',
-  'SP':'Social Issues and Professional Practice',
-  'SDF':'Software Development Fundamentals',
-  'SE':'Software Engineering',
-  'SF':'System Fundamentals'
+  "AL": "Algorithms and Complexity",
+  "AR": "Architecture and Organization",
+  "CN": "Computational Science",
+  "DS": "Discrete Structures",
+  "GV": "Graphics and Visualization",
+  "HCI": "Human-Computer Interaction",
+  "IAS": "Information Assurance and Security",
+  "IM": "Information Management",
+  "IS": "Intelligent Systems",
+  "NC": "Net Centric Computing",
+  "OS": "Operating System",
+  "PBD": "Platform-based Development",
+  "PD": "Parallel and Distributed Computing",
+  "PL": "Programming Languages",
+  "SDF": "Software Development Fundamentals",
+  "SE": "Software Engineering",
+  "SF": "Systems Fundamentals",
+  "SP": "Social Issues and Professional Practice"
 };
 
 export {cstopics, csdomains, cssubdomains};
